@@ -1,0 +1,26 @@
+services:
+  app:
+    container_name: poe2-rag-app
+    build: .
+    ports:
+      - "8003:8000"
+    restart: always
+    depends_on:
+      qdrant:
+        condition: service_healthy
+    env_file:
+      - .env
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: poe2-rag-qdrant
+    ports:
+      - "6333:6333"
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'echo > /dev/tcp/localhost/6333'"]
+      interval: 5s
+      retries: 5
+    volumes:
+      - qdrant_storage:/qdrant/storage
+volumes:
+  qdrant_storage:
