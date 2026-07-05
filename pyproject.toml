@@ -11,3 +11,16 @@ dependencies = [
     "sentence-transformers==5.6.0",
     "uvicorn>=0.50.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.0",
+    "ruff>=0.15.20",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.format]
+quote-style = "double"
