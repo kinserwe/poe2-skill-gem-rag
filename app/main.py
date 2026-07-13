@@ -1,8 +1,16 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 
-app = FastAPI()
+from app.api.router import router
+from app.rag.vector_store import ensure_collection
 
 
-@app.get("/health")
-async def health():
-    return {"status": "ok"}
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    await ensure_collection()
+
+
+app = FastAPI(lifespan=lifespan)
+
+app.include_router(router)
