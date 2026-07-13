@@ -9,6 +9,7 @@ from app.rag.vector_store import ensure_collection
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     await ensure_collection()
+    yield
 
 
 app = FastAPI(lifespan=lifespan)
