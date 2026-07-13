@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Boneshatter",
+    "tags": ["Attack", "AoE", "Melee", "Strike"],
+    "description": "Attack enemies with a melee Strike. The Strike will cause a Heavy Stun on enemies that are Primed for Stun. Upon causing a Heavy Stun it will also create a Shockwave, dealing a large amount of damage in an area."
+  },
+  {
+    "id": 2,
+    "name": "Earthshatter",
+    "tags": ["Attack", "AoE", "Melee", "Slam", "Duration"],
+    "description": "Slam the ground, sending out a fissure that deals area damage to enemies it passes under and thrusts a spike from the ground when it ends. Warcries performed near the spike will cause it to shatter, damaging surrounding enemies."
+  },
+  {
+    "id": 3,
+    "name": "Lightning Arrow",
+    "tags": ["Attack", "AoE", "Projectile", "Lightning", "Chaining"],
+    "description": "Fire a charged arrow at the target. On hitting an enemy or wall, the arrow will fire Chaining Lightning beams at nearby enemies."
+  },
+  {
+    "id": 4,
+    "name": "Molten Blast",
+    "tags": ["Attack", "AoE", "Projectile", "Fire"],
+    "description": "Gouge molten rock from the ground and fling it at the target. The Projectile explodes on collision, damaging enemies and scattering shrapnel in a cone behind it."
+  },
+  {
+    "id": 5,
+    "name": "Ancestral Warrior Totem",
+    "tags": ["Totem", "Attack", "AoE", "Melee"],
+    "description": "Consume 3 Endurance Charges to Raise a Totem that conjures spirit warriors. Each warrior uses a socketed Mace Skill once, then disappears."
+  }
+]
