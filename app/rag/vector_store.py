@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 async def ensure_collection() -> None:
     if not await client.collection_exists(settings.QDRANT_COLLECTION):
-        vector_size = embedding_model.get_sentence_embedding_dimension()
+        vector_size = embedding_model.get_embedding_dimension()
 
         await client.create_collection(
             collection_name=settings.QDRANT_COLLECTION,
