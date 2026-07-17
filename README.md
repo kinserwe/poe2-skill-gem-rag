@@ -34,6 +34,26 @@ Returns matching gems ranked by semantic similarity, e.g.:
 [{"id": 1, "name": "Boneshatter", "tags": [...], "description": "..."}]
 ```
 
+Ask:
+```bash
+curl "http://localhost:8003/ask" -H "Content-Type: application/json" -d '{"q":"stuns and explodes", "limit": 3}'
+```
+
+Returns an AI-generated answer based on the most relevant matching gems, e.g.:
+```json
+{
+  "answer": "Boneshatter is the skill gem that stuns nearby enemies and causes them to explode, dealing physical damage.",
+  "sources": [
+    {
+      "id": 1,
+      "name": "Boneshatter",
+      "tags": ["attack", "melee", "physical"],
+      "description": "Stuns nearby enemies and explodes, dealing physical damage."
+    }
+  ]
+}
+```
+
 ## Why these choices
 - Local embeddings instead of an API-based model: no API key required, fully
   reproducible, no per-query cost — reasonable trade-off for a domain this small.
