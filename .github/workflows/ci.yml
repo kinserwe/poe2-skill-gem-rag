@@ -36,6 +36,6 @@ jobs:
           timeout 30 bash -c 'until curl -sf http://localhost:6333/healthz; do sleep 2; done'
 
       - name: Run tests
-        run: uv run pytest
+        run: uv run python -m pytest -v
         env:
           QDRANT_URL: http://localhost:6333
