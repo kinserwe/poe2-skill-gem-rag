@@ -7,6 +7,9 @@ class Settings(BaseSettings):
 
     EMBEDDING_MODEL: str = "all-MiniLM-L6-v2"
 
+    GEMINI_API_KEY: str
+    GEMINI_MODEL: str = "gemini-3.1-flash-lite"
+
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 
