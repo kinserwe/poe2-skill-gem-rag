@@ -12,7 +12,7 @@ from app.logging_config import configure_logging
 from app.rag.embeddings import get_embeddings
 from app.rag.vector_store import client, ensure_collection
 
-DATA_PATH = Path(__file__).parent.parent / "data" / "skills.json"
+_DATA_PATH = Path(__file__).parent.parent / "data" / "skills.json"
 
 logger = logging.getLogger(__name__)
 
@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument(
         "--path",
         type=Path,
-        default=DATA_PATH,
+        default=_DATA_PATH,
         help="Path to the gems JSON file (default: data/skills.json)",
     )
     return parser.parse_args()
@@ -36,7 +36,9 @@ async def load_data(path: Path):
 
     await ensure_collection()
 
-    descriptions = [gem["description"] for gem in data]
+    descriptions = [
+        f"{gem['name']}. Tags: {' '.join(gem['tags'])}. {gem['description']}" for gem in data
+    ]
     vectors = await get_embeddings(descriptions)
     points = []
     for gem, vector in zip(data, vectors):

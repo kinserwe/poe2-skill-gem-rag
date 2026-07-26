@@ -1,32 +1,4718 @@
 [
   {
-    "id": 1,
+    "id": 144943279399881,
+    "name": "Abyssal Pact",
+    "tags": [
+      "Spell",
+      "Minion",
+      "AoE",
+      "Physical",
+      "Repeatable"
+    ],
+    "description": "Sacrifice some of a damageable Minion's life to deal Physical damage in an area around it."
+  },
+  {
+    "id": 213623983661534,
+    "name": "Acidic Concoction",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Physical"
+    ],
+    "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Physical Attack damage in an area. The thrown flask Consumes Poison on Hit to cause an acidic burst. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
+  },
+  {
+    "id": 248792441710261,
+    "name": "Alchemist's Boon",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura"
+    ],
+    "description": "While active, grants you Flask charges passively and causes Life and Mana recovery from your Flasks to also apply to Allies in your Presence."
+  },
+  {
+    "id": 145956741751514,
+    "name": "Align Fate",
+    "tags": [
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, visages of yourself from alternate timelines will occasionally appear and cast one of your Spells from your first valid Weapon Set. Until the next visage appears, your next cast of the same Spell aligns your fate, Empowering that Spell. Visages can only cast damaging, non-Channelling, non-Buff Spells you could cast that have no cooldown."
+  },
+  {
+    "id": 276523348926717,
+    "name": "Ancestral Cry",
+    "tags": [
+      "Warcry",
+      "Attack",
+      "Buff",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Projectile",
+      "Trigger",
+      "Fire",
+      "Duration",
+      "Nova",
+      "Conditional"
+    ],
+    "description": "Perform a Warcry using Glory gained by Igniting enemies to turn you into an embodiment of Kaom. While embodying Kaom, you Trigger Volcanic Steps while travelling, Melee Strikes and Slams are Ancestrally Boosted, and your Melee Strikes Trigger Volcanic Eruption."
+  },
+  {
+    "id": 73550856139342,
+    "name": "Ancestral Spirits",
+    "tags": [
+      "Minion",
+      "Trigger",
+      "Duration"
+    ],
+    "description": "This skill is Triggered each time you summon a Totem, summoning an Ancestral Spirit Minion to fight for you. If the Totem dies then the Ancestral Spirit triggered by it's summoning will die too."
+  },
+  {
+    "id": 126209582095188,
+    "name": "Ancestral Warrior Totem",
+    "tags": [
+      "Totem",
+      "Attack",
+      "AoE",
+      "Melee",
+      "Duration",
+      "Conditional",
+      "Meta"
+    ],
+    "description": "Consume 3 Endurance Charges to Raise a Totem that conjures spirit warriors. Each warrior uses a socketed Mace Skill once, then disappears. Cannot use Channelling Skills or Skills with Cooldowns."
+  },
+  {
+    "id": 171978756777747,
+    "name": "Animus Exchange",
+    "tags": [
+      "Spell"
+    ],
+    "description": "Sacrifice a portion of your Life to recover Runic Ward. Runic Ward recovered by this Skill can Overflow."
+  },
+  {
+    "id": 28486998380709,
+    "name": "Animus Splinters",
+    "tags": [
+      "Meta"
+    ],
+    "description": "Expend a large amount of Runic Ward to instantly create a short-lived copy of yourself that uses a Socketed Skill once, then vanishes. This Skill's cost is equal to the total cost of Socketed Skills. The copy cannot perform Channelled, Remote, Cooldown or Conditional Skills, or summon Minions."
+  },
+  {
+    "id": 215691366691785,
+    "name": "Apocalypse",
+    "tags": [
+      "Buff",
+      "Spell",
+      "AoE",
+      "Trigger",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Duration",
+      "Conditional",
+      "Storm"
+    ],
+    "description": "Build Glory by Hitting enemies with Elemental damage. When you have maximum Glory, you may become the walking Apocalypse for a duration, Triggering one of multiple powerful Elemental Skills at an interval while this Buff lasts."
+  },
+  {
+    "id": 75683317408417,
+    "name": "Arc",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Lightning",
+      "Chaining",
+      "Repeatable"
+    ],
+    "description": "An arc of Lightning stretches from the caster to a targeted enemy and Chains on to other nearby enemies. Consumes a Lightning Infusion if possible to deal more damage and Chain further."
+  },
+  {
+    "id": 147016995014774,
+    "name": "Archmage",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Lightning"
+    ],
+    "description": "While active, causes your Non-Channelling Spells to cost additional mana and deal extra Lightning damage, both based on your maximum Mana."
+  },
+  {
+    "id": 179534336694226,
+    "name": "Archon of Chayula",
+    "tags": [
+      "Buff",
+      "Attack",
+      "AoE",
+      "Trigger",
+      "Physical",
+      "Chaos",
+      "Duration",
+      "Conditional",
+      "Storm"
+    ],
+    "description": "Build Glory by dealing Chaos damage to enemies. When you have maximum Glory, you can entreat the Dreamer to inhabit you, briefly becoming his Archon."
+  },
+  {
+    "id": 242912147769951,
+    "name": "Arctic Armour",
+    "tags": [
+      "Buff",
+      "Spell",
+      "Persistent",
+      "Sustained",
+      "Cold",
+      "Staged"
+    ],
+    "description": "While active, conjures an icy barrier that gains stages over time. While the barrier has stages, Melee Attacks that hit you will remove a stage to cause a burst of ice that deals Cold Spell damage to the attacker."
+  },
+  {
+    "id": 55559573115918,
+    "name": "Arctic Howl",
+    "tags": [
+      "Warcry",
+      "Shapeshift",
+      "Buff",
+      "Werewolf",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Nova"
+    ],
+    "description": "Shapeshift into a Werewolf and let out an icy howl that damages enemies and Freezes Primed enemies. If an enemy is Frozen or a Frozen enemy is Hit, this Skill Empowers your attacks with added Cold damage, causes Empowered Slams to create Chilled Ground, and grants your Allies added Cold damage. This Skill's cooldown can be bypassed by expending an Endurance Charge."
+  },
+  {
+    "id": 43344578307342,
+    "name": "Armour Breaker",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Physical"
+    ],
+    "description": "Strike with a forceful blow, knocking enemies back and weakening their Armour."
+  },
+  {
+    "id": 159932015357849,
+    "name": "Armour Piercing Rounds",
+    "tags": [
+      "Attack",
+      "Ammunition",
+      "Projectile",
+      "Physical"
+    ],
+    "description": "Load your Crossbow with a clip of bolts that can be fired rapidly and Break enemy Armour. Using this Skill again reloads the clip."
+  },
+  {
+    "id": 138631454547772,
+    "name": "Artillery Ballista",
+    "tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Projectile",
+      "Sustained",
+      "Duration"
+    ],
+    "description": "Deploy a Ballista Totem that rains down a salvo of Pinning, Maiming bolts."
+  },
+  {
+    "id": 279512000066531,
+    "name": "Attrition",
+    "tags": [
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, causes you to deal more Hit damage to Rare and Unique enemies the longer you've been fighting them, and gain Culling Strike against them once you've been fighting them for long enough."
+  },
+  {
+    "id": 50313882374642,
+    "name": "Azmerian Swarms",
+    "tags": [
+      "Buff",
+      "Minion",
+      "Persistent",
+      "Physical",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Duration"
+    ],
+    "description": "While active, summons short-lived Azmerian Swarms when you kill enemies affected by Elemental Ailments or hit Rare or Unique enemies affected by Elemental Ailments. The swarms are untargetable Minions that pursue nearby enemies to Attack them and infict Faerie Fire on Hit."
+  },
+  {
+    "id": 38149334938785,
+    "name": "Azmerian Wolf",
+    "tags": [
+      "Minion",
+      "Companion",
+      "Persistent",
+      "Physical"
+    ],
+    "description": "Summons an ancient Reviving Azmerian Wolf that can howl, calling to spirits convening an Eternal Hunt on Command. It Maims when attacking foes, and can lunge to bite and inflict Bleeding, or howl to inspire nearby allies."
+  },
+  {
+    "id": 97407982762735,
+    "name": "Ball Lightning",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Sustained",
+      "Lightning",
+      "Duration",
+      "Chaining",
+      "Repeatable"
+    ],
+    "description": "Fire a slow-moving Projectile that moves through enemies. The Projectile itself does not Hit enemies, but repeatedly discharges bolts of Lightning at nearby enemies. Consumes a Fire Infusion if possible to slow down over time, create Ignited Ground as it travels, and explode dealing Fire damage in an Area after it dissipates."
+  },
+  {
+    "id": 164348975311635,
+    "name": "Barkskin",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Duration"
+    ],
+    "description": "While active, taking Hit damage from enemies to your Energy Shield causes you to gain Armour for a short duration. Armour gained from multiple Hits can stack. The total Armour gained from this Skill cannot exceed the Item Armour on your Equipped Armour Items."
+  },
+  {
+    "id": 179285511177450,
+    "name": "Barrage",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Duration"
+    ],
+    "description": "Ready a volley of arrows or spears, Empowering your next Repeatable Bow or Projectile Spear Attack to Repeat multiple times. Consumes your Frenzy Charges on use to add additional repeats."
+  },
+  {
+    "id": 187254960629925,
+    "name": "Barrier Invocation",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Invocation",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when your Energy Shield is damaged by Enemy Hits. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy."
+  },
+  {
+    "id": 135866571069571,
+    "name": "Berserk",
+    "tags": [
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, strengthens your Rage, but causes you to lose Life while not losing Rage."
+  },
+  {
+    "id": 191804425376233,
+    "name": "Bind Spectre",
+    "tags": [
+      "Minion",
+      "Persistent"
+    ],
+    "description": "Capture the spirit of a defeated monster, transforming this gem to instead allow you to summon the monster's ghost as a Reviving Minion."
+  },
+  {
+    "id": 275121238521196,
+    "name": "Bitter Dead",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Repeatable"
+    ],
+    "description": "Spend Ward and target an area, transforming Corpses into bitter cores that seek out enemies and Chill enemies near them. The cores explode at the end of their duration, creating runes which deal additional Cold damage over time."
+  },
+  {
+    "id": 37555810285022,
+    "name": "Black Powder Blitz",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Physical",
+      "Fire",
+      "Detonator",
+      "Travel"
+    ],
+    "description": "Replaces your dodge roll with an explosive-assisted leap, firing off a round from your prosthetic cannon leg that Blinds and Ignites enemies in the area you escape from. The explosion will cause any Grenades in its area of effect to also explode."
+  },
+  {
+    "id": 3728709380376,
+    "name": "Blasphemy",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Aura",
+      "Meta"
+    ],
+    "description": "Turn socketed Curse skills into vile Auras, applying their effects to all nearby enemies."
+  },
+  {
+    "id": 275174601696232,
+    "name": "Bleeding Concoction",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Physical"
+    ],
+    "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Physical Attack damage in an area and Aggravating Bleeding on Enemies hit. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
+  },
+  {
+    "id": 187180013876931,
+    "name": "Blink",
+    "tags": [
+      "Buff",
+      "Spell",
+      "Persistent",
+      "Travel"
+    ],
+    "description": "While active, replaces your dodge roll with a short-cooldown Spell that allows you to tunnel through space, instantly reappearing a medium distance away."
+  },
+  {
+    "id": 40259532136438,
+    "name": "Blood Boil",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Physical",
+      "Duration"
+    ],
+    "description": "Enemies in your Presence accumulate blood boils periodically. When they die, the boils pop applying Corrupted Blood to enemies near them."
+  },
+  {
+    "id": 248660229125794,
+    "name": "Blood Hunt",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Physical",
+      "Payoff"
+    ],
+    "description": "Lunge at a target and skewers them. Hitting an enemy that has suffered Blood Loss will cause a blood explosion and also Consume Bleeding. This skill cannot be Ancestrally Boosted."
+  },
+  {
+    "id": 16299886323986,
+    "name": "Bloodhound's Mark",
+    "tags": [
+      "Mark",
+      "Attack",
+      "AoE",
+      "Trigger",
+      "Physical",
+      "Duration",
+      "Payoff"
+    ],
+    "description": "Mark a target, making them suffer Heavy Stun build up from Blood Loss. The Mark will Activate, Consuming itself to Trigger Blood Explosion, when they are Heavy Stunned, or when they are killed if they suffered enough Blood Loss. The Mark's duration does not expire while the Marked target is suffering Blood Loss."
+  },
+  {
+    "id": 238707172634083,
+    "name": "Bone Blast",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Conjure a circle of ritual inscriptions that last for a short duration. When the duration ends, spikes of bone erupt from enemies in the area, damaging them and potentially causing Bleeding."
+  },
+  {
+    "id": 219108194131299,
+    "name": "Bone Cage",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Duration",
+      "Nova",
+      "Repeatable"
+    ],
+    "description": "Raise a ring of bone spikes around you. The spikes are destroyed when enemies touch them, damaging and Pinning those enemies. Raising a new ring of spikes destroys the previous one."
+  },
+  {
+    "id": 209516506522286,
+    "name": "Bone Offering",
+    "tags": [
+      "Minion",
+      "Buff",
+      "AoE",
+      "Physical",
+      "Duration"
+    ],
+    "description": "Impale a Skeleton on a bone spike to shield your Minions while the spike remains, reducing the amount of damage taken from Hits. Taking a Hit that deals damage above a certain threshold will cause that Minion's shield to absorb all damage from that Hit, then explode. The bone spike is itself a Minion, and shields itself. If it dies, shields on your other Minions disappear."
+  },
+  {
+    "id": 106579460372620,
     "name": "Boneshatter",
-    "tags": ["AoE", "Melee", "Strike"],
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike"
+    ],
     "description": "Attack enemies with a melee Strike. The Strike will cause a Heavy Stun on enemies that are Primed for Stun. Upon causing a Heavy Stun it will also create a Shockwave, dealing a large amount of damage in an area."
   },
   {
-    "id": 2,
+    "id": 33585320259311,
+    "name": "Bonestorm",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Physical",
+      "Channelling"
+    ],
+    "description": "Channel to conjure a swarm of bone spikes in the air, then release to fire them at enemies and explode. Shrapnel Impales enemies Hit, causing subsequent Attack Hits against those targets to deal extra damage. Consumes your Power Charges to cause much larger explosions."
+  },
+  {
+    "id": 106820889693440,
+    "name": "Briarpatch",
+    "tags": [
+      "Buff",
+      "Spell",
+      "Persistent",
+      "AoE",
+      "Sustained",
+      "Physical",
+      "Duration",
+      "Plant"
+    ],
+    "description": "While active, a portion of the Physical Attack damage you deal is stored. Casting a Spell uses the stored damage to create a patch of Thorny Ground that deals Spell damage to moving enemies."
+  },
+  {
+    "id": 167099894833407,
+    "name": "Bursting Fen Toad",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Trigger",
+      "Physical",
+      "Chaos"
+    ],
+    "description": "This skill creates a toad that jumps around briefly, then explodes the toad, dealing Attack damage in an area and inflicting Poison. Damage you deal with skill is not based on your Weapon"
+  },
+  {
+    "id": 280557782921127,
+    "name": "Cackling Companions",
+    "tags": [
+      "Minion",
+      "Companion",
+      "Persistent",
+      "Physical"
+    ],
+    "description": "Activate to summon a cackle of Hyena Companions. The cackle is treated as a single Companion for effects that count or limit Companions, regardless of the number of Hyenas in the cackle. Hyenas whoop when they first appear, Hindering nearby enemies, and have a chance to Maim enemies they Hit."
+  },
+  {
+    "id": 209752993277096,
+    "name": "Called Shots",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Meta"
+    ],
+    "description": "Applies a socketed Mark Skill to a nearby unmarked Enemy every few seconds. Consuming socketed Marks will cause them to be reapplied to an unmarked Enemy. This reapplication can happen at most once every few seconds."
+  },
+  {
+    "id": 274283514826479,
+    "name": "Cast on Block",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you Block and triggers socketed Spells on reaching maximum Energy."
+  },
+  {
+    "id": 174769425819806,
+    "name": "Cast on Charm Use",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when one of your Charms is used and triggers socketed Spells on reaching maximum Energy."
+  },
+  {
+    "id": 60853467536020,
+    "name": "Cast on Critical",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you Critically Hit enemies and triggers socketed Spells on reaching maximum Energy."
+  },
+  {
+    "id": 265609563555066,
+    "name": "Cast on Dodge",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you dodge roll and triggers socketed spells on reaching maximum Energy."
+  },
+  {
+    "id": 201644501313695,
+    "name": "Cast on Elemental Ailment",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you Freeze, Shock, or Ignite enemies, and triggers socketed spells on reaching maximum Energy."
+  },
+  {
+    "id": 200583619620531,
+    "name": "Cast on Freeze",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Cold",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you Freeze enemies and triggers socketed spells on reaching maximum Energy."
+  },
+  {
+    "id": 136938246983041,
+    "name": "Cast on Ignite",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Fire",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you Ignite enemies and triggers socketed spells on reaching maximum Energy."
+  },
+  {
+    "id": 75447182373658,
+    "name": "Cast on Minion Death",
+    "tags": [
+      "Buff",
+      "Minion",
+      "Persistent",
+      "Trigger",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when one of your Persistent Minions is Killed, and triggers socketed Spells upon reaching maximum Energy. Very underlevelled Minions will incur an Energy generation penalty. Cannot socket Spells which create Minions."
+  },
+  {
+    "id": 267135502260950,
+    "name": "Cast on Shock",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Lightning",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you Shock enemies and triggers socketed spells on reaching maximum Energy."
+  },
+  {
+    "id": 46873754398838,
+    "name": "Chaos Bolt",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Chaos",
+      "Repeatable"
+    ],
+    "description": "Fire a burst of Chaos energy at the target."
+  },
+  {
+    "id": 152955645227331,
+    "name": "Chaotic Surge",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Trigger",
+      "Chaos"
+    ],
+    "description": "Grants your weapon Surges. Non-Melee Projectile Attacks with that weapon Consume Surges to cause the Projectiles fired to explode at the end of their flight."
+  },
+  {
+    "id": 89494115163292,
+    "name": "Charge Regulation",
+    "tags": [
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, you gain powerful Buffs based on your active Charges. However, maintaining the Buff Consumes Charges every few seconds."
+  },
+  {
+    "id": 21842712595330,
+    "name": "Charged Staff",
+    "tags": [
+      "Spell",
+      "Attack",
+      "Buff",
+      "AoE",
+      "Lightning",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "Consume all Power Charges to charge your Quarterstaff with electricity, adding Lightning damage and a Lightning shockwave to your Quarterstaff Attacks. Reusing this skill while the Buff is active adds to the Buff's duration and damage."
+  },
+  {
+    "id": 70017681098057,
+    "name": "Cluster Grenade",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Grenade",
+      "Fire"
+    ],
+    "description": "Fire a bouncing Grenade that explodes when its fuse expires, throwing out a ring of mini Grenades that explode when they come to a stop."
+  },
+  {
+    "id": 77796285291193,
+    "name": "Coiling Bolts",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Chaos",
+      "Repeatable"
+    ],
+    "description": "Simultaneously fires a Physical Projectile and a Chaos Projectile at the target. These projectiles Chain through any number of Cursed targets."
+  },
+  {
+    "id": 161849999519784,
+    "name": "Combat Frenzy",
+    "tags": [
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, grants you a Frenzy Charge when you Freeze, Electrocute or Pin an enemy. This can only occur once every few seconds."
+  },
+  {
+    "id": 226813177256900,
+    "name": "Comet",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Repeatable"
+    ],
+    "description": "Call down a mass of ice from the sky, dealing high damage at the targeted location. Targeting close to you will cause you to jump back as you cast. Consumes a Fire Infusion if possible to cause a devastating blast of ice and fire."
+  },
+  {
+    "id": 92708733702982,
+    "name": "Conductive Runes",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Lightning",
+      "Duration",
+      "Hazard"
+    ],
+    "description": "Spend Runic Ward to create a number of Hazardous Runes in a cone in front of you, which arm after a time. After arming, these Runes will activate when enemies step on them, exploding to deal Attack damage that is not based on your Weapon's damage and apply Electrocution buildup."
+  },
+  {
+    "id": 165138875189866,
+    "name": "Conductivity",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Duration",
+      "Curse",
+      "Repeatable"
+    ],
+    "description": "Curse all targets in an area after a short delay, lowering their Lightning Resistance."
+  },
+  {
+    "id": 271765336753644,
+    "name": "Consecrate",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Nova"
+    ],
+    "description": "Create an area of Consecrated Ground around you."
+  },
+  {
+    "id": 169287344293850,
+    "name": "Contagion",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Afflict a single enemy with a Debuff that deals Chaos damage over time. If the enemy dies while affected by Contagion, it spreads itself, Curses, and other Chaos damage over time Debuffs on the target to nearby enemies. This refreshes their durations. Reanimating or detonating a corpse affected by Contagion will cause the Minion or explosion to spread Contagion on hit."
+  },
+  {
+    "id": 108391686797933,
+    "name": "Convalescence",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Persistent",
+      "Duration"
+    ],
+    "description": "While active, grants a skill that you can use to instantly begin Recharging Energy Shield and gain a Buff for a duration that prevents that Recharge being interrupted. The Buff is removed at maximum Energy Shield and the skill cannot be used while Energy Shield is full."
+  },
+  {
+    "id": 35015396744156,
+    "name": "Crackling Palm",
+    "tags": [
+      "Buff",
+      "Attack",
+      "Persistent",
+      "AoE",
+      "Lightning"
+    ],
+    "description": "When you Hit with Unarmed Melee Attacks, calls down lightning bolts which deal Unarmed Attack damage to all surrounding enemies."
+  },
+  {
+    "id": 105015084727974,
+    "name": "Cross Slash",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Werewolf",
+      "AoE",
+      "Melee"
+    ],
+    "description": "Shapeshift into a Werewolf and leap backwards as you gouge the ground with both claws. Enemies can be Hit separately by both gouges. Hitting a Marked enemy with both gouges will Activate the Mark and cause an additional shockwave. Ice Fragments will be pulled into the location where the gouges cross and explode immediately. This skill can be used while using other skills to interrupt them."
+  },
+  {
+    "id": 163632058207665,
+    "name": "Crushing Fear",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Physical",
+      "Chaos"
+    ],
+    "description": "Dash to an enemy and Strike them, Culling enemies if their life is low enough. When this skill kills an enemy you draw out their final fears, crushing them to create a shockwave. Enemies around you that can be Culled will be highlighted."
+  },
+  {
+    "id": 146872890944622,
+    "name": "Cull The Weak",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike"
+    ],
+    "description": "Dash to an enemy and run them through, Culling enemies if their life is low enough. If this Attack kills at least one enemy, it grants you a Frenzy Charge, with higher Rarity monsters granting additional Charges. Enemies around you that can be Culled will be highlighted."
+  },
+  {
+    "id": 177511236919356,
+    "name": "Dark Effigy",
+    "tags": [
+      "Totem",
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Chaos",
+      "Duration"
+    ],
+    "description": "Raise a Totem that bombards enemies afflicted by Chaos damage over time Debuffs."
+  },
+  {
+    "id": 156008590475366,
+    "name": "Dark Pact",
+    "tags": [
+      "Spell",
+      "Minion",
+      "AoE",
+      "Chaos",
+      "Nova",
+      "Repeatable"
+    ],
+    "description": "Sacrifice the life of a Minion to deal Chaos damage in an area around it. If you have no Minions, your own life is sacrificed instead."
+  },
+  {
+    "id": 190193100495236,
+    "name": "Decompose",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Trigger",
+      "Fire",
+      "Chaos",
+      "Duration"
+    ],
+    "description": "Consume a Corpse to create a cloud of flammable Poisonous gas. Any Burning effects or Detonator skills will explode the gas cloud, creating a fiery explosion."
+  },
+  {
+    "id": 233647633752514,
+    "name": "Defiance Banner",
+    "tags": [
+      "Banner",
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Aura",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "While active, Attacking enemies builds Glory. When you have maximum Glory, you can place an inspiring Banner for a duration with an Aura that grants you and nearby Allies Armour, Evasion and movement speed."
+  },
+  {
+    "id": 123459397653332,
+    "name": "Demon Form",
+    "tags": [
+      "Shapeshift",
+      "Buff"
+    ],
+    "description": "Shapeshift into a demon, vastly boosting the power of your Spells. You gain Demonflame every second you remain in demon form, causing your Life to be lost at an ever-increasing rate. Maximum 10 Demonflame. Revert to human form if you reach 1 Life, use a Skill that isn't a Spell, or reactivate this Skill."
+  },
+  {
+    "id": 142983008691305,
+    "name": "Despair",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Duration",
+      "Curse",
+      "Repeatable"
+    ],
+    "description": "Curse all targets in an area after a short delay, lowering their Chaos Resistance."
+  },
+  {
+    "id": 115664643343849,
+    "name": "Detonate Dead",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Fire",
+      "Detonator",
+      "Repeatable"
+    ],
+    "description": "Cause a Corpse to violently explode, damaging surrounding enemies."
+  },
+  {
+    "id": 145668498898772,
+    "name": "Detonate Living",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Repeatable"
+    ],
+    "description": "Hit an enemy under the Culling Strike Threshold, causing them to violently explode, damaging surrounding enemies. Highlights enemies under the Culling Strike Threshold."
+  },
+  {
+    "id": 269623638079333,
+    "name": "Detonating Arrow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Fire",
+      "Channelling",
+      "Detonator",
+      "Staged",
+      "Repeatable"
+    ],
+    "description": "Channel to charge up before firing off a burning arrow. At maximum stages, the arrow will create a Detonating explosion at the end of its flight."
+  },
+  {
+    "id": 5013740997374,
+    "name": "Devour",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Wyvern",
+      "AoE",
+      "Melee",
+      "Slam"
+    ],
+    "description": "Shapeshift into a Wyvern and devour a Corpse or Cullable enemy, and additional nearby Corpses. For each enemy or corpse devoured, you regenerate life and gain a Power Charge. If the target is far enough away, you will leap to them and damage nearby enemies where you land. Targeting nearby enemies or corpses will not perform a leap or a Slam."
+  },
+  {
+    "id": 225330454234004,
+    "name": "Discipline",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura"
+    ],
+    "description": "Emit an Aura that grants you and Allies in your Presence additional Total Energy Shield."
+  },
+  {
+    "id": 12361912404033,
+    "name": "Disengage",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Travel"
+    ],
+    "description": "Jump back as you rupture the earth in front of you with spearpoints, damaging enemies. Consumes the Parried Debuff on Hitting enemies to release a shockwave and grant you a Frenzy Charge. This skill can be used while using other skills, and causes Strikes and Projectiles to miss you while jumping. This skill cannot be Ancestrally Boosted."
+  },
+  {
+    "id": 267641478287181,
+    "name": "Dread Banner",
+    "tags": [
+      "Banner",
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Aura",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "While active, Attacking enemies builds Glory. When you have maximum Glory, you can place an inspiring Banner for a duration with an Aura that grants you and nearby Allies Elemental Ailment Threshold, Maximum Elemental Resistances and Flask charges."
+  },
+  {
+    "id": 198314931629997,
+    "name": "Earthquake",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Duration"
+    ],
+    "description": "Smash the ground, dealing damage in an area and leaving behind Jagged Ground that slows enemies. The Jagged Ground erupts in a powerful Aftershock after a duration. Cannot create Jagged Ground on top of an existing patch, or if you already have the maximum number of active patches."
+  },
+  {
+    "id": 198631692535204,
     "name": "Earthshatter",
-    "tags": ["Attack", "AoE", "Melee", "Slam", "Duration"],
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Duration"
+    ],
     "description": "Slam the ground, sending out a fissure that deals area damage to enemies it passes under and thrusts a spike from the ground when it ends. Warcries performed near the spike will cause it to shatter, damaging surrounding enemies."
   },
   {
-    "id": 3,
+    "id": 228280515216402,
+    "name": "Electrocuting Arrow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Fire an electrifying arrow that explodes in an Area on Hit. Hitting an enemy will attach an Electrocuting Rod to them, causing all incoming Lightning damage to build up Electrocution. This rod is removed when the enemy is next Electrocuted."
+  },
+  {
+    "id": 150626814519582,
+    "name": "Elemental Conflux",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Duration"
+    ],
+    "description": "Tap into a current of raw and unpredictable Elemental power, causing you to deal greatly more damage of a randomly chosen Element. The Element affected changes frequently, though the same Element can be affected multiple times in succession."
+  },
+  {
+    "id": 10111636636656,
+    "name": "Elemental Expression",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Trigger",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Chaining"
+    ],
+    "description": "Create a fiery explosion, an arcing bolt of lightning, or an icy wave of projectiles. The chance for an explosion is proportional to your Strength, for a bolt proportional to your Dexterity, and for a wave proportional to your Intelligence."
+  },
+  {
+    "id": 91944344284013,
+    "name": "Elemental Invocation",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Invocation",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you Freeze, Shock or Ignite an enemy. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy."
+  },
+  {
+    "id": 10342828745946,
+    "name": "Elemental Storm",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Trigger",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Duration",
+      "Orb"
+    ],
+    "description": "Create a stationary Fire, Cold or Lightning storm at a target location for a duration, based on the highest Elemental Damage type for the Hit that Triggered the storm. Hits which do not deal Elemental Damage will not Trigger the storm."
+  },
+  {
+    "id": 62526810624278,
+    "name": "Elemental Sundering",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Nova",
+      "Payoff"
+    ],
+    "description": "Plunge your Spear into the ground to emit a pulse that Consumes Freeze, Shock and Ignite on a number of nearby enemies, Allies and Corpses. The pulse itself deals no damage, but each Ailment Consumed causes an explosion of the corresponding elemental damage type."
+  },
+  {
+    "id": 112002121392786,
+    "name": "Elemental Surge",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Trigger",
+      "Lightning",
+      "Cold",
+      "Fire"
+    ],
+    "description": "Grants your weapon Surges. Non-Melee Projectile Attacks with that weapon Consume Surges to cause the Projectiles fired to explode at the end of their flight."
+  },
+  {
+    "id": 138499465905402,
+    "name": "Elemental Weakness",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Duration",
+      "Curse",
+      "Repeatable"
+    ],
+    "description": "Curse all targets in an area after a short delay, lowering their Elemental Resistances."
+  },
+  {
+    "id": 98447189548065,
+    "name": "Ember Fusillade",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Trigger",
+      "Fire",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Conjure a blazing Ember that hovers above you. After a short duration, the Ember launches at an enemy, dealing Fire damage in an area on impact and prioritising the last enemy targeted. Recasting this spell resets the duration for all active Embers. Multiple Embers fired in the same Fusillade will attempt to target different enemies. Consumes a Lightning Infusion if possible to cause the entire Fusillade to create beams that Chain to enemies."
+  },
+  {
+    "id": 15280228541728,
+    "name": "Emergency Reload",
+    "tags": [
+      "Buff",
+      "Duration"
+    ],
+    "description": "Instantly reload all your Crossbow Ammunition clips and Empower each clip's Ammunition to deal more damage for a duration."
+  },
+  {
+    "id": 126267693033060,
+    "name": "Encase in Jade",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Physical",
+      "Duration"
+    ],
+    "description": "Consume all stacks of Jade to grant Guard based off your maximum Life for each Jade consumed. You cannot gain Jade stacks while you have Guard."
+  },
+  {
+    "id": 65044157615757,
+    "name": "Enervating Nova",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Duration",
+      "Nova",
+      "Repeatable"
+    ],
+    "description": "Unleash a Nova of Lightning damage to Electrocute enemies. Enemies close to you take no damage while enemies at the edge of the ring take significantly more damage. Enemies Hit can be Electrocuted by all Lightning damage for a short duration."
+  },
+  {
+    "id": 157089190216683,
+    "name": "Enfeeble",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Repeatable"
+    ],
+    "description": "Curse all targets in an area after a short delay, making them deal less damage."
+  },
+  {
+    "id": 72717350855585,
+    "name": "Entangle",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Sustained",
+      "Physical",
+      "Duration",
+      "Repeatable",
+      "Plant"
+    ],
+    "description": "Conjures a rootbound fissure that crawls forward, damaging enemies in its path. While the fissure persists, vines lash out from it and attach to nearby enemies, damaging and Slowing them."
+  },
+  {
+    "id": 72635736002444,
+    "name": "Escape Shot",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Trigger",
+      "Cold"
+    ],
+    "description": "Leap backwards, firing an icy arrow which can Chill or Freeze enemies around the location from which you escaped. This arrow will create Ice Fragments on impact."
+  },
+  {
+    "id": 36980385317074,
+    "name": "Essence Drain",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Chaos",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Fire a Projectile that applies a powerful Chaos damage over time debuff to enemies it hits."
+  },
+  {
+    "id": 132832530640312,
+    "name": "Eternal March",
+    "tags": [
+      "Spell",
+      "Minion"
+    ],
+    "description": "Spend Runic Ward to instantly Revive your Minions. Prioritises the most powerful minions first."
+  },
+  {
+    "id": 204310206510315,
+    "name": "Eternal Rage",
+    "tags": [
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, you constantly regenerate Rage."
+  },
+  {
+    "id": 163068746029390,
+    "name": "Explosive Concoction",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Fire"
+    ],
+    "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Fire Attack damage in an area. Additional smaller flasks are thrown at nearby Ignited Enemies. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
+  },
+  {
+    "id": 194970924670599,
+    "name": "Explosive Grenade",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Grenade",
+      "Fire",
+      "Detonator"
+    ],
+    "description": "Fire a bouncing Grenade that unleashes a devastating fiery blast when its fuse expires."
+  },
+  {
+    "id": 145591413297496,
+    "name": "Explosive Shot",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Fire",
+      "Detonator"
+    ],
+    "description": "Load your Crossbow with flaming bolts that explode on impact. The explosion will cause any Grenades in its area of effect to also explode."
+  },
+  {
+    "id": 260699646070154,
+    "name": "Explosive Spear",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Fire",
+      "Duration",
+      "Detonator",
+      "Repeatable"
+    ],
+    "description": "Hurl a single payload Spear that pierces through enemies and lodges in terrain where it lands. The Spear will explode at the end of its Detonation Time or if Detonated. Consumes a Frenzy Charge if you have one to explode immediately, dealing more damage in a cross-shaped area and creating Ignited Ground."
+  },
+  {
+    "id": 123781372881817,
+    "name": "Explosive Transmutation",
+    "tags": [
+      "Buff",
+      "Spell",
+      "Persistent",
+      "AoE",
+      "Trigger",
+      "Physical",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Chaos"
+    ],
+    "description": "While active, picking up Remnants Triggers a deadly explosion, dealing damage at the location of the Remnant based on the type of Remnant picked up."
+  },
+  {
+    "id": 150058233605024,
+    "name": "Exsanguinate",
+    "tags": [
+      "Spell",
+      "Physical",
+      "Duration",
+      "Chaining",
+      "Repeatable"
+    ],
+    "description": "Expel your own blood as Chaining blood tendrils in a cone in front of you. Enemies Hit by the tendrils take Physical damage and are inflicted with Bleeding."
+  },
+  {
+    "id": 181724592532716,
+    "name": "Eye of Winter",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ],
+    "description": "Fire a single Eye Projectile which does not Hit enemies. The Eye constantly releases damaging shard Projectiles in a spiral as it flies. If the Eye passes over an Elemental Ground Surface or Orb, it will take on that surface's effect causing shards to deal more damage of the corresponding Type."
+  },
+  {
+    "id": 109663825721271,
+    "name": "Falling Thunder",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Projectile",
+      "Lightning"
+    ],
+    "description": "Suffuse your Quarterstaff with electrical energy, then Slam the ground to deal damage in a large cone in front of you. Consumes your Power Charges to fire Lightning Projectiles forwards from the impact."
+  },
+  {
+    "id": 200585268335558,
+    "name": "Fangs of Frost",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Cold"
+    ],
+    "description": "Perform an icy stab that exploits enemies who are already off balance. Hitting a Parried target Consumes the Debuff to cause an explosion of frost and leave Chilled Ground."
+  },
+  {
+    "id": 214043544828052,
+    "name": "Feast of Flesh",
+    "tags": [
+      "Spell",
+      "Buff",
+      "AoE",
+      "Nova",
+      "Repeatable"
+    ],
+    "description": "Consume Corpses near you to recover Life and Mana over a short time per Corpse Consumed."
+  },
+  {
+    "id": 135565492289118,
+    "name": "Feral Invocation",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Invocation",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you spend Mana. Using the Invocation once sufficient Energy is gathered will consume the Energy to create visages which attack once with a socketed Shapeshifting Attack, creating multiple visages if it has enough Energy."
+  },
+  {
+    "id": 44792058858896,
+    "name": "Ferocious Roar",
+    "tags": [
+      "Warcry",
+      "Shapeshift",
+      "Bear",
+      "AoE",
+      "Nova",
+      "Meta"
+    ],
+    "description": "Shapeshift into a Bear and roar in defiance, immediately gaining Rage if there are enemies nearby and Empowering subsequent Attacks to Break Armour. Alternatively, socketing a human-form Warcry into this Skill triggers that Warcry instead, and augments its damage and area. This Skill's cooldown can be bypassed by expending an Endurance Charge."
+  },
+  {
+    "id": 206320797690685,
+    "name": "Fire Spell on Hit",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Fire",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you Hit enemies with Melee Attacks and triggers socketed Fire spells on reaching maximum Energy."
+  },
+  {
+    "id": 28310833826935,
+    "name": "Fireball",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Fire",
+      "Repeatable"
+    ],
+    "description": "Launch a large ball of Fire which explodes on impact. The explosion Consumes a Fire Infusion if possible to launch a ring of smaller firebolts."
+  },
+  {
+    "id": 149691887572228,
+    "name": "Firebolt",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Fire",
+      "Repeatable"
+    ],
+    "description": "Launch a fiery Projectile towards a target. The Projectile explodes on impact, damaging foes in a small area."
+  },
+  {
+    "id": 9824597222305,
+    "name": "Firestorm",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Sustained",
+      "Fire",
+      "Duration",
+      "Repeatable",
+      "Storm"
+    ],
+    "description": "Rain a storm of flaming bolts over the targeted area. Can Consume all three types of Elemental Infusion, creating a much larger storm when Fire-Infused, causing lightning bolts when Lightning-Infused, and raining ice bolts when Cold-Infused."
+  },
+  {
+    "id": 40503904129036,
+    "name": "Flame Breath",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Wyvern",
+      "AoE",
+      "Sustained",
+      "Fire",
+      "Duration",
+      "Channelling",
+      "Detonator"
+    ],
+    "description": "Shapeshift into a Wyvern and take to the skies, immolating enemies with a jet of fire. Channelling ends after a short amount of time but can be prolonged by spending Rage. Consumes a Power Charge if possible to Empower the Skill, Gaining extra Lightning damage and spending Rage more slowly."
+  },
+  {
+    "id": 195003304502634,
+    "name": "Flame Wall",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Create a wall of Fire in front of you, which Ignites everything within its area. Any Projectiles fired through the wall by you and Allies deal added Fire damage. Consumes a Lightning Infusion if possible to also add Lightning damage to the Projectiles."
+  },
+  {
+    "id": 278509622467992,
+    "name": "Flameblast",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Channelling",
+      "Nova",
+      "Staged"
+    ],
+    "description": "Channel to build destructive energy around you. Releasing the energy causes a devastating explosion that is larger and more intense the longer you Channelled for."
+  },
+  {
+    "id": 222648090259232,
+    "name": "Flammability",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Curse",
+      "Repeatable"
+    ],
+    "description": "Curse all targets in an area after a short delay, lowering their Fire Resistance."
+  },
+  {
+    "id": 47235950367896,
+    "name": "Flash Grenade",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Grenade"
+    ],
+    "description": "Fire a bouncing Grenade that unleashes a Blinding, Stunning explosion when its fuse expires."
+  },
+  {
+    "id": 92172467483468,
+    "name": "Flicker Strike",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike"
+    ],
+    "description": "Teleport to a enemy and Strike them. Consumes Power Charges to perform additional teleporting Strikes on nearby enemies."
+  },
+  {
+    "id": 35442570085625,
+    "name": "Forge Hammer",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Fire",
+      "Duration"
+    ],
+    "description": "Hurl a fiery hammer that Slams into the ground and lodges there. While the hammer is lodged in the ground, reusing this Skill recalls the hammer and resets the Skill's cooldown. Alternatively, using a Warcry near the lodged hammer causes it to shatter, releasing a number of Molten Fissures in a spiral."
+  },
+  {
+    "id": 202241722616975,
+    "name": "Fortifying Cry",
+    "tags": [
+      "Warcry",
+      "Attack",
+      "AoE",
+      "Melee",
+      "Trigger",
+      "Physical",
+      "Duration",
+      "Nova"
+    ],
+    "description": "Perform a Warcry that grants Guard and Triggers Shield Wave when subsequent Shield Attacks deal damage. This Skill's cooldown can be bypassed by expending an Endurance Charge."
+  },
+  {
+    "id": 102392998086576,
+    "name": "Fragmentation Rounds",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Payoff",
+      "Merging"
+    ],
+    "description": "Load your Crossbow with Piercing bolts that fragment in flight. Bolts that hit a Frozen enemy Consume the Freeze and cause an explosion of shrapnel. Bolts that hit an Ice Crystal cause it to explode. These fragments can Merge."
+  },
+  {
+    "id": 42933739733882,
+    "name": "Fragments Of The Past",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Trigger",
+      "Sustained",
+      "Cold",
+      "Duration"
+    ],
+    "description": "Spend Runic Ward to create a Verisium volcano that deals damage on initial eruption and Triggers Ice Fragments."
+  },
+  {
+    "id": 94462481298961,
+    "name": "Freezing Mark",
+    "tags": [
+      "Mark",
+      "Buff",
+      "Cold",
+      "Duration"
+    ],
+    "description": "Mark a target, making them more susceptible to being Frozen. When the Marked target is Frozen, the Mark Activates, granting you a Buff which gives extra Cold damage and Consuming the Mark. Marking another target while you have the Buff will remove the Buff."
+  },
+  {
+    "id": 39491810104296,
+    "name": "Freezing Salvo",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Cold",
+      "Repeatable"
+    ],
+    "description": "Passively gains Seals over time. Using the skill fires a projectile, and breaks the Seals, Repeating for each of them, and for each additional projectile the skill is given. For each time it Repeats normally, it will also Repeat an additional time targeting a different Ice Fragment in its area of effect if able, Detonating those Ice Fragments immediately."
+  },
+  {
+    "id": 180830543177522,
+    "name": "Freezing Shards",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Cold",
+      "Repeatable"
+    ],
+    "description": "Launch icy Projectiles in a sweeping arc. Multiple Projectiles can hit the same enemy."
+  },
+  {
+    "id": 240001040461992,
+    "name": "Frost Bomb",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Orb",
+      "Remnant"
+    ],
+    "description": "Create a pulsing Orb of frost. Each pulse inflicts Elemental Exposure on nearby enemies. When the Orb's duration ends, it Detonates, dealing Cold damage to surrounding enemies and leaving behind a Cold Infusion."
+  },
+  {
+    "id": 46439186364406,
+    "name": "Frost Darts",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Cold",
+      "Payoff",
+      "Repeatable"
+    ],
+    "description": "Conjures a number of icy Projectiles that launch towards the target. Projectiles that Hit a Chilled or Frozen target create chunks of ice that deal additional damage on impacting the ground. Consumes a Cold Infusion if possible to cause each Projectile to lodge into the enemy then explode."
+  },
+  {
+    "id": 104809157347040,
+    "name": "Frost Wall",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration"
+    ],
+    "description": "Create a wall of Ice Crystals which holds back enemies. The Crystals explode if sufficiently damaged, or if pushed hard enough, damaging nearby enemies. Consumes a Lightning Infusion if possible to add another Lightning explosion if destroyed."
+  },
+  {
+    "id": 36684087985353,
+    "name": "Frostbolt",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Cold",
+      "Repeatable"
+    ],
+    "description": "Fire a slow-moving Piercing Projectile that is effective at Chilling enemies and explodes on colliding with terrain."
+  },
+  {
+    "id": 98738605545920,
+    "name": "Frostflame Nova",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Fire",
+      "Nova",
+      "Repeatable"
+    ],
+    "description": "Unleash a wave of volatile ice that feeds on flames. While the wave doesn't deal damage, the ice latches onto Ignited enemies, refreshing the duration of their active Ignite and rapidly Freezing them but preventing them from being Ignited further until the Ignite expires."
+  },
+  {
+    "id": 229477109648023,
+    "name": "Frozen Locus",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Cold",
+      "Duration"
+    ],
+    "description": "Leap backward and crack the ground with your staff to call forth an Ice Crystal which can be damaged by you and enemies. If the Crystal is destroyed it causes an icy explosion. This skill can be used while using other skills."
+  },
+  {
+    "id": 38399015972930,
+    "name": "Fulminating Concoction",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning"
+    ],
+    "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Lightning Attack damage in an area with high chance to Shock. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
+  },
+  {
+    "id": 30238769615265,
+    "name": "Fulmination",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura",
+      "Lightning"
+    ],
+    "description": "While active, the first time any Skill Hits a Shocked enemy in your Presence, that Skill also Hits other Shocked enemies in your Presence, up to a maximum."
+  },
+  {
+    "id": 280640361838352,
+    "name": "Furious Slam",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Bear",
+      "AoE",
+      "Melee",
+      "Slam"
+    ],
+    "description": "Shapeshift into a Bear and Slam the ground with great force, causing a pair of shockwaves. Can spend Rage to create larger shockwaves that leave behind Jagged Ground."
+  },
+  {
+    "id": 12415950447141,
+    "name": "Fury of the Mountain",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Bear",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Sustained",
+      "Duration",
+      "Channelling"
+    ],
+    "description": "Shapeshift into a Bear and repeatedly pound the ground, creating Molten Fissures that travel randomly in a wide arc in front of you."
+  },
+  {
+    "id": 180439371314584,
+    "name": "Future-Past",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Duration"
+    ],
+    "description": "Hinekora observes your Future-Past granting you the opportunity to subvert a lesser fate. After a period of Hindsight, she will grant you her Foresight, which prevents you from avoiding Hits while Dodge Rolling. When you are Hit while Dodge Rolling, Hinekora restores you to full Life immediately before taking damage from the Hit, and grants you Sight Beyond Sight, which prevents you from dying."
+  },
+  {
+    "id": 215719650711334,
+    "name": "Galvanic Field",
+    "tags": [
+      "Buff",
+      "Spell",
+      "AoE",
+      "Sustained",
+      "Lightning",
+      "Duration",
+      "Chaining",
+      "Orb"
+    ],
+    "description": "Gain a Buff that boosts your Shock chance. Shocking an enemy consumes the Buff to attach an Orb of electricity to that enemy. The Orb fires bolts of electricity at nearby enemies until it expires."
+  },
+  {
+    "id": 24615507544275,
+    "name": "Galvanic Shards",
+    "tags": [
+      "Attack",
+      "Ammunition",
+      "Projectile",
+      "Lightning",
+      "Chaining",
+      "Merging"
+    ],
+    "description": "Load your Crossbow with charged bolts that fragment in flight, releasing Chaining Lightning beams when they Hit enemies. These fragments can Merge."
+  },
+  {
+    "id": 145743412014986,
+    "name": "Gas Arrow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Fire",
+      "Chaos",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Fire a noxious arrow at the ground, creating a cloud of flammable poisonous gas at the end of its flight. The cloud will detonate if hit by a Detonator skill or if an Ignited enemy touches it, creating a fiery explosion."
+  },
+  {
+    "id": 139872489650041,
+    "name": "Gas Grenade",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Grenade",
+      "Fire",
+      "Chaos",
+      "Duration"
+    ],
+    "description": "Fire a bouncing Grenade that causes a burst of Poison gas when its fuse expires, damaging enemies and leaving behind a growing Poison cloud. Burning effects or Detonator skills will cause the cloud to explode in a fiery blast."
+  },
+  {
+    "id": 145514297084623,
+    "name": "Gathering Storm",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Lightning",
+      "Duration",
+      "Channelling",
+      "Travel"
+    ],
+    "description": "Flip backward and Channel to charge your Quarterstaff with Lightning. Releasing dashes towards the target location, damaging enemies along the way. Releasing with Perfect Timing performs a Lightning-assisted dash that releases shockwaves from enemies you dash through. Perfectly Timed dash also explodes Tempest Bells on hit creating a shockwave that deals more damage and has a larger area, leaving Shocked Ground in its wake. This skill cannot be Ancestrally Boosted."
+  },
+  {
+    "id": 218526075023915,
+    "name": "Gemini Surge",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Trigger",
+      "Cold",
+      "Fire"
+    ],
+    "description": "Grants your weapon Surges. Non-Melee Projectile Attacks with that weapon Consume Surges to cause the Projectiles fired to explode at the end of their flight."
+  },
+  {
+    "id": 91899162862210,
+    "name": "Ghost Dance",
+    "tags": [
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, causes you to periodically gain Ghost Shrouds. If you are Hit while you have a Ghost Shroud, it is immediately consumed to recover Energy Shield based on your Evasion."
+  },
+  {
+    "id": 237206513781640,
+    "name": "Glacial Bolt",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Cold",
+      "Duration"
+    ],
+    "description": "Load your Crossbow with icy bolts that create two walls of Ice Crystals at the end of their flight."
+  },
+  {
+    "id": 232719469862703,
+    "name": "Glacial Cascade",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Cold",
+      "Payoff"
+    ],
+    "description": "Sweep your Quarterstaff upwards, releasing an icy fissure which deals damage in a series of bursts culminating in a large spike. Frozen enemies hit by the final spike are dealt heavy damage but the Freeze is Consumed. Ice Crystals hit by the final spike explode."
+  },
+  {
+    "id": 88114925253354,
+    "name": "Glacial Lance",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Cold",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Throw a single Piercing lance that leaves icy fragments in its wake. The fragments Chill nearby enemies. Consumes a Frenzy Charge if possible to cause the glacial fragments created by the first Projectile to explode outwards after a short duration, peppering enemies with shrapnel."
+  },
+  {
+    "id": 175753860662877,
+    "name": "Grim Feast",
+    "tags": [
+      "Buff",
+      "Spell",
+      "Minion",
+      "Persistent",
+      "Remnant"
+    ],
+    "description": "While active, your Reviving Minions store a percentage of their maximum Life in a collectible Grim Remnant on death. Using Grim Resurrection Consumes the Life you've collected to Revive up to that much total Life of dead Minions."
+  },
+  {
+    "id": 201025033597033,
+    "name": "Grim Pillars",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Nova"
+    ],
+    "description": "Spend Runic Ward to cause damaging Ice-Crystal spears to erupt from the ground around you. These spears can be destroyed for an explosion of Cold damage."
+  },
+  {
+    "id": 62931158409281,
+    "name": "Hailstorm Rounds",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Sustained",
+      "Cold"
+    ],
+    "description": "Passively generate bolts of ice at a frequency equal to reload time, up to a cap. Activate to Load the accumulated bolts into your Crossbow. All loaded bolts are fired at once, causing them to rain down over the target area."
+  },
+  {
+    "id": 10971290454589,
+    "name": "Hammer of the Gods",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "Build Glory by Heavy Stunning enemies. When you have maximum Glory you may entreat the Ancestors to crush your enemies, manifesting a massive hammer that falls from the sky onto your target, Slamming into the ground after a short duration and dealing immense damage based on your weapon."
+  },
+  {
+    "id": 136768009329159,
+    "name": "Hand of Chayula",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Chaos",
+      "Meta"
+    ],
+    "description": "Dash to an enemy and Strike them, triggering socketed Marks with increased effect and applying socketed Curses with increased duration."
+  },
+  {
+    "id": 262243954162954,
+    "name": "Harbinger of Madness",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Physical"
+    ],
+    "description": "Draws out the latent fears of enemies you kill and Rare or Unique enemies you Hit, turning them into unstable apparitions which charge towards enemies and then explode."
+  },
+  {
+    "id": 84073699317070,
+    "name": "Heart of Ice",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Persistent",
+      "Aura",
+      "Cold"
+    ],
+    "description": "Chills all enemies in your Presence."
+  },
+  {
+    "id": 140060137346397,
+    "name": "Herald of Ash",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Herald"
+    ],
+    "description": "While active, enemies you sufficiently Overkill with non-Herald Attacks will cause an explosion that Ignites nearby enemies based on the Overkill damage dealt."
+  },
+  {
+    "id": 185754344107788,
+    "name": "Herald of Blood",
+    "tags": [
+      "Buff",
+      "Attack",
+      "Persistent",
+      "AoE",
+      "Physical",
+      "Herald",
+      "Payoff"
+    ],
+    "description": "While active, killing an enemy with Blood Loss will cause a bloody explosion that deals Physical Attack damage to surrounding enemies. This damage is not based on your Weapon, but is partially based on their accumulated Blood Loss. The explosion destroys their Corpse if the enemy was Normal or Magic, and has a chance to Aggravate Bleeding."
+  },
+  {
+    "id": 88781550636266,
+    "name": "Herald of Ice",
+    "tags": [
+      "Buff",
+      "Attack",
+      "Persistent",
+      "AoE",
+      "Cold",
+      "Herald",
+      "Payoff"
+    ],
+    "description": "While active, Shattering an enemy with a non-Herald Attack Hit will cause an icy explosion that deals Attack damage to surrounding enemies."
+  },
+  {
+    "id": 168230221821652,
+    "name": "Herald of Plague",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Chaos",
+      "Herald"
+    ],
+    "description": "While active, killing a Poisoned enemy spreads its Poison to other nearby enemies, and has a chance to also Hinder them."
+  },
+  {
+    "id": 182739510689279,
+    "name": "Herald of Thunder",
+    "tags": [
+      "Buff",
+      "Attack",
+      "Persistent",
+      "AoE",
+      "Lightning",
+      "Herald",
+      "Payoff"
+    ],
+    "description": "While active, killing Shocked enemies with a non-Herald Attack Hit will cause subsequent Attack Hits to release lightning bolts which deals Attack damage to all surrounding enemies."
+  },
+  {
+    "id": 93531839324440,
+    "name": "Herald of the Royal Queen",
+    "tags": [
+      "Buff",
+      "Attack",
+      "Persistent",
+      "AoE",
+      "Physical",
+      "Herald",
+      "Payoff"
+    ],
+    "description": "Killing an enemy with Blood Loss will cause a bloody explosion that deals Physical Attack damage to surrounding enemies. This damage is not based on your Weapon Damage, but is based on their accumulated Blood Loss. The explosion destroys their Corpse if the enemy was Normal or Magic."
+  },
+  {
+    "id": 260434553657138,
+    "name": "Hexblast",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Payoff",
+      "Repeatable"
+    ],
+    "description": "Detonate a Curse on every enemy in an area, causing explosions of Chaos damage but removing the Curse. Can only detonate Curses for which at least half of the duration has expired."
+  },
+  {
+    "id": 220118605542227,
+    "name": "High Velocity Rounds",
+    "tags": [
+      "Attack",
+      "Ammunition",
+      "Projectile",
+      "Physical",
+      "Duration",
+      "Payoff"
+    ],
+    "description": "Load your Crossbow with Piercing bolts that apply Riven Armour to enemies with Fully Broken Armour, causing any Hits against those enemies to deal extra damage."
+  },
+  {
+    "id": 209779829264668,
+    "name": "Hollow Focus",
+    "tags": [
+      "Attack",
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Duration"
+    ],
+    "description": "While active, ethereal bells periodically appear near you. Your Hits immediately destroy the bells, creating a shockwave that damages nearby enemies and causes a Heavy Stun on enemies that are Primed for Stun. The bells are themselves always Primed for Stun, they can be Culled, and Hits against them are always Critical Hits."
+  },
+  {
+    "id": 110601589518103,
+    "name": "Hollow Form",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Sustained",
+      "Channelling",
+      "Meta"
+    ],
+    "description": "Channel to create fleeting images of your astral self near the target location. The images perform a Socketed Melee Attack once then vanish, targeting the closest enemy if possible. The images cannot perform Channelled Skills or Conditional Skills. Consuming a Power Charge creates additional images."
+  },
+  {
+    "id": 278363529327031,
+    "name": "Hollow Resonance",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Trigger"
+    ],
+    "description": "Attaches an ethereal bell to your back. Critical Hits with other Skills will cause the bell to ring out, damaging nearby enemies."
+  },
+  {
+    "id": 28631389419996,
+    "name": "Hollow Shell",
+    "tags": [
+      "Spell",
+      "Buff",
+      "AoE",
+      "Nova"
+    ],
+    "description": "Sacrifice your Runic Ward to send out an energy pulse that grants nearby Allies Guard."
+  },
+  {
+    "id": 144423898325044,
+    "name": "Hypothermia",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Curse",
+      "Repeatable"
+    ],
+    "description": "Curse all targets in an area after a short delay, lowering their Cold Resistance."
+  },
+  {
+    "id": 252061614324687,
+    "name": "Ice Nova",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Nova",
+      "Repeatable"
+    ],
+    "description": "Conjure a wave of ice in all directions, Knocking Back enemies based on how close they are to you. Casting Ice Nova targeting near a Frostbolt Projectile will cause it to originate from the Frostbolt instead of you. Consumes a Cold Infusion if possible to leave a patch of Chilled Ground."
+  },
+  {
+    "id": 75679223379257,
+    "name": "Ice Shards",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Sustained",
+      "Cold",
+      "Hazard"
+    ],
+    "description": "Load your Crossbow with a clip of icy bolts that rapidly fire at the ground, leaving a shard of ice at the impact location that arms after a duration. After arming, the ice shards explode when enemies step on them, dealing more damage the longer they have been armed, up to a maximum. Using this Skill again reloads the clip."
+  },
+  {
+    "id": 151710722034969,
+    "name": "Ice Shot",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Cold",
+      "Repeatable"
+    ],
+    "description": "Fire an icy arrow that sprays a cone of ice shards when it hits a target."
+  },
+  {
+    "id": 190646545906983,
+    "name": "Ice Strike",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Cold"
+    ],
+    "description": "Perform a fast icy Strike. Using this Attack three times in quick succession causes a final strike that is slower and more powerful."
+  },
+  {
+    "id": 29150797382684,
+    "name": "Ice-Tipped Arrows",
+    "tags": [
+      "Spell",
+      "Attack",
+      "Buff",
+      "AoE",
+      "Projectile",
+      "Trigger",
+      "Cold",
+      "Duration"
+    ],
+    "description": "Ready your active Bow or Spear, Empowering your next Repeatable Bow or Projectile Spear Attacks to Convert Physical Damage to Cold Damage and Trigger Ice Fragments on Hit. This Skill's cooldown can be bypassed by expending a Frenzy Charge. Cannot Empower Sustained Skills."
+  },
+  {
+    "id": 166977747173272,
+    "name": "Icestorm",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Sustained",
+      "Cold",
+      "Duration",
+      "Payoff",
+      "Repeatable",
+      "Storm"
+    ],
+    "description": "Conjure a hail of icy bolts over the targeted area. Chill and Freeze on enemies in front of you are Consumed to fuel the Icestorm by creating improved bolts."
+  },
+  {
+    "id": 275801860828444,
+    "name": "Impurity",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura",
+      "Chaos"
+    ],
+    "description": "Emit an Aura that boosts the Chaos Resistance of you and Allies in your Presence."
+  },
+  {
+    "id": 207928962541666,
+    "name": "Incendiary Shot",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Fire",
+      "Merging"
+    ],
+    "description": "Load your Crossbow with flaming bolts that fragment in flight, damaging and Igniting enemies on hit and in a small cone behind their final target. These fragments can Merge."
+  },
+  {
+    "id": 154599776728378,
+    "name": "Incinerate",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Sustained",
+      "Fire",
+      "Duration",
+      "Channelling"
+    ],
+    "description": "Gain fuel by spending Mana on any Skill, then use the accumulated fuel to conjure a torrent of Fire from your hand, Igniting enemies in front of you. The flames grow stronger the longer you Channel. Consumes a Fire Infusion if possible to also create Ignited Ground. Cannot gain fuel while using this skill."
+  },
+  {
+    "id": 73213089228059,
+    "name": "Inevitable Agony",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Debuff all targets in an area, causing a portion of Damage they take from Hits to be tracked by the Debuff. When the debuff's duration expires or can kill the target, the target loses life equal to that tracked damage all at once."
+  },
+  {
+    "id": 250061690198372,
+    "name": "Infernal Cry",
+    "tags": [
+      "Warcry",
+      "AoE",
+      "Trigger",
+      "Fire",
+      "Duration",
+      "Nova"
+    ],
+    "description": "Perform a Warcry, Empowering subsequent Melee Attacks if there are enemies nearby. Enemies in the warcry's area are destabilised and will Combust on death. This Skill's cooldown can be bypassed by expending an Endurance Charge."
+  },
+  {
+    "id": 45852272366358,
+    "name": "Into the Breach",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Remnant"
+    ],
+    "description": "Create a Breach around you, allowing you to see nearby Flames of Chayula. You are considered to be in a Breach while this skill is active."
+  },
+  {
+    "id": 8916990080759,
+    "name": "Iron Ward",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Physical",
+      "Nova"
+    ],
+    "description": "While active, stores a percentage of the Physical damage that is prevented by your Armour or other sources of damage reduction. Using this Skill releases the stored damage as a nova of spikes."
+  },
+  {
+    "id": 181900339518368,
+    "name": "Kelari's Malediction",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Command",
+      "Duration"
+    ],
+    "description": "Harness Kelari's power to passively Consume Corpses in your Presence, causing Corpse Beetle Minions to burst forth. The Beetles passively follow you until Commanded. On your Command, they rush the target and explode."
+  },
+  {
+    "id": 171043700700187,
+    "name": "Kelari, the Tainted Sands",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Command",
+      "Physical"
+    ],
+    "description": "Summon Kelari, an invulnerable Sand Djinn Minion, to do your bidding. Kelari will only act when you Command him to do so. Kelari delivers swift Hits with massive Critical Hit potential."
+  },
+  {
+    "id": 19792564805555,
+    "name": "Killing Palm",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Physical"
+    ],
+    "description": "Dash to an enemy and Strike them, Culling enemies if their life is low enough and performing additional dashing Strikes to other Cullable targets in range if your target was Culled. Each enemy killed by this strike grants a Power Charge, with higher Rarity monsters granting additional Charges. Enemies around you that can be Culled will be highlighted."
+  },
+  {
+    "id": 117041338823452,
+    "name": "Leap Slam",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Travel",
+      "Payoff"
+    ],
+    "description": "Jump into the air, damaging and Knocking Back enemies with your mace where you land. Enemies you would land on are pushed out of the way."
+  },
+  {
+    "id": 62157754929523,
+    "name": "Leylines",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Duration"
+    ],
+    "description": "While active, areas of intense runic energy are revealed to you. Standing over them grants you a powerful Spell damage boost but constantly drains your Runic Ward. Running out of Runic Ward causes the energy to temporarily dissipate."
+  },
+  {
+    "id": 189478784804988,
+    "name": "Life Remnants",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Remnant"
+    ],
+    "description": "Drink the blood of your enemies to restore your Life. While active, enemies you kill have a chance to spawn a Life Remnant, and Hitting a target spawns a Life Remnant every few seconds. Picking up a Life Remnant grants you Life which can Overflow maximum Life."
+  },
+  {
+    "id": 98517804654556,
     "name": "Lightning Arrow",
-    "tags": ["AoE", "Projectile", "Lightning", "Chaining", "Repeatable"],
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning",
+      "Chaining",
+      "Repeatable"
+    ],
     "description": "Fire a charged arrow at the target. On hitting an enemy or wall, the arrow will fire Chaining Lightning beams at nearby enemies."
   },
   {
-    "id": 4,
+    "id": 271386097955547,
+    "name": "Lightning Bolt",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Trigger",
+      "Lightning",
+      "Repeatable"
+    ],
+    "description": "Call down a Shocking bolt of Lightning to strike enemies in a small area."
+  },
+  {
+    "id": 275584798227443,
+    "name": "Lightning Conduit",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning"
+    ],
+    "description": "Call down Lightning to hit all enemies in a cone in front of you, dealing significantly more damage to Shocked enemies. If there is a Shocked enemy in the target area, additional lightning bolts are distributed among the targets hit. Targeting close to you will cause you to jump back as you cast."
+  },
+  {
+    "id": 123845417716244,
+    "name": "Lightning Rod",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Sustained",
+      "Lightning",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Fire an arrow that drops from above, creating a Lightning burst. The arrow remains in the ground, and any Chaining Lightning beams can Chain to it. When Chained to, the arrows charge up for a brief period before releasing another Lightning burst. The Lightning Arrow Skill reduces this delay, causing bursts to happen more quickly."
+  },
+  {
+    "id": 109005399980656,
+    "name": "Lightning Spear",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning",
+      "Repeatable"
+    ],
+    "description": "Throw a single copy of your spear. When it hits an enemy it bursts, firing secondary lightning bolt Projectiles at multiple other enemies within a large area around it. Consumes a Frenzy Charge if possible to cause the main spear to split into multiple copies on impact, each of which then bursts."
+  },
+  {
+    "id": 246050243468373,
+    "name": "Lightning Warp",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Duration",
+      "Remnant",
+      "Repeatable"
+    ],
+    "description": "Target an enemy to either teleport inside the target's body if they are under the Cull threshold, causing it to violently explode, or to apply a Debuff to them, which will cause the same effect if that enemy falls under the Cull threshold during its duration. Can also be used on Ball Lightning Projectiles. On teleport, the target is destroyed, and the explosion deals Lightning damage to surrounding enemies. If targeting an enemy, the explosion also creates Shocked Ground. Creates a Lightning Infusion on successful use. Highlights enemies that can be Culled."
+  },
+  {
+    "id": 278012939775231,
+    "name": "Lingering Illusion",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Duration",
+      "Remnant"
+    ],
+    "description": "While active, creates a short-lived illusory copy of yourself whenever you dodge roll. The copy can be damaged by enemies, and copies that are destroyed by an enemy will drop a Remnant that grants you a Power Charge on pickup."
+  },
+  {
+    "id": 221785410678604,
+    "name": "Living Bomb",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Remnant"
+    ],
+    "description": "Plant a seed of Fire inside an enemy. Dealing enough damage to the enemy, or killing it outright, causes the seed to explode, dealing damage in an area and leaving behind a Fire Infusion Remnant."
+  },
+  {
+    "id": 95307958466940,
+    "name": "Lunar Assault",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Werewolf",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Cold"
+    ],
+    "description": "Shapeshift into a Werewolf and swipe with your claws, projecting an arc of moonlight and ice forward in a crescent."
+  },
+  {
+    "id": 6550098147991,
+    "name": "Lunar Blessing",
+    "tags": [
+      "Warcry",
+      "Attack",
+      "Shapeshift",
+      "Buff",
+      "Werewolf",
+      "AoE",
+      "Trigger",
+      "Cold",
+      "Duration"
+    ],
+    "description": "Shapeshift into a Werewolf and offer your Rage to the moon to receive a blessing, gaining bonus Cold damage for yourself and any Wolf Minions you have from Wolf Pack or Predator's Mark. Spends all Rage to extend the Buff's duration. While the Buff is active, your Werewolf Melee Attacks call down Moonbeams on Hit."
+  },
+  {
+    "id": 218145100191667,
+    "name": "Magma Barrier",
+    "tags": [
+      "Buff",
+      "Attack",
+      "Persistent",
+      "AoE",
+      "Melee",
+      "Trigger",
+      "Fire"
+    ],
+    "description": "While active, increases your Block Chance passively and imbues your Shield with lava over time. When fully imbued, your next Block with your Shield raised will expend the lava to Trigger the Magma Spray skill and grant you an Endurance Charge."
+  },
+  {
+    "id": 39778387374408,
+    "name": "Magnetic Salvo",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning"
+    ],
+    "description": "Aim skyward and fire energy missiles at lingering bolts or arrows created by other Lightning Attacks in front of you. The missiles explode if they land close to a lingering bolt or arrow, dealing more damage in a larger area but destroying that bolt or arrow in the process."
+  },
+  {
+    "id": 47709467266665,
+    "name": "Malice",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura",
+      "Duration"
+    ],
+    "description": "While active, emits an Aura that continuously inflicts Critical Weakness on enemies in your Presence."
+  },
+  {
+    "id": 106304005902627,
+    "name": "Mana Drain",
+    "tags": [
+      "Spell"
+    ],
+    "description": "Leech Mana from an enemy over a prolonged period, as well as briefly Hindering them."
+  },
+  {
+    "id": 10557426269300,
+    "name": "Mana Remnants",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Remnant"
+    ],
+    "description": "Conjure surging arcane energy to restore your Mana. While active, enemies you kill affected by Elemental Ailments have a chance to spawn a Mana Remnant, and Critically Hitting a target with Elemental Ailments spawns a Mana Remnant every few seconds. Picking up a Mana Remnant grants you Mana which can Overflow maximum Mana."
+  },
+  {
+    "id": 181056327803969,
+    "name": "Mana Tempest",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Lightning",
+      "Storm"
+    ],
+    "description": "Create a storm of arcane energies that Empowers your Mana-costing Spells while you remain inside it. Maintaining the storm constantly drains your Mana, and spending more causes it to drain faster. The storm will dissipate when you exit it or run out of Mana."
+  },
+  {
+    "id": 56978572451450,
+    "name": "Manifest Weapon",
+    "tags": [
+      "Minion",
+      "Companion",
+      "Persistent"
+    ],
+    "description": "Manifest a copy of your main hand Melee Martial Weapon as an immortal Companion to fight by your side. In addition to its standard Strikes, the Manifested Weapon gains an additional Attack depending on its weapon type."
+  },
+  {
+    "id": 235052409535308,
+    "name": "Mantra of Destruction",
+    "tags": [
+      "Buff",
+      "Chaos",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "Build Combo by successfully Striking Enemies with other skills. After reaching maximum Combo, use this skill to Empower your next Quarterstaff Attack, causing it to deal additional Chaos damage. Each kill with the Empowered Attack grants Purple Flames of Chayula for a duration."
+  },
+  {
+    "id": 253185128783116,
+    "name": "Maul",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Bear",
+      "AoE",
+      "Melee",
+      "Strike"
+    ],
+    "description": "Shapeshift into a Bear and rake enemies with your claws, generating Rage on Hit."
+  },
+  {
+    "id": 29867178682364,
+    "name": "Meditate",
+    "tags": [
+      "Spell",
+      "Channelling"
+    ],
+    "description": "Channel to Recharge Energy Shield and allow that Recharge to Overflow. Channelling ends when you take damage or your Energy Shield is fully Overflowed."
+  },
+  {
+    "id": 162939733847361,
+    "name": "Midnight Zenith",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Cold",
+      "Duration"
+    ],
+    "description": "While active, Critical Hits with other skills that kill targets, or hit powerful targets cause you to gain Arctic Petals. Once you have enough Arctic Petals they will be Consumed to create Ice Crystals near the most recent target."
+  },
+  {
+    "id": 222574513481692,
+    "name": "Mirage Archer",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Duration",
+      "Meta"
+    ],
+    "description": "While active, dodge rolling will create a Mirage that uses socketed ranged Attacks for a short duration, then vanish."
+  },
+  {
+    "id": 6321852737419,
+    "name": "Mirage Deadeye",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Duration",
+      "Meta"
+    ],
+    "description": "While active, firing a ranged Projectile Attack will create a Mirage that uses socketed ranged Attacks for a short duration, then vanish."
+  },
+  {
+    "id": 102947951813859,
+    "name": "Mirror of Refraction",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Duration"
+    ],
+    "description": "Mirrors of Refraction appear in your Presence periodically. Hitting a mirror with a Spell Projectile causes it to shatter, copying the projectiles in a nova around the destroyed mirror. Copied Projectiles may be copied again when colliding with other mirrors."
+  },
+  {
+    "id": 103387462605882,
+    "name": "Mist Raven",
+    "tags": [
+      "Minion",
+      "Companion",
+      "Persistent",
+      "Physical",
+      "Chaos"
+    ],
+    "description": "Summons a mysterious undamageable Mist Raven that can be Commanded to dive at target location, crashing through an otherworldly mirror and damaging enemies in an area. The raven grants you a Frenzy Charge for each enemy it Culls."
+  },
+  {
+    "id": 198776213472188,
     "name": "Molten Blast",
-    "tags": ["Attack", "AoE", "Projectile", "Fire"],
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Fire"
+    ],
     "description": "Gouge molten rock from the ground and fling it at the target. The Projectile explodes on collision, damaging enemies and scattering shrapnel in a cone behind it."
   },
   {
-    "id": 5,
-    "name": "Ancestral Warrior Totem",
-    "tags": ["Totem", "Attack", "AoE", "Melee"],
-    "description": "Consume 3 Endurance Charges to Raise a Totem that conjures spirit warriors. Each warrior uses a socketed Mace Skill once, then disappears."
+    "id": 44911004124495,
+    "name": "Molten Crash",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Bear",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Travel"
+    ],
+    "description": "Shapeshift into a burning monstrosity and leap through the air to crash down upon the earth, Slamming twice and creating Molten Fissures. Consumes Rage to create additional Molten Fissures."
+  },
+  {
+    "id": 42318328873513,
+    "name": "Molten Shower",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Trigger",
+      "Fire"
+    ],
+    "description": "Fires molten Projectiles from the enemy hit, which will explode when they land nearby, dealing Attack damage in an area."
+  },
+  {
+    "id": 2775908171625,
+    "name": "Moment of Vulnerability",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Nova"
+    ],
+    "description": "Send out a temporal Nova to take advantage of enemies' moment of vulnerability. Hitting enemies that are Primed for Stun, Electrocution, or Freeze causes a visage of them to appear, lasting as long as the original target would have been affected by the form of Immobilisation used to create the visage. A portion of the damage dealt to visages is also dealt to the original."
+  },
+  {
+    "id": 141036807262757,
+    "name": "Mortar Cannon",
+    "tags": [
+      "Totem",
+      "Grenade",
+      "Duration",
+      "Meta"
+    ],
+    "description": "Raise a cannon Ballista Totem which uses socketed Grenade Skills, with significantly improved Cooldown Recovery Rate."
+  },
+  {
+    "id": 111576644815565,
+    "name": "Navira, the Last Mirage",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Command",
+      "Cold"
+    ],
+    "description": "Summon Navira, an invulnerable Water Djinn Minion to do your bidding. Navira will only act when you Command her to do so, bestowing restorative blessings upon you and your Allies with her Spells."
+  },
+  {
+    "id": 276272451682902,
+    "name": "Oil Barrage",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Wyvern",
+      "AoE",
+      "Projectile",
+      "Sustained",
+      "Channelling"
+    ],
+    "description": "Shapeshift into a Wyvern and spit Oil at enemies, creating Oil Ground where the Projectiles land. Consumes Power Charges if possible to instead Channel a sustained barrage of electrified Oil that does not create Oil Ground. Projectiles are fired in sequence, allowing multiple Projectiles to Hit the same target."
+  },
+  {
+    "id": 233988920762933,
+    "name": "Oil Grenade",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Grenade",
+      "Fire",
+      "Duration"
+    ],
+    "description": "Fire a bouncing Grenade that bursts in a spray of Oil when the fuse expires or when it impacts an Enemy, dealing minimal damage but covering the ground and nearby enemies in Oil. Oil created this way can be Ignited by Detonator Skills or Ignited Ground."
+  },
+  {
+    "id": 120857169293668,
+    "name": "Orb of Storms",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Sustained",
+      "Lightning",
+      "Duration",
+      "Chaining",
+      "Orb",
+      "Remnant",
+      "Repeatable"
+    ],
+    "description": "Create an Orb of electricity that fires Chaining Lightning bolts at nearby enemies. The Orb leaves behind a Lightning Infusion Remnant when it expires."
+  },
+  {
+    "id": 30532020627565,
+    "name": "Overwhelming Presence",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura"
+    ],
+    "description": "While active, emits an Aura that makes enemies in your Presence easier to Stun and inflict Elemental Ailments upon."
+  },
+  {
+    "id": 185891852287234,
+    "name": "Pain Offering",
+    "tags": [
+      "Minion",
+      "Buff",
+      "AoE",
+      "Duration"
+    ],
+    "description": "Skewer a Skeleton on a bone spike to send nearby Minions into a frenzy as long as the spike remains, making their skills faster and harder hitting. The bone spike is itself a Minion. If it dies, the effect ends immediately."
+  },
+  {
+    "id": 67260208786990,
+    "name": "Parry",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Physical",
+      "Duration",
+      "Channelling"
+    ],
+    "description": "Ready your Buckler to parry the next Hit you would take, Blocking the Hit and retaliating with a quick sweep that leaves enemies off balance, causing them to take massively increased Attack damage for a short duration. Parrying causes you to accumulate Heavy Stun buildup. You cannot Evade a Hit you could parry, but Evasion instead grants an equal chance to avoid this Heavy Stun buildup."
+  },
+  {
+    "id": 229719427279722,
+    "name": "Perfect Strike",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Channelling"
+    ],
+    "description": "Channel to charge up your weapon with Fire. Releasing with Perfect Timing will create a damaging wave of intense Fire."
+  },
+  {
+    "id": 132691984865211,
+    "name": "Permafrost Bolts",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Cold",
+      "Merging"
+    ],
+    "description": "Load your Crossbow with icy bolts that fragment in flight, damaging enemies on hit and in a small cone behind their final target. The icy coating on the bolts makes them extremely potent at Freezing enemies. These fragments can Merge."
+  },
+  {
+    "id": 11070608192632,
+    "name": "Phantasmal Arrow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Fire",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Fires an arrow that embeds where it lands for a short duration. At the end of the duration, the arrow explodes in spectral flame, turning it to ashes and damaging enemies, with a high chance to Ignite. Igniting any enemy with the Explosion also applies Ignite to enemies within range."
+  },
+  {
+    "id": 13098884034836,
+    "name": "Pinnacle of Power",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "Consume all Power Charges to master the elements, gaining Elemental Damage and the ability to apply Elemental Ailments with other damage types. Can only be used while you have maximum Power Charges."
+  },
+  {
+    "id": 64112156691738,
+    "name": "Plague Bearer",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Physical",
+      "Chaos",
+      "Nova"
+    ],
+    "description": "While active, stores a portion of the Poison Damage you deal. Using this Skill unleashes the stored Poison to damage and Poison enemies around you."
+  },
+  {
+    "id": 225861910719879,
+    "name": "Plasma Blast",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Lightning",
+      "Channelling"
+    ],
+    "description": "Load your Crossbow with unstable bolts that require a lengthy charging period to fire but deal devastating damage, Pierce through enemies, and explode upon hitting terrain. Additional Projectiles are fired in a spread, unlike other Crossbow Skills."
+  },
+  {
+    "id": 186162247987290,
+    "name": "Poisonburst Arrow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Chaos",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Fire a virulent arrow that creates a burst of Poison on hit, affecting all enemies in an area."
+  },
+  {
+    "id": 8744203265533,
+    "name": "Pounce",
+    "tags": [
+      "Attack",
+      "Minion",
+      "Shapeshift",
+      "Werewolf",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Trigger",
+      "Mark",
+      "Duration",
+      "Travel",
+      "Meta"
+    ],
+    "description": "Shapeshift into a Werewolf and leap to a target location, damaging enemies in an area around where you land. Predator's Mark will be Triggered targeting the highest Rarity enemy Hit, or if a Mark gem is socketed into this Skill, that Mark will be Triggered instead. Using this Skill allows any Wolf Minions you have to leap immediately."
+  },
+  {
+    "id": 247205498430508,
+    "name": "Power Siphon",
+    "tags": [
+      "Spell",
+      "Physical"
+    ],
+    "description": "Attempt to rip the lifeforce from an enemy. Enemies within Culling range will be highlighted and instantly killed on Hit, granting a Power Charge. Can only target Enemies in Culling range."
+  },
+  {
+    "id": 157776314383809,
+    "name": "Powered by Verisium",
+    "tags": [
+      "Spell",
+      "Repeatable"
+    ],
+    "description": "Spends Ward to generate Verisium Infusions, which can be used in place of any Elemental Infusions."
+  },
+  {
+    "id": 55719311613038,
+    "name": "Primal Bounty",
+    "tags": [
+      "Buff",
+      "Trigger"
+    ],
+    "description": "Empowers the next Projectile Skill you use, causing it to create additional Projectiles and fly faster."
+  },
+  {
+    "id": 85682181361048,
+    "name": "Primal Strikes",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Lightning",
+      "Payoff"
+    ],
+    "description": "Perform a Lightning-charged stab that can be chained into a combination of up to three attacks. The first two attacks conjure a charging Wildwood spirit if they Hit a Shocked enemy and refresh Shock duration. The third attack is a large swipe that inflicts Elemental Exposure, and can Consume Shock to conjure a stampede of spirits."
+  },
+  {
+    "id": 132882415295380,
+    "name": "Profane Ritual",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Mark a Corpse with a profane rune, dealing Chaos damage over time to nearby enemies. When the ritual is complete the Corpse is consumed and you gain a Power Charge."
+  },
+  {
+    "id": 163513110773136,
+    "name": "Purity of Fire",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura",
+      "Fire"
+    ],
+    "description": "Emit an Aura that boosts the Fire Resistance of you and Allies in your Presence."
+  },
+  {
+    "id": 55411277511712,
+    "name": "Purity of Ice",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura",
+      "Cold"
+    ],
+    "description": "Emit an Aura that boosts the Cold Resistance of you and Allies in your Presence."
+  },
+  {
+    "id": 272536669202654,
+    "name": "Purity of Lightning",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura",
+      "Lightning"
+    ],
+    "description": "Emit an Aura that boosts the Lightning Resistance of you and Allies in your Presence."
+  },
+  {
+    "id": 44808445892124,
+    "name": "Queen's Procession",
+    "tags": [
+      "Buff",
+      "Attack",
+      "Persistent",
+      "AoE",
+      "Physical"
+    ],
+    "description": "While active, Sprinting turns you into a locust swarm which deals Physical Attack damage, which is not based on your Weapon's damage, in an area around you. You take damage and gain Heavy Stun buildup if this Hits any targets, but damage you take from other sources while sprinting will not apply Heavy Stun or interrupt your sprinting."
+  },
+  {
+    "id": 92683459703416,
+    "name": "Raging Spirits",
+    "tags": [
+      "Buff",
+      "Minion",
+      "Persistent",
+      "Fire",
+      "Duration"
+    ],
+    "description": "While active, Fire Spells you use yourself will also summon Raging Spirits, which are short-lived flaming skulls that rush at nearby enemies and rapidly Attack them, ignoring commands. Enemies will not directly engage these Minions, and can pass through them."
+  },
+  {
+    "id": 197087834472551,
+    "name": "Rain of Arrows",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Sustained"
+    ],
+    "description": "Fire a hail of arrows into the air, causing them to rain from above. Consumes a Frenzy Charge to fire more arrows."
+  },
+  {
+    "id": 147508694880989,
+    "name": "Rain of Blades",
+    "tags": [
+      "Attack",
+      "Buff",
+      "AoE",
+      "Trigger",
+      "Duration"
+    ],
+    "description": "Pour your Runic Ward into conjuring blades. For the duration of the Buff, these blades fall on enemies Hit by your Projectile Attacks."
+  },
+  {
+    "id": 7179507984306,
+    "name": "Raise Shield",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Physical",
+      "Channelling"
+    ],
+    "description": "Raise your Shield to Block all incoming Blockable hits. Release immediately after Blocking when an enemy is close to perform a Shield Bash, damaging and Stunning enemies. While your Shield is raised you cannot be Light Stunned by hits you Block, but Blocking too much damage may Heavy Stun you. You cannot Evade while your Shield is raised, but Evasion instead grants an equal chance to avoid this Heavy Stun buildup."
+  },
+  {
+    "id": 90692988599480,
+    "name": "Raise Zombie",
+    "tags": [
+      "Minion",
+      "Physical",
+      "Duration"
+    ],
+    "description": "Consume a Corpse or Power Charge to create a short-lived Zombie. Zombies created from Power Charges are Empowered and also create two additional non-empowered Zombies."
+  },
+  {
+    "id": 43668867069981,
+    "name": "Rake",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Physical"
+    ],
+    "description": "Dash towards an enemy and perform a lacerating slash, inflicting Bleeding on all enemies struck."
+  },
+  {
+    "id": 274254314878496,
+    "name": "Rampage",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Bear",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Sustained",
+      "Channelling",
+      "Travel"
+    ],
+    "description": "Shapeshift into a Bear and charge forward, Slamming the ground as you run. Channelling ends after a short amount of time but can be prolonged by spending Rage."
+  },
+  {
+    "id": 24841032266747,
+    "name": "Rapid Assault",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Physical",
+      "Duration"
+    ],
+    "description": "Perform a series of six rapid stabs. The final stab inflicts Bleeding and leaves a spearhead stuck in the target, Maiming them for a duration. Detonator Skills will cause the stuck spearheads to explode, dealing further damage to the target and other nearby enemies."
+  },
+  {
+    "id": 64035658486359,
+    "name": "Rapid Shot",
+    "tags": [
+      "Attack",
+      "Ammunition",
+      "Projectile",
+      "Fire"
+    ],
+    "description": "Load your Crossbow with a large clip of heated bolts. Heat builds up on your Crossbow as you fire them, and reaching maximum Heat will prevent you from firing or reloading these bolts for a short time. However, other Skills can Consume Heat for extra benefits. Using this Skill again reloads the clip."
+  },
+  {
+    "id": 27336266291044,
+    "name": "Ravenous Swarm",
+    "tags": [
+      "Buff",
+      "Minion",
+      "Persistent",
+      "Physical",
+      "Chaos",
+      "Duration"
+    ],
+    "description": "While active and enemies are present, swarms of insects emerge from your body to pursue nearby enemies. The swarms are untargetable Minions that Attack and Poison enemies."
+  },
+  {
+    "id": 31927996131983,
+    "name": "Reap",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Duration"
+    ],
+    "description": "Conjure a bloody scythe that sweeps across the targeted area, dealing Physical damage to enemies and applying Critical Weakness. Cannot be Triggered."
+  },
+  {
+    "id": 56235349979620,
+    "name": "Reaper's Invocation",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Invocation",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you kill an enemy with a Melee Attack. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy."
+  },
+  {
+    "id": 75408488805405,
+    "name": "Refutation",
+    "tags": [
+      "Buff",
+      "Spell",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Spends all your Ward to gain a short-duration Buff that causes you to Block all Blockable Hits and apply Parried to enemies from which you've Blocked a Hit. This Buff is removed if you are Heavy Stunned. While this Buff is active, you cannot be Light Stunned, but Blocking too much damage may Heavy Stun you."
+  },
+  {
+    "id": 170662198449687,
+    "name": "Remnants of Kalguur",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Remnant"
+    ],
+    "description": "While active, enemies you Stun or kill have a chance to generate a Runic Ward Remnant. These Remnants can Overflow your Runic Ward."
+  },
+  {
+    "id": 45658863639555,
+    "name": "Rend",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Wyvern",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Duration"
+    ],
+    "description": "Shapeshift into a Wyvern and perform a wide slash with your wingtip claws. Consumes a Power Charge if possible to grant you a Buff that gives you extra Lightning damage. While you have the Buff, Rend covers a much larger area but is slower."
+  },
+  {
+    "id": 157477192423423,
+    "name": "Repulsion",
+    "tags": [
+      "Spell",
+      "Attack",
+      "AoE",
+      "Trigger",
+      "Physical",
+      "Duration",
+      "Curse",
+      "Repeatable"
+    ],
+    "description": "Target an area and Curse enemies within with a Verisium Rune, inflicting them with Fragility. Hitting these enemies causes the Curse to Trigger an explosion to deal damage in an area and apply significant Knockback to other enemies near the Cursed target, with more Stun buildup based on the Fragility on the target Hit."
+  },
+  {
+    "id": 192153492739486,
+    "name": "Requiem",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Cold",
+      "Conditional"
+    ],
+    "description": "Your weapon passively accumulates anguish from the tormented souls within. When fully charged, use this skill to compose the Requiem, transforming your Crossbow shot into a torrent of anguish for a short, fixed amount of time. Does not use Ammunition."
+  },
+  {
+    "id": 257417359171340,
+    "name": "Resonating Shield",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Sustained",
+      "Physical",
+      "Channelling"
+    ],
+    "description": "Repeatedly hammer your Shield with your weapon causing damaging shockwaves in an area around you. Enemies hit by the shockwave lose Armour for a duration. While Channelling Resonating Shield, your Shield is raised and you will Block all incoming Blockable hits."
+  },
+  {
+    "id": 195533838100740,
+    "name": "Rhoa Mount",
+    "tags": [
+      "Minion",
+      "Buff",
+      "Companion",
+      "Persistent"
+    ],
+    "description": "Harnesses a Companion Rhoa you can mount while you're wielding a Bow or Spear. While mounted you can use Bow, thrown Spear, and Mark Skills, and are much less slowed while using Skills, but being Hit will cause Heavy Stun buildup. While you aren't mounted, the Rhoa will attack your enemies alongside you with its beak, but can be damaged."
+  },
+  {
+    "id": 74777983196616,
+    "name": "Righteous Descent",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Physical",
+      "Lightning",
+      "Travel"
+    ],
+    "description": "Leap into the air carried by divine wings, damaging enemies with your spear where you land. If there is a Fragment of Divinity near you or the targeted location, this attack will Consume it when you leap to become Empowered, dealing more damage and granting life and mana recovery. This skill does not use up its Cooldown when empowered."
+  },
+  {
+    "id": 97082383951721,
+    "name": "Rite of Restoration",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Staged"
+    ],
+    "description": "Place a Sigil on the ground, providing a powerful Buff to you and Allies standing in it which grants Life Regeneration and amplifies Armour, Evasion and Energy Shield. The Buff becomes more powerful the more mana you spend while standing in the Sigil."
+  },
+  {
+    "id": 192054693976645,
+    "name": "Ritual Sacrifice",
+    "tags": [
+      "Buff",
+      "Duration"
+    ],
+    "description": "Sacrifice the Corpse of a Rare Monster to grant you its Modifiers for a duration, or gain a single random Modifier at the cost of your own life force."
+  },
+  {
+    "id": 169100954045921,
+    "name": "Rolling Magma",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Wyvern",
+      "AoE",
+      "Projectile",
+      "Fire",
+      "Detonator"
+    ],
+    "description": "Shapeshift into a Wyvern and lob a ball of magma that deals area damage as it hits the ground. The skill Chains, bouncing forward to deal damage multiple times. Impacts on Molten Fissures or Volcanos will activate them as though they were Slammed."
+  },
+  {
+    "id": 165990447638296,
+    "name": "Rolling Slam",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam"
+    ],
+    "description": "Slam the ground to Stun enemies and knock them away, then continue forward and perform a devastating second Slam."
+  },
+  {
+    "id": 273808466940515,
+    "name": "Runic Reprieve",
+    "tags": [
+      "Spell",
+      "Channelling"
+    ],
+    "description": "Channel to create a protective bubble all around you, Blocking Hits against you. While Channelling this Skill, you cannot be Light Stunned by Hits you Block, and damage you take from Hits is also removed from Runic Ward. Blocking Hits this way causes you to accumulate Heavy Stun buildup. You cannot recover Runic Ward while this Skill is active."
+  },
+  {
+    "id": 277313291772557,
+    "name": "Runic Tempering",
+    "tags": [
+      "Channelling"
+    ],
+    "description": "Channel to imbue your armour with Runic Plates. When you are Hit while you have these plates, some of the damage you would take will be prevented, and this skill will cause backlash, dealing your Thorns damage in an area around your attacker."
+  },
+  {
+    "id": 280201901166363,
+    "name": "Ruzhan, the Blazing Sword",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Command",
+      "Fire"
+    ],
+    "description": "Summon Ruzhan, an invulnerable Flame Djinn Minion, to do your bidding. Ruzhan emerges to Strike enemies with his greatsword whenever you use a damaging Skill, and casts devastating Fire Spells when Commanded to do so."
+  },
+  {
+    "id": 4749525969755,
+    "name": "Sacrifice",
+    "tags": [
+      "Buff",
+      "Minion",
+      "Persistent"
+    ],
+    "description": "While active, your undead Reviving Minions can be used in place of Corpses by your skills, but your Minions Revive more slowly."
+  },
+  {
+    "id": 208757828808275,
+    "name": "Sanguine Revelry",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Remnant"
+    ],
+    "description": "Conjure hateful energy to fuel your Rage and Life. While active, Bleeding enemies you kill have a chance to spawn a Hateful Remnant, and Hitting a Bleeding target spawns a Hateful Remnant every few seconds. Picking up a Hateful Remnant grants you Rage and recovers Life based on your current Rage."
+  },
+  {
+    "id": 40112763566695,
+    "name": "Savage Fury",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Duration"
+    ],
+    "description": "While active, your Fury builds from Attacking enemies. Using this Skill releases your Fury to send you into a bestial frenzy, gaining damage and Onslaught but constantly losing life and forcing you into animal form. The frenzy ends immediately if you return to human form. You cannot gain Fury while in a frenzy."
+  },
+  {
+    "id": 27922303731113,
+    "name": "Scavenged Plating",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Physical",
+      "Duration"
+    ],
+    "description": "While active, uses fragments of armour scavenged from enemies to bolster your own. Fully Breaking an enemy's Armour grants you stacks of Scavenged Plating for a duration based on the enemy's Rarity, and you gain Armour and Thorns per stack. Normal enemies grant 1 stack, Magic enemies grant 2 stacks, Rare enemies grant 5 stacks and Unique enemies grant 10 stacks."
+  },
+  {
+    "id": 112141999436303,
+    "name": "Seismic Cry",
+    "tags": [
+      "Warcry",
+      "AoE",
+      "Physical",
+      "Nova"
+    ],
+    "description": "Perform a damaging Warcry, Knocking Back nearby enemies and Heavy Stunning enemies that are Primed for Stun. If an enemy is Heavy Stunned or a currently Heavy Stunned enemy is Hit, this Skill Empowers subsequent Slams to perform an additional Aftershock. This Skill's cooldown can be bypassed by expending an Endurance Charge."
+  },
+  {
+    "id": 13207339537594,
+    "name": "Shard Scavenger",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Physical",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Duration"
+    ],
+    "description": "While active, Consuming Freeze, Shock, Ignite, or Fully Broken Armour on an enemy reloads your Crossbow, restores one cooldown use for your Grenades and grants a Buff causing Crossbow Attacks to not consume bolts for a duration. This can only occur once every few seconds."
+  },
+  {
+    "id": 47942980884528,
+    "name": "Shattering Concoction",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Cold"
+    ],
+    "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Cold Attack damage in an area and inflicting Exposure. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
+  },
+  {
+    "id": 98703643532644,
+    "name": "Shattering Palm",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Trigger",
+      "Cold"
+    ],
+    "description": "Dash to an enemy and Strike them with an Attack that manifests a wave of cold, coating nearby enemies in shards of ice. Dealing enough damage to these enemies will shatter the shards, causing an icy explosion that deals Attack damage."
+  },
+  {
+    "id": 272225197511063,
+    "name": "Shattering Spite",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Lightning",
+      "Fire"
+    ],
+    "description": "Stamp your spear, destroying all Bloodstone Lances on each enemy in your Presence to cause a damaging explosion around that enemy. Each explosion gains new benefits when reaching higher thresholds of Bloodstone Lances removed from an enemy, causing them to deal more damage, have increased area of effect, and Leech Life from enemies caught in the blast."
+  },
+  {
+    "id": 237194384087526,
+    "name": "Shield Charge",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Physical",
+      "Channelling",
+      "Travel"
+    ],
+    "description": "Channel to charge in the target direction. You will crash into enemies on your path, stopping your charge and dealing damage to enemies in an area, and extra damage to the enemies you collided with. While charging, your Shield is raised and you will Block all incoming Blockable hits."
+  },
+  {
+    "id": 234317634213500,
+    "name": "Shield Wall",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Physical",
+      "Duration"
+    ],
+    "description": "Ram your Shield into the ground, throwing up a wall of earth. Enemies can attack your wall segments, and your Slams, Warcries, and Shield Charge will instantly shatter them all. The segments explode when shattered, damaging enemies in front of and around them."
+  },
+  {
+    "id": 93138046940009,
+    "name": "Shockburst Rounds",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Lightning",
+      "Payoff"
+    ],
+    "description": "Load your Crossbow with a clip of charged bolts which release damaging pulses upon Hitting an enemy affected by a Lightning Ailment. Using this Skill again reloads the clip."
+  },
+  {
+    "id": 265116702347829,
+    "name": "Shockchain Arrow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning",
+      "Chaining",
+      "Payoff",
+      "Repeatable"
+    ],
+    "description": "Fire a Lightning-charged arrow that homes in on enemies afflicted by Lightning Ailments. Hitting such an enemy will cause your arrow to release a damaging shockwave and Chain towards nearby targets, with those Chaining Hits also releasing a shockwave. After the final Chain, the arrow lodges into the ground as a Lightning Rod. Consumes Shock from enemies it Hits, but not Electrocution."
+  },
+  {
+    "id": 51350108468885,
+    "name": "Shockwave Totem",
+    "tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Duration",
+      "Nova"
+    ],
+    "description": "Raise a Totem that Slams the ground around it, repeatedly damaging nearby enemies. Jagged Ground erupts when hit by this Slam, damaging enemies standing on it. The Totem cannot create Jagged Ground. This Skill can be used while Shapeshifted."
+  },
+  {
+    "id": 97567199904722,
+    "name": "Shred",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Werewolf",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Projectile",
+      "Trigger",
+      "Cold",
+      "Payoff"
+    ],
+    "description": "Shapeshift into a Werewolf and lash out with a flurry of claw swipes. The first Attack can dash to faraway enemies and the final Attack Strikes twice. Attacking a Frozen enemy will create Ice Fragments, which are Projectiles that land and explode after a short delay."
+  },
+  {
+    "id": 87625202620695,
+    "name": "Siege Ballista",
+    "tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Projectile",
+      "Sustained",
+      "Fire",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Deploy a Ballista Totem that fires bolts skyward, to explode a short time after landing."
+  },
+  {
+    "id": 52597692229497,
+    "name": "Siege Cascade",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Sustained"
+    ],
+    "description": "Load your Crossbow with enemy-seeking payloads which are fired into the air, dropping a bolt near every enemy in the target area. These bolts lodge in the ground and explode after a short delay."
+  },
+  {
+    "id": 273150444062283,
+    "name": "Sigil of Power",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Staged"
+    ],
+    "description": "Place a Sigil on the ground, providing a powerful Spell Damage Buff to you and Allies while standing in it. The Buff becomes more powerful the more mana you spend while standing in the Sigil."
+  },
+  {
+    "id": 198263686722993,
+    "name": "Siphon Elements",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Remnant"
+    ],
+    "description": "While active, has a chance to create an Infusion Remnant when you Freeze, Shock or Ignite a target."
+  },
+  {
+    "id": 11819450543266,
+    "name": "Siphoning Strike",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Lightning",
+      "Payoff"
+    ],
+    "description": "Dash to a target and Strike them with your Quarterstaff. If the target is Shocked, Consume their Shock to release a Lightning shockwave around the target and grant you a Power Charge. This skill cannot be Ancestrally Boosted."
+  },
+  {
+    "id": 19361723650275,
+    "name": "Skeletal Arsonist",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Fire",
+      "Detonator"
+    ],
+    "description": "Activate to summon bomb-throwing, Reviving Skeletal Arsonists that can detonate other Minions on Command."
+  },
+  {
+    "id": 157228663670695,
+    "name": "Skeletal Brute",
+    "tags": [
+      "Minion",
+      "Warcry",
+      "Persistent",
+      "Physical",
+      "Payoff"
+    ],
+    "description": "Activate to summon hard-hitting, Reviving Skeletal Brutes that can Stun Primed enemies and Warcry on Command. This Warcry Intimidates nearby enemies and Consumes Freeze on enemies and allies to deal damage in an Area around them."
+  },
+  {
+    "id": 184687957284777,
+    "name": "Skeletal Cleric",
+    "tags": [
+      "Minion",
+      "Persistent"
+    ],
+    "description": "Activate to summon Reviving Skeletal Clerics that heal other minions and revive fallen Skeletons."
+  },
+  {
+    "id": 40429740891300,
+    "name": "Skeletal Frost Mage",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Cold"
+    ],
+    "description": "Activate to summon Reviving Skeletal Frost Mages that can envelop your Minions in an icy shield on Command."
+  },
+  {
+    "id": 152902265676431,
+    "name": "Skeletal Reaver",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Physical"
+    ],
+    "description": "Activate to summon aggressive, Reviving Skeletal Reavers that can enrage on Command. Skeletal Reavers do more Attack Damage and gain increased Attack speed based on their Rage"
+  },
+  {
+    "id": 142893362810954,
+    "name": "Skeletal Sniper",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Physical",
+      "Fire",
+      "Chaos"
+    ],
+    "description": "Activate to summon long-ranged, Reviving Skeletal Snipers that can fire a gas arrow on Command."
+  },
+  {
+    "id": 163603354056509,
+    "name": "Skeletal Storm Mage",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Lightning"
+    ],
+    "description": "Activate to summon Reviving Skeletal Storm Mages that can call down a lightning strike on dead Skeletons on Command."
+  },
+  {
+    "id": 151528746538475,
+    "name": "Skeletal Warrior",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "Physical"
+    ],
+    "description": "Activate to summon Reviving Skeletal Warriors."
+  },
+  {
+    "id": 10952245379788,
+    "name": "Skyfall",
+    "tags": [
+      "Spell",
+      "Minion",
+      "AoE",
+      "Physical",
+      "Cold",
+      "Conditional",
+      "Repeatable"
+    ],
+    "description": "Build Glory by spending Runic Ward. When you have maximum Glory, you may call down a mass of Verisium from the sky, dealing high damage at the targeted location and summoning a Temporary Minion. Targeting close to you will cause you to jump back as you cast. Consumes a Verisium Infusion, if possible, to increase the number of Minions summoned ."
+  },
+  {
+    "id": 10625371274289,
+    "name": "Snap",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Payoff",
+      "Remnant",
+      "Repeatable"
+    ],
+    "description": "Consume the elemental energy from a Frozen, Shocked or Ignited enemy, creating an elemental blast that leaves behind an Infusion Remnant. The blast will spread to other enemies affected by the same Ailment, but those blasts cannot spread further. Can also be cast on a Frostbolt to create a larger cold blast."
+  },
+  {
+    "id": 133749407292736,
+    "name": "Snipe",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Cold",
+      "Channelling",
+      "Payoff",
+      "Repeatable"
+    ],
+    "description": "Channel to charge up your bow before releasing a powerful shot. Releasing with Perfect Timing causes the arrow to explode on impact and Consume Freeze on directly Hitting. Consuming Freeze enhances the explosion."
+  },
+  {
+    "id": 254138808613045,
+    "name": "Sniper's Mark",
+    "tags": [
+      "Mark",
+      "Duration"
+    ],
+    "description": "Mark a target. The next Critical Hit the target receives Activates the Mark, Consuming it to deal extra damage and grant you a Frenzy Charge."
+  },
+  {
+    "id": 16817813614134,
+    "name": "Soaring Midnight",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Projectile",
+      "Physical",
+      "Cold",
+      "Travel"
+    ],
+    "description": "Hurl your Shield as a Projectile which Returns to you at the end of its flight. While the Shield is in flight, this skill is replaced with Embrace the Fall. This skill's cooldown is skipped if you catch the Shield as it Returns, or destroy an Ice Crystal with the Embrace the Fall."
+  },
+  {
+    "id": 38761815242214,
+    "name": "Solar Orb",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Sustained",
+      "Fire",
+      "Duration",
+      "Orb",
+      "Repeatable"
+    ],
+    "description": "Create a fiery Orb that periodically releases fiery pulses. Enemies that are very close to the Orb are Ignited. Flameblast can target a Solar Orb to be centred on the Orb instead of your location."
+  },
+  {
+    "id": 105921140955015,
+    "name": "Sorcery Ward",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Persistent",
+      "Lightning",
+      "Cold",
+      "Fire"
+    ],
+    "description": "Passively manifests a protective barrier which takes Elemental Damage from Hits for you until depleted. The barrier instantly recharges to its full value a short time after it stops taking damage or is fully depleted."
+  },
+  {
+    "id": 119930901637920,
+    "name": "Soul Offering",
+    "tags": [
+      "Minion",
+      "Buff",
+      "Duration"
+    ],
+    "description": "Skewer a Skeleton on a bone spike, granting you a powerful Spell damage Buff as long as the spike remains. Does not affect your Minions. The bone spike is itself a Minion. If it dies, the effect ends immediately."
+  },
+  {
+    "id": 92719168941161,
+    "name": "Soulrend",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Chaos",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Fire a Piercing Projectile that seeks out enemies. Enemies hit are inflicted with a Debuff that Hinders them and deals Chaos damage over time for a short duration."
+  },
+  {
+    "id": 272609056008271,
+    "name": "Spark",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Trigger",
+      "Lightning",
+      "Cold",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Launch a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire. Consumes a Cold Infusion if possible to fire many sparks in a circle."
+  },
+  {
+    "id": 166083946641529,
+    "name": "Spear Throw",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Repeatable"
+    ],
+    "description": "Hurl your Spear with force. Consumes a Frenzy Charge if you have one to cause the Spear to explode at the end of its flight."
+  },
+  {
+    "id": 271086537607195,
+    "name": "Spear of Solaris",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Sustained",
+      "Fire",
+      "Conditional"
+    ],
+    "description": "Build Glory by inflicting Freeze, Shock or Ignite on enemies. When you have maximum Glory you may call forth the Azmeri goddess Solaris, jumping backwards and throwing your Spear in the air. On landing the spear deals heavy damage in an area, then calls a divine skybeam that pulses periodically and creates expanding Ignited Ground. Modifiers to number of Projectiles fired do not apply to this skill."
+  },
+  {
+    "id": 171172651053230,
+    "name": "Spearfield",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Sustained",
+      "Duration",
+      "Hazard"
+    ],
+    "description": "Stab the ground causing multiple spears to burst out of the ground in front of you in a large area. The spears remain for a duration, or explode when enemies touch them, damaging and Maiming them."
+  },
+  {
+    "id": 150509865487468,
+    "name": "Spell Totem",
+    "tags": [
+      "Totem",
+      "Spell",
+      "Duration",
+      "Conditional",
+      "Meta"
+    ],
+    "description": "Consume any combination of 3 Power and/or Endurance Charges to raise a Totem that uses socketed Spells. Cannot use Skills with Cooldowns."
+  },
+  {
+    "id": 51243126144075,
+    "name": "Spellslinger",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Invocation",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you cast Spells. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy."
+  },
+  {
+    "id": 8898044648440,
+    "name": "Spiral Volley",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Sustained"
+    ],
+    "description": "Load your Bow with a volley of enchanted arrows and fire them in a circle as you spin forward, firing directly at targets if possible. Consumes Frenzy Charges to cause the arrows to deal more damage and Chain to other targets. Each target can only be Hit once."
+  },
+  {
+    "id": 242736057285378,
+    "name": "Spiraling Conspiracy",
+    "tags": [
+      "Minion",
+      "Persistent",
+      "AoE",
+      "Physical",
+      "Chaos",
+      "Duration"
+    ],
+    "description": "A flock of mist ravens circle you, dealing damage over time in an area. Their numbers are bolstered by slain foes, or in the Presence of dangerous enemies, but the flock as a whole is considered a single minion. You can Command some of them to take flight, leaving the flock to assail your enemies."
+  },
+  {
+    "id": 198262239395469,
+    "name": "Spirit Vessel",
+    "tags": [
+      "Minion",
+      "Companion",
+      "Persistent",
+      "Meta"
+    ],
+    "description": "Summons a Shapeshifting Spirit Vessel Companion that uses copies of socketed Bear, Werewolf, and Wyvern Skills."
+  },
+  {
+    "id": 25542505078775,
+    "name": "Staggering Palm",
+    "tags": [
+      "Attack",
+      "Buff",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Projectile",
+      "Physical",
+      "Duration",
+      "Wind"
+    ],
+    "description": "Dash to an enemy and Strike them, instantly Heavily Stunning enemies which are Primed for Stun and performing additional dashing Strikes to other Primed targets in range if your first target was Stunned. Heavy Stunning an enemy with this Skill grants you a Buff that causes your Quarterstaff Attacks to also fire Projectiles for a short duration. Heavy Stunning additional enemies adds to the Buff's duration."
+  },
+  {
+    "id": 70167330442971,
+    "name": "Stampede",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Duration",
+      "Travel"
+    ],
+    "description": "Charges forward, cracking the earth and leaving a patch of Jagged Ground with every footstep. At the end of your charge, a massive leaping Slam damages enemies and causes all nearby patches of Jagged Ground to explode, damaging enemies standing on them. Once you begin your charge, the use speed of this Skill is affected by movement speed instead of Attack speed."
+  },
+  {
+    "id": 260831551717432,
+    "name": "Starborn Onslaught",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Physical",
+      "Cold",
+      "Duration"
+    ],
+    "description": "Build up Glory by Freezing or Chilling enemies. When you have maximum Glory you may jump backwards loosing your Mace with the force of a falling comet onto your target. The impact releases Fissures and causes stars to fall in the area for a brief period."
+  },
+  {
+    "id": 260030741959850,
+    "name": "Storm Lance",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Sustained",
+      "Lightning",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Throw an electrified Spear that lodges in the ground and periodically zaps nearby enemies with Lightning bolts. If the Spear is Detonated by another Skill, it immediately unleashes a volley of bolts and expires. Consumes a Frenzy Charge if possible to fire bolts more frequently for a shorter duration, automatically Detonate at the end of its duration, and create Shocked Ground on Detonation."
+  },
+  {
+    "id": 247715825764751,
+    "name": "Storm Wave",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Lightning"
+    ],
+    "description": "Sweep your Quarterstaff, projecting a bolt of Lightning through the ground in a long fissure ahead of you."
+  },
+  {
+    "id": 147741312911441,
+    "name": "Stormblast Bolts",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Ammunition",
+      "Projectile",
+      "Lightning",
+      "Duration"
+    ],
+    "description": "Load your Crossbow with charged bolts that land around the target location and explode if hit by a Detonator Skill. Using this Skill again reloads the clip."
+  },
+  {
+    "id": 194961520118123,
+    "name": "Stormcaller Arrow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Fire an arrow that embeds where it lands for a short duration. At the end of the duration, a Lightning Bolt strikes the arrow, disintegrating it and damaging enemies, with a high chance to Shock. Shocking any enemy with the Bolt also applies Shock to all enemies near the impact."
+  },
+  {
+    "id": 164639056933883,
+    "name": "Summon Infernal Hound",
+    "tags": [
+      "Minion",
+      "Companion",
+      "Persistent",
+      "Fire"
+    ],
+    "description": "Activate to summon a Reviving Infernal Hound which Ignites enemies near it."
+  },
+  {
+    "id": 191804939776806,
+    "name": "Sunder",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Duration",
+      "Payoff"
+    ],
+    "description": "Slam the ground, creating a roiling fissure that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies. Hitting an enemy with Fully Broken Armour applies Sundered Armour, making it take additional increased Physical damage."
+  },
+  {
+    "id": 131741340232511,
+    "name": "Supercharged Slam",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Channelling",
+      "Staged"
+    ],
+    "description": "Channel to charge up a heavy swing, drawing earth from the ground to enlarge your mace. Release to Slam the ground, dealing damage in an area around the impact, followed by Aftershocks dealing damage in a larger area. This Skill has its own Attack time, which is not affected by your weapon's attack speed and cannot be modified."
+  },
+  {
+    "id": 214912162069313,
+    "name": "Supporting Fire",
+    "tags": [
+      "Minion",
+      "Persistent"
+    ],
+    "description": "Recruit artillery Minions that take up positions behind you. They will lie in wait for your Command, then fire volleys of arrows at the target location."
+  },
+  {
+    "id": 173407738779479,
+    "name": "Tame Beast",
+    "tags": [
+      "Minion",
+      "Companion",
+      "Persistent",
+      "Duration"
+    ],
+    "description": "Conjure Azmeri wisps to engulf a Rare Beast for a duration, Hindering them. If you defeat the Beast while it is engulfed in wisps, it will be captured by this gem, transforming the gem to instead allow you to summon the Beast as a Reviving Companion."
+  },
+  {
+    "id": 267639773926702,
+    "name": "Temper Weapon",
+    "tags": [
+      "Attack",
+      "Buff",
+      "AoE",
+      "Melee",
+      "Trigger",
+      "Fire",
+      "Channelling"
+    ],
+    "description": "Channel to temper your main hand Melee Martial Weapon. Each hit of the hammer against the anvil Empowers subsequent Attacks to Combust when Hitting enemies."
+  },
+  {
+    "id": 173448786824592,
+    "name": "Tempest Bell",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Sustained",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "Build Combo by successfully Striking Enemies with other skills. After reaching maximum Combo, use this skill to cause the Bell on your staff to grow to massive size as you drop it on the ground. The Bell damages enemies on impact and can be Hit by your skills, creating a damaging shockwave. Elemental Ailments applied to the Bell cause its shockwaves to deal extra damage of the corresponding type, and Hits which would have caused Knockback increase the area of effect of the shockwaves."
+  },
+  {
+    "id": 102039679789962,
+    "name": "Tempest Flurry",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Lightning"
+    ],
+    "description": "Perform a series of aggressive Strikes. When used in quick succession, the third use Strikes three times, and the fourth use performs a Final Strike that calls down a powerful Shocking bolt."
+  },
+  {
+    "id": 33106216082872,
+    "name": "Temporal Chains",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Repeatable"
+    ],
+    "description": "Curse all enemies in an area, Slowing them and making other effects on them expire more slowly."
+  },
+  {
+    "id": 88289727908610,
+    "name": "Temporal Rift",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, passively leaves afterimages of your recent past. Cast the Spell to return to the oldest afterimage, teleporting to that location and resetting your Life, Mana and Energy Shield to the values they had at the time. Removes any upcoming damage delayed by Phased Form on use."
+  },
+  {
+    "id": 68166542570066,
+    "name": "The Stars Answer",
+    "tags": [
+      "Spell",
+      "Buff",
+      "AoE",
+      "Trigger",
+      "Physical",
+      "Cold",
+      "Duration"
+    ],
+    "description": "Leash the stars themselves by leveraging your vast magical power, repeatedly Triggering Starfall targeting an enemy in an area around you, or a random location in that area if no enemies can be targeted."
+  },
+  {
+    "id": 225273919394502,
+    "name": "Thrashing Vines",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Sustained",
+      "Physical",
+      "Duration",
+      "Plant"
+    ],
+    "description": "Spur the growth of huge vines, which emerge randomly within the target area. The vines crash to the ground then retreat, targeting nearby enemies if possible."
+  },
+  {
+    "id": 66418544689123,
+    "name": "Thundergod's Wrath",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Trigger",
+      "Lightning",
+      "Meta"
+    ],
+    "description": "While active, gains Energy when you Hit enemies with Melee Attacks and triggers socketed Lightning spells on reaching maximum Energy."
+  },
+  {
+    "id": 222761178429651,
+    "name": "Thunderous Leap",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Lightning",
+      "Detonator",
+      "Travel"
+    ],
+    "description": "Leap into the air and plunge your Spear into the ground at the target location, emitting a Lightning-charged shockwave."
+  },
+  {
+    "id": 134068498623694,
+    "name": "Thunderstorm",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Sustained",
+      "Lightning",
+      "Duration",
+      "Storm"
+    ],
+    "description": "Conjure a thunderstorm which causes lightning strikes and torrential rain in an area. Enemies in the area are Drenched, causing them to become Shocked or Frozen more easily. Plants in the area become Overgrown."
+  },
+  {
+    "id": 163751951385465,
+    "name": "Time Freeze",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration"
+    ],
+    "description": "Release a large wave that stops time for all affected enemies for a duration. Duration is lower the more times the enemy has had time stopped for them."
+  },
+  {
+    "id": 231224374273701,
+    "name": "Time Snap",
+    "tags": [
+      "Spell"
+    ],
+    "description": "Manipulate time, resetting the cooldowns of your other Skills."
+  },
+  {
+    "id": 251238718709643,
+    "name": "Time of Need",
+    "tags": [
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, periodically invokes divine blessings to heal you and remove Curses and Elemental Ailments from you."
+  },
+  {
+    "id": 63831865253658,
+    "name": "Tornado",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Duration",
+      "Wind",
+      "Storm"
+    ],
+    "description": "Create a storm that sucks in enemies and deals Physical damage over time. A Tornado that overlaps an Elemental Ground Surface absorbs that surface's Debuff, applying it to enemies inside the Tornado and causing the Tornado to deal extra damage of that element."
+  },
+  {
+    "id": 135161230183232,
+    "name": "Tornado Shot",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Physical",
+      "Duration",
+      "Repeatable",
+      "Wind"
+    ],
+    "description": "Fire a skyward shot that whips up a Tornado where it lands, dealing Physical damage over time and Hindering enemies standing in it. Arrows, thrown Spears and Crossbow bolts fired at the Tornado are sucked into it, causing the Tornado to spit out a ring of copied Projectiles. Copied Projectiles cannot be copied again, even by further Tornados."
+  },
+  {
+    "id": 225533346044319,
+    "name": "Toxic Domain",
+    "tags": [
+      "Buff",
+      "Attack",
+      "AoE",
+      "Physical",
+      "Chaos",
+      "Duration",
+      "Plant"
+    ],
+    "description": "Create an area of Toxic Bloom on the ground around you. While in the Bloom, you have increased Skill costs, Regenerate Life, and your Projectile Attacks attach a Toxic Pustule, which can be Poisoned. Pustules will Detonate after a duration or when enough Poison has been applied, dealing more damage based on the stored Poison damage and applying Poison in an area around it."
+  },
+  {
+    "id": 19856545960060,
+    "name": "Toxic Growth",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Chaos",
+      "Repeatable",
+      "Plant"
+    ],
+    "description": "Fire a rain of Toxic Pustules into the air. The Pustules deal damage on impact, then Detonate after a delay. They can also be Poisoned, causing them to Detonate faster and more violently."
+  },
+  {
+    "id": 176706758159787,
+    "name": "Trail of Caltrops",
+    "tags": [
+      "Attack",
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Projectile",
+      "Trigger",
+      "Physical",
+      "Duration",
+      "Hazard"
+    ],
+    "description": "While active, scatters caltrops in your wake when you dodge."
+  },
+  {
+    "id": 185585415867764,
+    "name": "Trinity",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Lightning",
+      "Cold",
+      "Fire"
+    ],
+    "description": "Become attuned to all Elements building up Fire, Cold and Lightning Affinity based off the highest Elemental Damage type dealt by your Hits. Your Elemental Damage is enhanced the more Affinity of any type you have."
+  },
+  {
+    "id": 51468263274898,
+    "name": "Triskelion Cascade",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Duration"
+    ],
+    "description": "Tap into the power of the Triskelion Flame to Empower the next Cascadable Spell you cast. The Empowered Spell becomes centred on your location, and Cascades to six areas around you in a Triskelion pattern."
+  },
+  {
+    "id": 188302377274491,
+    "name": "Twister",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Duration",
+      "Repeatable",
+      "Wind"
+    ],
+    "description": "Whip up a twister with a flick of your Spear. The twister moves forward erratically, Blinding and repeatedly Hitting enemies within. If a twister touches a Whirlwind from your other skills, it Consumes the Whirlwind to create additional twisters that deal more damage. Passing over Elemental Ground Surfaces or Consuming an elemental Whirlwind will grant twisters extra damage of that element."
+  },
+  {
+    "id": 225584265183839,
+    "name": "Unbound Avatar",
+    "tags": [
+      "Buff",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "Gain Unbound Fury by inflicting Elemental Ailments with Hits on enemies. Once you reach maximum Unbound Fury, consume it to become Unbound for a duration, vastly augmenting your Elemental prowess."
+  },
+  {
+    "id": 106062453795618,
+    "name": "Unearth",
+    "tags": [
+      "Spell",
+      "Minion",
+      "AoE",
+      "Physical",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Raise spikes of bone from the earth in front of you, damaging enemies. The bones of Corpses and dead Reviving Minions in the area are ripped out and reassembled into short-lived Bone Construct Minions that fight for you. Larger Corpses create more than one Bone Construct."
+  },
+  {
+    "id": 57637934447509,
+    "name": "Unleash",
+    "tags": [
+      "Spell",
+      "Buff",
+      "Duration"
+    ],
+    "description": "Augment yourself with temporal magic for a short duration, Empowering the next Repeatable Spell you cast to Repeat multiple times. Cannot Empower Skills with a Cooldown."
+  },
+  {
+    "id": 245684677510692,
+    "name": "Untether",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Duration"
+    ],
+    "description": "Plant a seed of Abyssal Energy on the enemy's heart. Dealing enough damage to the enemy, or killing it outright, causes their heart to explode, dealing Physical damage in an area."
+  },
+  {
+    "id": 24132070239086,
+    "name": "Valako's Charge",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Trigger",
+      "Lightning",
+      "Chaining"
+    ],
+    "description": "While active, taking Lightning damage builds up charge on you. Reaching full charge expends all charge to Trigger this skill, creating a Chaining lightning bolt that arcs to nearby enemies."
+  },
+  {
+    "id": 257606486676999,
+    "name": "Vaulting Impact",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Physical",
+      "Duration",
+      "Travel",
+      "Payoff"
+    ],
+    "description": "Leap forward and Slam the ground, sending out a shockwave. The shockwave applies Broken Stance to Dazed enemies, causing any Hits against those enemies to deal extra damage."
+  },
+  {
+    "id": 133086078929850,
+    "name": "Verisium Manifestations",
+    "tags": [
+      "Buff",
+      "Minion",
+      "Persistent",
+      "Duration"
+    ],
+    "description": "While active, Hitting with an Attack will spend Runic Ward to summon a Verisium Manifestation, a short-lived Temporary Minion that rapidly Attacks nearby enemies, ignoring commands. Enemies will not directly engage these Minions, and can pass through them."
+  },
+  {
+    "id": 33492234906892,
+    "name": "Vine Arrow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Chaos",
+      "Duration",
+      "Repeatable",
+      "Plant"
+    ],
+    "description": "Fire an arrow into the air that lands after a short delay, damaging enemies and causing a plant to spring up at the impact location. The plant sprouts vines that latch onto nearby enemies, Slowing their movement speed and dealing Chaos damage over time. The plant can be Poisoned, causing it to deal more damage."
+  },
+  {
+    "id": 168885128041093,
+    "name": "Virtuous Barrier",
+    "tags": [
+      "Buff",
+      "Persistent"
+    ],
+    "description": "While active, conjures a glittering barrier that accumulates protective gemstone Motes of each Attribute type over time, but loses a random Mote when you are Hit."
+  },
+  {
+    "id": 12865941776589,
+    "name": "Vivid Stampede",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Trigger",
+      "Lightning",
+      "Duration"
+    ],
+    "description": "Call upon Spirits of the Stag, sending them leaping forward. Each Stag releases a damaging shockwave each time it lands, and any Stags that travel the maximum possible distance also leave behind Shocked Ground."
+  },
+  {
+    "id": 118224852731125,
+    "name": "Void Illusion",
+    "tags": [
+      "Attack",
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Trigger",
+      "Duration"
+    ],
+    "description": "While active, creates a short-lived illusory copy of yourself whenever you dodge roll. The copy can be damaged by enemies, and copies that are destroyed by an enemy will cause damaging explosions. Copies created this way have 1 Life."
+  },
+  {
+    "id": 30171028929802,
+    "name": "Volatile Dead",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Repeatable"
+    ],
+    "description": "Consume a Corpse to create a volatile core that seeks out enemies and Ignites enemies near it. The core explodes at the end of its duration."
+  },
+  {
+    "id": 130128443628884,
+    "name": "Volcanic Fissure",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Slam",
+      "Sustained",
+      "Fire",
+      "Duration"
+    ],
+    "description": "Slam the ground, creating a branching Molten Fissure that deals damage as it travels and remains for a duration. Using a different Slam on a Molten Fissure creates a spreading Aftershock."
+  },
+  {
+    "id": 39165637210427,
+    "name": "Volcano",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Projectile",
+      "Sustained",
+      "Fire",
+      "Duration",
+      "Channelling"
+    ],
+    "description": "Uplift a volcano from the earth, damaging enemies standing on it and releasing a spray of molten Projectiles. While the volcano persists, Slamming it will cause another Projectile spray. Channelling this Skill for longer makes the initial eruption more violent, but does not affect subsequent Projectile sprays."
+  },
+  {
+    "id": 186784392971313,
+    "name": "Voltaic Barrier",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Trigger",
+      "Lightning",
+      "Chaining"
+    ],
+    "description": "Raise a pair of electrified pylons in front of you which project a wall of electricity between them, damaging and Electrocuting enemies caught between them. Projectiles you fire through the wall become energised, and discharge that energy on Hit as Chaining Lightning beams."
+  },
+  {
+    "id": 252744043318655,
+    "name": "Voltaic Grenade",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Grenade",
+      "Lightning",
+      "Duration"
+    ],
+    "description": "Fire a bouncing Grenade that discharges an Electrocuting Lightning blast when its fuse expires, causing all Lightning Hits against enemies to contribute to Electrocution buildup for a duration."
+  },
+  {
+    "id": 138245486964291,
+    "name": "Voltaic Mark",
+    "tags": [
+      "Mark",
+      "Buff",
+      "Lightning",
+      "Duration"
+    ],
+    "description": "Mark a target, making them more susceptible to being Electrocuted. When the Marked target is Electrocuted, the Mark Activates, granting a Buff which gives extra Lightning damage and Consuming the Mark. Marking another target while you have the Buff will remove the Buff."
+  },
+  {
+    "id": 110386127086520,
+    "name": "Vulnerability",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Duration",
+      "Curse",
+      "Repeatable"
+    ],
+    "description": "Curse all targets in an area after a short delay. making Hits against them ignore a portion of their Armour."
+  },
+  {
+    "id": 64472870784694,
+    "name": "Walking Calamity",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Buff",
+      "Bear",
+      "AoE",
+      "Trigger",
+      "Fire",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "Build Glory by gaining Rage while already at maximum Rage. When you have maximum Glory, roar to the heavens to bring them down upon your enemies. For the duration of the Skill, meteors rain down around you and you Gain Fire damage and Rage regeneration. This Skill's effects are suppressed if you leave Bear form, but will resume if you return to Bear form before the duration expires."
+  },
+  {
+    "id": 68061752709727,
+    "name": "War Banner",
+    "tags": [
+      "Banner",
+      "Buff",
+      "Persistent",
+      "AoE",
+      "Aura",
+      "Duration",
+      "Conditional"
+    ],
+    "description": "While active, Attacking enemies builds Glory. When you have maximum Glory, you can place an inspiring Banner for a duration with an Aura that grants you and nearby Allies Attack damage, Attack speed and Accuracy."
+  },
+  {
+    "id": 61560952690856,
+    "name": "Wardbound Minions",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "Spend all your Runic Ward to summon Temporary Wardbound Casters. These Minions target nearby enemies with damaging Cold Spells."
+  },
+  {
+    "id": 37831064301456,
+    "name": "Wave of Frost",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Cold"
+    ],
+    "description": "Flip backwards and send forth a Freezing wave in front of you, immediately Freezing enemies which are Primed for Freeze."
+  },
+  {
+    "id": 226728743455948,
+    "name": "Whirling Assault",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike"
+    ],
+    "description": "Advance while hitting enemies around you with a series of spinning Strikes."
+  },
+  {
+    "id": 31394395509587,
+    "name": "Whirling Slash",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Staged",
+      "Wind"
+    ],
+    "description": "Perform a circular slash that kicks up a Whirlwind around you, Slowing enemies and Blinding them in its area of effect. Leaving the area collapses the storm, dealing damage and causing Knockback."
+  },
+  {
+    "id": 248802025073078,
+    "name": "Whirlwind Lance",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Duration",
+      "Repeatable",
+      "Wind"
+    ],
+    "description": "Throw a Spear with enough force to kick up a Whirlwind where it lands, Slowing enemies and Blinding them in its area of effect. Entering the Whirlwind collapses it, dealing damage and causing Knockback. Consumes a Frenzy Charge if possible to create the Whirlwind with one more than its normal maximum number of stages."
+  },
+  {
+    "id": 39963455396888,
+    "name": "Wild Protector",
+    "tags": [
+      "Minion",
+      "Companion",
+      "Persistent",
+      "Physical"
+    ],
+    "description": "Call upon a Bear Spirit Companion to maul your foes. The Bear Spirit leaps at enemies to Maim them, Leeches Life with its slam, and periodically roars to Intimidate enemies. The Bear Spirit does not count toward your Companion limit."
+  },
+  {
+    "id": 58381596840801,
+    "name": "Wildwood's Gifts",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Remnant"
+    ],
+    "description": "You are chosen by Azmerian spirits who provide guidance, allowing you to see nearby Ancient Blooms."
+  },
+  {
+    "id": 115263503847826,
+    "name": "Wind Blast",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Wind"
+    ],
+    "description": "Batter enemies at range by generating a gust of wind as you swing. Enemies will be Dazed and Knocked Back based on how close they are to you."
+  },
+  {
+    "id": 24567797793909,
+    "name": "Wind Dancer",
+    "tags": [
+      "Buff",
+      "Attack",
+      "Persistent",
+      "AoE",
+      "Melee",
+      "Trigger",
+      "Staged"
+    ],
+    "description": "While active, periodically grants stages of a buff that gives you more Evasion per stage. Being Hit by an Enemy while you have this buff consumes all stages to damage and Knock Back enemies around you."
+  },
+  {
+    "id": 102383958716351,
+    "name": "Wind Serpent's Fury",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Sustained",
+      "Conditional",
+      "Wind"
+    ],
+    "description": "Consume all Frenzy Charges to perform a gigantic spear thrust that Knocks Back enemies. For each Frenzy Charge consumed, a Wind Serpent follows in the spear's wake. Each Serpent also damages and Knocks Back enemies."
+  },
+  {
+    "id": 277975272009586,
+    "name": "Wing Blast",
+    "tags": [
+      "Attack",
+      "Shapeshift",
+      "Wyvern",
+      "AoE",
+      "Melee",
+      "Wind"
+    ],
+    "description": "Shapeshift into a Wyvern and launch yourself backwards with a powerful wingbeat that Knocks Back enemies. Enemies Primed for Heavy Stun will be stunned, release a shockwave, and have a chance to grant you a Power Charge. This skill can be used while using other skills to interrupt them."
+  },
+  {
+    "id": 153470852367556,
+    "name": "Wither",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Duration",
+      "Channelling"
+    ],
+    "description": "Channel a debilitating hex that Withers enemies in the area."
+  },
+  {
+    "id": 87792895718527,
+    "name": "Withering Presence",
+    "tags": [
+      "Buff",
+      "Persistent",
+      "Aura",
+      "Chaos",
+      "Duration"
+    ],
+    "description": "While active, emits an Aura that periodically Withers enemies in your Presence."
+  },
+  {
+    "id": 145516138104903,
+    "name": "Wolf Pack",
+    "tags": [
+      "Minion",
+      "Companion",
+      "Persistent",
+      "Physical"
+    ],
+    "description": "Activate to summon a pack of Wolf Companions. The pack treated as a single Companion for effects that count or limit Companions, regardless of the number of Wolves in the pack."
+  },
+  {
+    "id": 237115550708959,
+    "name": "[DNT] Crushing Earth",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Duration",
+      "Repeatable"
+    ],
+    "description": "[DNT] Convene the surrounding earth into an immense boulder to crash down, dealing high damage at the targeted location after a short delay."
   }
 ]
