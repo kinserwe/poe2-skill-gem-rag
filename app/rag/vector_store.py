@@ -16,6 +16,11 @@ async def ensure_collection() -> None:
     if not await client.collection_exists(settings.QDRANT_COLLECTION):
         vector_size = embedding_model.get_embedding_dimension()
 
+        logger.info(
+            "Creating Qdrant collection %s (vector size %d)",
+            settings.QDRANT_COLLECTION,
+            vector_size,
+        )
         await client.create_collection(
             collection_name=settings.QDRANT_COLLECTION,
             vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE),
