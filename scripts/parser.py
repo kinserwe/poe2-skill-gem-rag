@@ -2,6 +2,7 @@ import hashlib
 import json
 import re
 import logging
+from collections import defaultdict
 from pathlib import Path
 
 import httpx
@@ -56,6 +57,26 @@ def _extract_tags(gem: Tag) -> list[str]:
     return [tag.get_text(strip=True) for tag in gem.select("div.default a.GemTags")]
 
 
+def _extract_weapons(soup: BeautifulSoup) -> dict[str, list[str]]:
+    table = soup.select_one("#SkillGemsGemcutting table")
+    if table is None:
+        return {}
+
+    weapons: dict[str, set[str]] = defaultdict(set)
+    for row in table.select("tbody tr"):
+        cells = row.select("td")
+        if len(cells) < 3:
+            continue
+
+        weapon = cells[0].get_text(strip=True)
+        for link in cells[2].select("a"):
+            name = link.get_text(strip=True)
+            if name:
+                weapons[name].add(weapon)
+
+    return {name: sorted(found) for name, found in weapons.items()}
+
+
 def _gem_slug(gem: Tag) -> str:
     link = gem.select_one("div.flex-grow-1 a[href^='/us/']")
     return link["href"].removeprefix("/us/") if link else ""
@@ -90,6 +111,7 @@ def _is_indexable_gem(name: str, description: str) -> bool:
 
 def _parse_gems_html(html_data: str) -> list[GemPayload]:
     soup = BeautifulSoup(html_data, "html.parser")
+    weapons_by_name = _extract_weapons(soup)
     gem_summary = soup.select_one("#SkillGemsSummary")
     gem_container = gem_summary.select("div.d-flex.border-top.rounded")
     best: dict[str, tuple[tuple, GemPayload]] = {}
@@ -98,6 +120,7 @@ def _parse_gems_html(html_data: str) -> list[GemPayload]:
         slug = _gem_slug(gem_data)
         name = _extract_name(gem_data)
         tags = _extract_tags(gem_data)
+        weapons = weapons_by_name.get(name, [])
         description = _extract_description(gem_data)
         if not _is_indexable_gem(name, description):
             continue
@@ -112,6 +135,7 @@ def _parse_gems_html(html_data: str) -> list[GemPayload]:
                     id=_gem_id(slug),
                     name=name,
                     tags=tags,
+                    weapons=weapons,
                     description=description,
                 ),
             )
@@ -127,8 +151,12 @@ def _write_gems_json(gems: list[GemPayload], path: Path = _GEMS_JSON_PATH) -> No
         json.dump(list(map(lambda g: g.model_dump(mode="json"), gems)), f, indent=2)
 
 
-if __name__ == "__main__":
+def main() -> None:
     configure_logging()
     html = _fetch_gems_html()
     gems = _parse_gems_html(html)
     _write_gems_json(gems)
+
+
+if __name__ == "__main__":
+    main()
