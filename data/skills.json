@@ -9,6 +9,7 @@
       "Physical",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Sacrifice some of a damageable Minion's life to deal Physical damage in an area around it."
   },
   {
@@ -20,6 +21,7 @@
       "Projectile",
       "Physical"
     ],
+    "weapons": [],
     "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Physical Attack damage in an area. The thrown flask Consumes Poison on Hit to cause an acidic burst. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
   },
   {
@@ -30,6 +32,7 @@
       "Persistent",
       "Aura"
     ],
+    "weapons": [],
     "description": "While active, grants you Flask charges passively and causes Life and Mana recovery from your Flasks to also apply to Allies in your Presence."
   },
   {
@@ -39,6 +42,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, visages of yourself from alternate timelines will occasionally appear and cast one of your Spells from your first valid Weapon Set. Until the next visage appears, your next cast of the same Spell aligns your fate, Empowering that Spell. Visages can only cast damaging, non-Channelling, non-Buff Spells you could cast that have no cooldown."
   },
   {
@@ -58,6 +62,9 @@
       "Nova",
       "Conditional"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Perform a Warcry using Glory gained by Igniting enemies to turn you into an embodiment of Kaom. While embodying Kaom, you Trigger Volcanic Steps while travelling, Melee Strikes and Slams are Ancestrally Boosted, and your Melee Strikes Trigger Volcanic Eruption."
   },
   {
@@ -68,6 +75,7 @@
       "Trigger",
       "Duration"
     ],
+    "weapons": [],
     "description": "This skill is Triggered each time you summon a Totem, summoning an Ancestral Spirit Minion to fight for you. If the Totem dies then the Ancestral Spirit triggered by it's summoning will die too."
   },
   {
@@ -82,6 +90,9 @@
       "Conditional",
       "Meta"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Consume 3 Endurance Charges to Raise a Totem that conjures spirit warriors. Each warrior uses a socketed Mace Skill once, then disappears. Cannot use Channelling Skills or Skills with Cooldowns."
   },
   {
@@ -90,6 +101,7 @@
     "tags": [
       "Spell"
     ],
+    "weapons": [],
     "description": "Sacrifice a portion of your Life to recover Runic Ward. Runic Ward recovered by this Skill can Overflow."
   },
   {
@@ -98,6 +110,7 @@
     "tags": [
       "Meta"
     ],
+    "weapons": [],
     "description": "Expend a large amount of Runic Ward to instantly create a short-lived copy of yourself that uses a Socketed Skill once, then vanishes. This Skill's cost is equal to the total cost of Socketed Skills. The copy cannot perform Channelled, Remote, Cooldown or Conditional Skills, or summon Minions."
   },
   {
@@ -115,6 +128,7 @@
       "Conditional",
       "Storm"
     ],
+    "weapons": [],
     "description": "Build Glory by Hitting enemies with Elemental damage. When you have maximum Glory, you may become the walking Apocalypse for a duration, Triggering one of multiple powerful Elemental Skills at an interval while this Buff lasts."
   },
   {
@@ -127,6 +141,9 @@
       "Chaining",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "An arc of Lightning stretches from the caster to a targeted enemy and Chains on to other nearby enemies. Consumes a Lightning Infusion if possible to deal more damage and Chain further."
   },
   {
@@ -137,6 +154,7 @@
       "Persistent",
       "Lightning"
     ],
+    "weapons": [],
     "description": "While active, causes your Non-Channelling Spells to cost additional mana and deal extra Lightning damage, both based on your maximum Mana."
   },
   {
@@ -153,6 +171,7 @@
       "Conditional",
       "Storm"
     ],
+    "weapons": [],
     "description": "Build Glory by dealing Chaos damage to enemies. When you have maximum Glory, you can entreat the Dreamer to inhabit you, briefly becoming his Archon."
   },
   {
@@ -166,6 +185,7 @@
       "Cold",
       "Staged"
     ],
+    "weapons": [],
     "description": "While active, conjures an icy barrier that gains stages over time. While the barrier has stages, Melee Attacks that hit you will remove a stage to cause a burst of ice that deals Cold Spell damage to the attacker."
   },
   {
@@ -181,6 +201,9 @@
       "Duration",
       "Nova"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Werewolf and let out an icy howl that damages enemies and Freezes Primed enemies. If an enemy is Frozen or a Frozen enemy is Hit, this Skill Empowers your attacks with added Cold damage, causes Empowered Slams to create Chilled Ground, and grants your Allies added Cold damage. This Skill's cooldown can be bypassed by expending an Endurance Charge."
   },
   {
@@ -193,6 +216,9 @@
       "Strike",
       "Physical"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Strike with a forceful blow, knocking enemies back and weakening their Armour."
   },
   {
@@ -203,6 +229,9 @@
       "Ammunition",
       "Projectile",
       "Physical"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Load your Crossbow with a clip of bolts that can be fired rapidly and Break enemy Armour. Using this Skill again reloads the clip."
   },
@@ -217,6 +246,9 @@
       "Sustained",
       "Duration"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Deploy a Ballista Totem that rains down a salvo of Pinning, Maiming bolts."
   },
   {
@@ -226,6 +258,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, causes you to deal more Hit damage to Rare and Unique enemies the longer you've been fighting them, and gain Culling Strike against them once you've been fighting them for long enough."
   },
   {
@@ -241,6 +274,7 @@
       "Fire",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, summons short-lived Azmerian Swarms when you kill enemies affected by Elemental Ailments or hit Rare or Unique enemies affected by Elemental Ailments. The swarms are untargetable Minions that pursue nearby enemies to Attack them and infict Faerie Fire on Hit."
   },
   {
@@ -252,6 +286,7 @@
       "Persistent",
       "Physical"
     ],
+    "weapons": [],
     "description": "Summons an ancient Reviving Azmerian Wolf that can howl, calling to spirits convening an Eternal Hunt on Command. It Maims when attacking foes, and can lunge to bite and inflict Bleeding, or howl to inspire nearby allies."
   },
   {
@@ -267,6 +302,9 @@
       "Chaining",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Fire a slow-moving Projectile that moves through enemies. The Projectile itself does not Hit enemies, but repeatedly discharges bolts of Lightning at nearby enemies. Consumes a Fire Infusion if possible to slow down over time, create Ignited Ground as it travels, and explode dealing Fire damage in an Area after it dissipates."
   },
   {
@@ -277,6 +315,7 @@
       "Persistent",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, taking Hit damage from enemies to your Energy Shield causes you to gain Armour for a short duration. Armour gained from multiple Hits can stack. The total Armour gained from this Skill cannot exceed the Item Armour on your Equipped Armour Items."
   },
   {
@@ -286,6 +325,10 @@
       "Spell",
       "Buff",
       "Duration"
+    ],
+    "weapons": [
+      "Bow",
+      "Spear"
     ],
     "description": "Ready a volley of arrows or spears, Empowering your next Repeatable Bow or Projectile Spear Attack to Repeat multiple times. Consumes your Frenzy Charges on use to add additional repeats."
   },
@@ -299,6 +342,7 @@
       "Invocation",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when your Energy Shield is damaged by Enemy Hits. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy."
   },
   {
@@ -308,6 +352,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, strengthens your Rage, but causes you to lose Life while not losing Rage."
   },
   {
@@ -316,6 +361,9 @@
     "tags": [
       "Minion",
       "Persistent"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Capture the spirit of a defeated monster, transforming this gem to instead allow you to summon the monster's ghost as a Reviving Minion."
   },
@@ -328,6 +376,7 @@
       "Cold",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Spend Ward and target an area, transforming Corpses into bitter cores that seek out enemies and Chill enemies near them. The cores explode at the end of their duration, creating runes which deal additional Cold damage over time."
   },
   {
@@ -342,6 +391,7 @@
       "Detonator",
       "Travel"
     ],
+    "weapons": [],
     "description": "Replaces your dodge roll with an explosive-assisted leap, firing off a round from your prosthetic cannon leg that Blinds and Ignites enemies in the area you escape from. The explosion will cause any Grenades in its area of effect to also explode."
   },
   {
@@ -354,6 +404,7 @@
       "Aura",
       "Meta"
     ],
+    "weapons": [],
     "description": "Turn socketed Curse skills into vile Auras, applying their effects to all nearby enemies."
   },
   {
@@ -365,6 +416,7 @@
       "Projectile",
       "Physical"
     ],
+    "weapons": [],
     "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Physical Attack damage in an area and Aggravating Bleeding on Enemies hit. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
   },
   {
@@ -376,6 +428,7 @@
       "Persistent",
       "Travel"
     ],
+    "weapons": [],
     "description": "While active, replaces your dodge roll with a short-cooldown Spell that allows you to tunnel through space, instantly reappearing a medium distance away."
   },
   {
@@ -388,6 +441,7 @@
       "Physical",
       "Duration"
     ],
+    "weapons": [],
     "description": "Enemies in your Presence accumulate blood boils periodically. When they die, the boils pop applying Corrupted Blood to enemies near them."
   },
   {
@@ -400,6 +454,9 @@
       "Strike",
       "Physical",
       "Payoff"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Lunge at a target and skewers them. Hitting an enemy that has suffered Blood Loss will cause a blood explosion and also Consume Bleeding. This skill cannot be Ancestrally Boosted."
   },
@@ -415,6 +472,9 @@
       "Duration",
       "Payoff"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Mark a target, making them suffer Heavy Stun build up from Blood Loss. The Mark will Activate, Consuming itself to Trigger Blood Explosion, when they are Heavy Stunned, or when they are killed if they suffered enough Blood Loss. The Mark's duration does not expire while the Marked target is suffering Blood Loss."
   },
   {
@@ -427,6 +487,7 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Conjure a circle of ritual inscriptions that last for a short duration. When the duration ends, spikes of bone erupt from enemies in the area, damaging them and potentially causing Bleeding."
   },
   {
@@ -440,6 +501,9 @@
       "Nova",
       "Repeatable"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Raise a ring of bone spikes around you. The spikes are destroyed when enemies touch them, damaging and Pinning those enemies. Raising a new ring of spikes destroys the previous one."
   },
   {
@@ -452,6 +516,9 @@
       "Physical",
       "Duration"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Impale a Skeleton on a bone spike to shield your Minions while the spike remains, reducing the amount of damage taken from Hits. Taking a Hit that deals damage above a certain threshold will cause that Minion's shield to absorb all damage from that Hit, then explode. The bone spike is itself a Minion, and shields itself. If it dies, shields on your other Minions disappear."
   },
   {
@@ -462,6 +529,9 @@
       "AoE",
       "Melee",
       "Strike"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Attack enemies with a melee Strike. The Strike will cause a Heavy Stun on enemies that are Primed for Stun. Upon causing a Heavy Stun it will also create a Shockwave, dealing a large amount of damage in an area."
   },
@@ -474,6 +544,9 @@
       "Projectile",
       "Physical",
       "Channelling"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Channel to conjure a swarm of bone spikes in the air, then release to fire them at enemies and explode. Shrapnel Impales enemies Hit, causing subsequent Attack Hits against those targets to deal extra damage. Consumes your Power Charges to cause much larger explosions."
   },
@@ -490,6 +563,7 @@
       "Duration",
       "Plant"
     ],
+    "weapons": [],
     "description": "While active, a portion of the Physical Attack damage you deal is stored. Casting a Spell uses the stored damage to create a patch of Thorny Ground that deals Spell damage to moving enemies."
   },
   {
@@ -502,6 +576,7 @@
       "Physical",
       "Chaos"
     ],
+    "weapons": [],
     "description": "This skill creates a toad that jumps around briefly, then explodes the toad, dealing Attack damage in an area and inflicting Poison. Damage you deal with skill is not based on your Weapon"
   },
   {
@@ -513,6 +588,7 @@
       "Persistent",
       "Physical"
     ],
+    "weapons": [],
     "description": "Activate to summon a cackle of Hyena Companions. The cackle is treated as a single Companion for effects that count or limit Companions, regardless of the number of Hyenas in the cackle. Hyenas whoop when they first appear, Hindering nearby enemies, and have a chance to Maim enemies they Hit."
   },
   {
@@ -524,6 +600,7 @@
       "AoE",
       "Meta"
     ],
+    "weapons": [],
     "description": "Applies a socketed Mark Skill to a nearby unmarked Enemy every few seconds. Consuming socketed Marks will cause them to be reapplied to an unmarked Enemy. This reapplication can happen at most once every few seconds."
   },
   {
@@ -535,6 +612,7 @@
       "Trigger",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you Block and triggers socketed Spells on reaching maximum Energy."
   },
   {
@@ -546,6 +624,7 @@
       "Trigger",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when one of your Charms is used and triggers socketed Spells on reaching maximum Energy."
   },
   {
@@ -557,6 +636,7 @@
       "Trigger",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you Critically Hit enemies and triggers socketed Spells on reaching maximum Energy."
   },
   {
@@ -568,6 +648,7 @@
       "Trigger",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you dodge roll and triggers socketed spells on reaching maximum Energy."
   },
   {
@@ -582,6 +663,7 @@
       "Fire",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you Freeze, Shock, or Ignite enemies, and triggers socketed spells on reaching maximum Energy."
   },
   {
@@ -594,6 +676,7 @@
       "Cold",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you Freeze enemies and triggers socketed spells on reaching maximum Energy."
   },
   {
@@ -606,6 +689,7 @@
       "Fire",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you Ignite enemies and triggers socketed spells on reaching maximum Energy."
   },
   {
@@ -618,6 +702,7 @@
       "Trigger",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when one of your Persistent Minions is Killed, and triggers socketed Spells upon reaching maximum Energy. Very underlevelled Minions will incur an Energy generation penalty. Cannot socket Spells which create Minions."
   },
   {
@@ -630,6 +715,7 @@
       "Lightning",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you Shock enemies and triggers socketed spells on reaching maximum Energy."
   },
   {
@@ -641,6 +727,7 @@
       "Chaos",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Fire a burst of Chaos energy at the target."
   },
   {
@@ -652,6 +739,7 @@
       "Trigger",
       "Chaos"
     ],
+    "weapons": [],
     "description": "Grants your weapon Surges. Non-Melee Projectile Attacks with that weapon Consume Surges to cause the Projectiles fired to explode at the end of their flight."
   },
   {
@@ -661,6 +749,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, you gain powerful Buffs based on your active Charges. However, maintaining the Buff Consumes Charges every few seconds."
   },
   {
@@ -675,6 +764,9 @@
       "Duration",
       "Conditional"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Consume all Power Charges to charge your Quarterstaff with electricity, adding Lightning damage and a Lightning shockwave to your Quarterstaff Attacks. Reusing this skill while the Buff is active adds to the Buff's duration and damage."
   },
   {
@@ -687,6 +779,9 @@
       "Grenade",
       "Fire"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Fire a bouncing Grenade that explodes when its fuse expires, throwing out a ring of mini Grenades that explode when they come to a stop."
   },
   {
@@ -698,6 +793,7 @@
       "Chaos",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Simultaneously fires a Physical Projectile and a Chaos Projectile at the target. These projectiles Chain through any number of Cursed targets."
   },
   {
@@ -707,6 +803,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, grants you a Frenzy Charge when you Freeze, Electrocute or Pin an enemy. This can only occur once every few seconds."
   },
   {
@@ -717,6 +814,9 @@
       "AoE",
       "Cold",
       "Repeatable"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Call down a mass of ice from the sky, dealing high damage at the targeted location. Targeting close to you will cause you to jump back as you cast. Consumes a Fire Infusion if possible to cause a devastating blast of ice and fire."
   },
@@ -730,6 +830,7 @@
       "Duration",
       "Hazard"
     ],
+    "weapons": [],
     "description": "Spend Runic Ward to create a number of Hazardous Runes in a cone in front of you, which arm after a time. After arming, these Runes will activate when enemies step on them, exploding to deal Attack damage that is not based on your Weapon's damage and apply Electrocution buildup."
   },
   {
@@ -743,6 +844,7 @@
       "Curse",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Curse all targets in an area after a short delay, lowering their Lightning Resistance."
   },
   {
@@ -754,6 +856,7 @@
       "Duration",
       "Nova"
     ],
+    "weapons": [],
     "description": "Create an area of Consecrated Ground around you."
   },
   {
@@ -766,6 +869,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Afflict a single enemy with a Debuff that deals Chaos damage over time. If the enemy dies while affected by Contagion, it spreads itself, Curses, and other Chaos damage over time Debuffs on the target to nearby enemies. This refreshes their durations. Reanimating or detonating a corpse affected by Contagion will cause the Minion or explosion to spread Contagion on hit."
   },
   {
@@ -777,6 +883,7 @@
       "Persistent",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, grants a skill that you can use to instantly begin Recharging Energy Shield and gain a Buff for a duration that prevents that Recharge being interrupted. The Buff is removed at maximum Energy Shield and the skill cannot be used while Energy Shield is full."
   },
   {
@@ -789,6 +896,7 @@
       "AoE",
       "Lightning"
     ],
+    "weapons": [],
     "description": "When you Hit with Unarmed Melee Attacks, calls down lightning bolts which deal Unarmed Attack damage to all surrounding enemies."
   },
   {
@@ -800,6 +908,9 @@
       "Werewolf",
       "AoE",
       "Melee"
+    ],
+    "weapons": [
+      "Primal"
     ],
     "description": "Shapeshift into a Werewolf and leap backwards as you gouge the ground with both claws. Enemies can be Hit separately by both gouges. Hitting a Marked enemy with both gouges will Activate the Mark and cause an additional shockwave. Ice Fragments will be pulled into the location where the gouges cross and explode immediately. This skill can be used while using other skills to interrupt them."
   },
@@ -814,6 +925,7 @@
       "Physical",
       "Chaos"
     ],
+    "weapons": [],
     "description": "Dash to an enemy and Strike them, Culling enemies if their life is low enough. When this skill kills an enemy you draw out their final fears, crushing them to create a shockwave. Enemies around you that can be Culled will be highlighted."
   },
   {
@@ -824,6 +936,9 @@
       "AoE",
       "Melee",
       "Strike"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Dash to an enemy and run them through, Culling enemies if their life is low enough. If this Attack kills at least one enemy, it grants you a Frenzy Charge, with higher Rarity monsters granting additional Charges. Enemies around you that can be Culled will be highlighted."
   },
@@ -838,6 +953,9 @@
       "Chaos",
       "Duration"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Raise a Totem that bombards enemies afflicted by Chaos damage over time Debuffs."
   },
   {
@@ -851,6 +969,7 @@
       "Nova",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Sacrifice the life of a Minion to deal Chaos damage in an area around it. If you have no Minions, your own life is sacrificed instead."
   },
   {
@@ -864,6 +983,7 @@
       "Chaos",
       "Duration"
     ],
+    "weapons": [],
     "description": "Consume a Corpse to create a cloud of flammable Poisonous gas. Any Burning effects or Detonator skills will explode the gas cloud, creating a fiery explosion."
   },
   {
@@ -878,6 +998,7 @@
       "Duration",
       "Conditional"
     ],
+    "weapons": [],
     "description": "While active, Attacking enemies builds Glory. When you have maximum Glory, you can place an inspiring Banner for a duration with an Aura that grants you and nearby Allies Armour, Evasion and movement speed."
   },
   {
@@ -887,6 +1008,7 @@
       "Shapeshift",
       "Buff"
     ],
+    "weapons": [],
     "description": "Shapeshift into a demon, vastly boosting the power of your Spells. You gain Demonflame every second you remain in demon form, causing your Life to be lost at an ever-increasing rate. Maximum 10 Demonflame. Revert to human form if you reach 1 Life, use a Skill that isn't a Spell, or reactivate this Skill."
   },
   {
@@ -899,6 +1021,9 @@
       "Duration",
       "Curse",
       "Repeatable"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Curse all targets in an area after a short delay, lowering their Chaos Resistance."
   },
@@ -913,6 +1038,9 @@
       "Detonator",
       "Repeatable"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Cause a Corpse to violently explode, damaging surrounding enemies."
   },
   {
@@ -924,6 +1052,7 @@
       "Physical",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Hit an enemy under the Culling Strike Threshold, causing them to violently explode, damaging surrounding enemies. Highlights enemies under the Culling Strike Threshold."
   },
   {
@@ -939,6 +1068,9 @@
       "Staged",
       "Repeatable"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Channel to charge up before firing off a burning arrow. At maximum stages, the arrow will create a Detonating explosion at the end of its flight."
   },
   {
@@ -952,6 +1084,9 @@
       "Melee",
       "Slam"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Wyvern and devour a Corpse or Cullable enemy, and additional nearby Corpses. For each enemy or corpse devoured, you regenerate life and gain a Power Charge. If the target is far enough away, you will leap to them and damage nearby enemies where you land. Targeting nearby enemies or corpses will not perform a leap or a Slam."
   },
   {
@@ -962,6 +1097,7 @@
       "Persistent",
       "Aura"
     ],
+    "weapons": [],
     "description": "Emit an Aura that grants you and Allies in your Presence additional Total Energy Shield."
   },
   {
@@ -973,6 +1109,9 @@
       "Melee",
       "Strike",
       "Travel"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Jump back as you rupture the earth in front of you with spearpoints, damaging enemies. Consumes the Parried Debuff on Hitting enemies to release a shockwave and grant you a Frenzy Charge. This skill can be used while using other skills, and causes Strikes and Projectiles to miss you while jumping. This skill cannot be Ancestrally Boosted."
   },
@@ -988,6 +1127,7 @@
       "Duration",
       "Conditional"
     ],
+    "weapons": [],
     "description": "While active, Attacking enemies builds Glory. When you have maximum Glory, you can place an inspiring Banner for a duration with an Aura that grants you and nearby Allies Elemental Ailment Threshold, Maximum Elemental Resistances and Flask charges."
   },
   {
@@ -1000,6 +1140,9 @@
       "Slam",
       "Duration"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Smash the ground, dealing damage in an area and leaving behind Jagged Ground that slows enemies. The Jagged Ground erupts in a powerful Aftershock after a duration. Cannot create Jagged Ground on top of an existing patch, or if you already have the maximum number of active patches."
   },
   {
@@ -1011,6 +1154,9 @@
       "Melee",
       "Slam",
       "Duration"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Slam the ground, sending out a fissure that deals area damage to enemies it passes under and thrusts a spike from the ground when it ends. Warcries performed near the spike will cause it to shatter, damaging surrounding enemies."
   },
@@ -1025,6 +1171,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Fire an electrifying arrow that explodes in an Area on Hit. Hitting an enemy will attach an Electrocuting Rod to them, causing all incoming Lightning damage to build up Electrocution. This rod is removed when the enemy is next Electrocuted."
   },
   {
@@ -1038,6 +1187,7 @@
       "Fire",
       "Duration"
     ],
+    "weapons": [],
     "description": "Tap into a current of raw and unpredictable Elemental power, causing you to deal greatly more damage of a randomly chosen Element. The Element affected changes frequently, though the same Element can be affected multiple times in succession."
   },
   {
@@ -1053,6 +1203,7 @@
       "Fire",
       "Chaining"
     ],
+    "weapons": [],
     "description": "Create a fiery explosion, an arcing bolt of lightning, or an icy wave of projectiles. The chance for an explosion is proportional to your Strength, for a bolt proportional to your Dexterity, and for a wave proportional to your Intelligence."
   },
   {
@@ -1068,6 +1219,7 @@
       "Invocation",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you Freeze, Shock or Ignite an enemy. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy."
   },
   {
@@ -1083,6 +1235,7 @@
       "Duration",
       "Orb"
     ],
+    "weapons": [],
     "description": "Create a stationary Fire, Cold or Lightning storm at a target location for a duration, based on the highest Elemental Damage type for the Hit that Triggered the storm. Hits which do not deal Elemental Damage will not Trigger the storm."
   },
   {
@@ -1098,6 +1251,9 @@
       "Nova",
       "Payoff"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Plunge your Spear into the ground to emit a pulse that Consumes Freeze, Shock and Ignite on a number of nearby enemies, Allies and Corpses. The pulse itself deals no damage, but each Ailment Consumed causes an explosion of the corresponding elemental damage type."
   },
   {
@@ -1111,6 +1267,7 @@
       "Cold",
       "Fire"
     ],
+    "weapons": [],
     "description": "Grants your weapon Surges. Non-Melee Projectile Attacks with that weapon Consume Surges to cause the Projectiles fired to explode at the end of their flight."
   },
   {
@@ -1126,6 +1283,9 @@
       "Curse",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Curse all targets in an area after a short delay, lowering their Elemental Resistances."
   },
   {
@@ -1140,6 +1300,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Conjure a blazing Ember that hovers above you. After a short duration, the Ember launches at an enemy, dealing Fire damage in an area on impact and prioritising the last enemy targeted. Recasting this spell resets the duration for all active Embers. Multiple Embers fired in the same Fusillade will attempt to target different enemies. Consumes a Lightning Infusion if possible to cause the entire Fusillade to create beams that Chain to enemies."
   },
   {
@@ -1148,6 +1311,9 @@
     "tags": [
       "Buff",
       "Duration"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Instantly reload all your Crossbow Ammunition clips and Empower each clip's Ammunition to deal more damage for a duration."
   },
@@ -1160,6 +1326,7 @@
       "Physical",
       "Duration"
     ],
+    "weapons": [],
     "description": "Consume all stacks of Jade to grant Guard based off your maximum Life for each Jade consumed. You cannot gain Jade stacks while you have Guard."
   },
   {
@@ -1173,6 +1340,7 @@
       "Nova",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Unleash a Nova of Lightning damage to Electrocute enemies. Enemies close to you take no damage while enemies at the edge of the ring take significantly more damage. Enemies Hit can be Electrocuted by all Lightning damage for a short duration."
   },
   {
@@ -1184,6 +1352,9 @@
       "Duration",
       "Curse",
       "Repeatable"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Curse all targets in an area after a short delay, making them deal less damage."
   },
@@ -1199,6 +1370,9 @@
       "Repeatable",
       "Plant"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Conjures a rootbound fissure that crawls forward, damaging enemies in its path. While the fissure persists, vines lash out from it and attach to nearby enemies, damaging and Slowing them."
   },
   {
@@ -1210,6 +1384,9 @@
       "Projectile",
       "Trigger",
       "Cold"
+    ],
+    "weapons": [
+      "Bow"
     ],
     "description": "Leap backwards, firing an icy arrow which can Chill or Freeze enemies around the location from which you escaped. This arrow will create Ice Fragments on impact."
   },
@@ -1223,6 +1400,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Fire a Projectile that applies a powerful Chaos damage over time debuff to enemies it hits."
   },
   {
@@ -1232,6 +1412,7 @@
       "Spell",
       "Minion"
     ],
+    "weapons": [],
     "description": "Spend Runic Ward to instantly Revive your Minions. Prioritises the most powerful minions first."
   },
   {
@@ -1241,6 +1422,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, you constantly regenerate Rage."
   },
   {
@@ -1252,6 +1434,7 @@
       "Projectile",
       "Fire"
     ],
+    "weapons": [],
     "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Fire Attack damage in an area. Additional smaller flasks are thrown at nearby Ignited Enemies. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
   },
   {
@@ -1264,6 +1447,9 @@
       "Grenade",
       "Fire",
       "Detonator"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Fire a bouncing Grenade that unleashes a devastating fiery blast when its fuse expires."
   },
@@ -1278,6 +1464,9 @@
       "Fire",
       "Detonator"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Load your Crossbow with flaming bolts that explode on impact. The explosion will cause any Grenades in its area of effect to also explode."
   },
   {
@@ -1291,6 +1480,9 @@
       "Duration",
       "Detonator",
       "Repeatable"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Hurl a single payload Spear that pierces through enemies and lodges in terrain where it lands. The Spear will explode at the end of its Detonation Time or if Detonated. Consumes a Frenzy Charge if you have one to explode immediately, dealing more damage in a cross-shaped area and creating Ignited Ground."
   },
@@ -1309,6 +1501,7 @@
       "Fire",
       "Chaos"
     ],
+    "weapons": [],
     "description": "While active, picking up Remnants Triggers a deadly explosion, dealing damage at the location of the Remnant based on the type of Remnant picked up."
   },
   {
@@ -1321,6 +1514,7 @@
       "Chaining",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Expel your own blood as Chaining blood tendrils in a cone in front of you. Enemies Hit by the tendrils take Physical damage and are inflicted with Bleeding."
   },
   {
@@ -1330,6 +1524,9 @@
       "Spell",
       "Projectile",
       "Cold"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Fire a single Eye Projectile which does not Hit enemies. The Eye constantly releases damaging shard Projectiles in a spiral as it flies. If the Eye passes over an Elemental Ground Surface or Orb, it will take on that surface's effect causing shards to deal more damage of the corresponding Type."
   },
@@ -1344,6 +1541,9 @@
       "Projectile",
       "Lightning"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Suffuse your Quarterstaff with electrical energy, then Slam the ground to deal damage in a large cone in front of you. Consumes your Power Charges to fire Lightning Projectiles forwards from the impact."
   },
   {
@@ -1355,6 +1555,9 @@
       "Melee",
       "Strike",
       "Cold"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Perform an icy stab that exploits enemies who are already off balance. Hitting a Parried target Consumes the Debuff to cause an explosion of frost and leave Chilled Ground."
   },
@@ -1368,6 +1571,7 @@
       "Nova",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Consume Corpses near you to recover Life and Mana over a short time per Corpse Consumed."
   },
   {
@@ -1379,6 +1583,7 @@
       "Invocation",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you spend Mana. Using the Invocation once sufficient Energy is gathered will consume the Energy to create visages which attack once with a socketed Shapeshifting Attack, creating multiple visages if it has enough Energy."
   },
   {
@@ -1392,6 +1597,9 @@
       "Nova",
       "Meta"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Bear and roar in defiance, immediately gaining Rage if there are enemies nearby and Empowering subsequent Attacks to Break Armour. Alternatively, socketing a human-form Warcry into this Skill triggers that Warcry instead, and augments its damage and area. This Skill's cooldown can be bypassed by expending an Endurance Charge."
   },
   {
@@ -1404,6 +1612,7 @@
       "Fire",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you Hit enemies with Melee Attacks and triggers socketed Fire spells on reaching maximum Energy."
   },
   {
@@ -1415,6 +1624,9 @@
       "Projectile",
       "Fire",
       "Repeatable"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Launch a large ball of Fire which explodes on impact. The explosion Consumes a Fire Infusion if possible to launch a ring of smaller firebolts."
   },
@@ -1428,6 +1640,7 @@
       "Fire",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Launch a fiery Projectile towards a target. The Projectile explodes on impact, damaging foes in a small area."
   },
   {
@@ -1441,6 +1654,9 @@
       "Duration",
       "Repeatable",
       "Storm"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Rain a storm of flaming bolts over the targeted area. Can Consume all three types of Elemental Infusion, creating a much larger storm when Fire-Infused, causing lightning bolts when Lightning-Infused, and raining ice bolts when Cold-Infused."
   },
@@ -1458,6 +1674,9 @@
       "Channelling",
       "Detonator"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Wyvern and take to the skies, immolating enemies with a jet of fire. Channelling ends after a short amount of time but can be prolonged by spending Rage. Consumes a Power Charge if possible to Empower the Skill, Gaining extra Lightning damage and spending Rage more slowly."
   },
   {
@@ -1469,6 +1688,9 @@
       "Fire",
       "Duration",
       "Repeatable"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Create a wall of Fire in front of you, which Ignites everything within its area. Any Projectiles fired through the wall by you and Allies deal added Fire damage. Consumes a Lightning Infusion if possible to also add Lightning damage to the Projectiles."
   },
@@ -1483,6 +1705,9 @@
       "Nova",
       "Staged"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Channel to build destructive energy around you. Releasing the energy causes a devastating explosion that is larger and more intense the longer you Channelled for."
   },
   {
@@ -1496,6 +1721,7 @@
       "Curse",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Curse all targets in an area after a short delay, lowering their Fire Resistance."
   },
   {
@@ -1507,6 +1733,9 @@
       "Projectile",
       "Grenade"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Fire a bouncing Grenade that unleashes a Blinding, Stunning explosion when its fuse expires."
   },
   {
@@ -1517,6 +1746,9 @@
       "AoE",
       "Melee",
       "Strike"
+    ],
+    "weapons": [
+      "Quarterstaff"
     ],
     "description": "Teleport to a enemy and Strike them. Consumes Power Charges to perform additional teleporting Strikes on nearby enemies."
   },
@@ -1530,6 +1762,9 @@
       "Slam",
       "Fire",
       "Duration"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Hurl a fiery hammer that Slams into the ground and lodges there. While the hammer is lodged in the ground, reusing this Skill recalls the hammer and resets the Skill's cooldown. Alternatively, using a Warcry near the lodged hammer causes it to shatter, releasing a number of Molten Fissures in a spiral."
   },
@@ -1546,6 +1781,9 @@
       "Duration",
       "Nova"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Perform a Warcry that grants Guard and Triggers Shield Wave when subsequent Shield Attacks deal damage. This Skill's cooldown can be bypassed by expending an Endurance Charge."
   },
   {
@@ -1558,6 +1796,9 @@
       "Projectile",
       "Payoff",
       "Merging"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Load your Crossbow with Piercing bolts that fragment in flight. Bolts that hit a Frozen enemy Consume the Freeze and cause an explosion of shrapnel. Bolts that hit an Ice Crystal cause it to explode. These fragments can Merge."
   },
@@ -1573,6 +1814,7 @@
       "Cold",
       "Duration"
     ],
+    "weapons": [],
     "description": "Spend Runic Ward to create a Verisium volcano that deals damage on initial eruption and Triggers Ice Fragments."
   },
   {
@@ -1583,6 +1825,10 @@
       "Buff",
       "Cold",
       "Duration"
+    ],
+    "weapons": [
+      "Bow",
+      "Quarterstaff"
     ],
     "description": "Mark a target, making them more susceptible to being Frozen. When the Marked target is Frozen, the Mark Activates, granting you a Buff which gives extra Cold damage and Consuming the Mark. Marking another target while you have the Buff will remove the Buff."
   },
@@ -1596,6 +1842,9 @@
       "Cold",
       "Repeatable"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Passively gains Seals over time. Using the skill fires a projectile, and breaks the Seals, Repeating for each of them, and for each additional projectile the skill is given. For each time it Repeats normally, it will also Repeat an additional time targeting a different Ice Fragment in its area of effect if able, Detonating those Ice Fragments immediately."
   },
   {
@@ -1607,6 +1856,7 @@
       "Cold",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Launch icy Projectiles in a sweeping arc. Multiple Projectiles can hit the same enemy."
   },
   {
@@ -1619,6 +1869,9 @@
       "Duration",
       "Orb",
       "Remnant"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Create a pulsing Orb of frost. Each pulse inflicts Elemental Exposure on nearby enemies. When the Orb's duration ends, it Detonates, dealing Cold damage to surrounding enemies and leaving behind a Cold Infusion."
   },
@@ -1633,6 +1886,9 @@
       "Payoff",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Conjures a number of icy Projectiles that launch towards the target. Projectiles that Hit a Chilled or Frozen target create chunks of ice that deal additional damage on impacting the ground. Consumes a Cold Infusion if possible to cause each Projectile to lodge into the enemy then explode."
   },
   {
@@ -1643,6 +1899,9 @@
       "AoE",
       "Cold",
       "Duration"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Create a wall of Ice Crystals which holds back enemies. The Crystals explode if sufficiently damaged, or if pushed hard enough, damaging nearby enemies. Consumes a Lightning Infusion if possible to add another Lightning explosion if destroyed."
   },
@@ -1655,6 +1914,9 @@
       "Projectile",
       "Cold",
       "Repeatable"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Fire a slow-moving Piercing Projectile that is effective at Chilling enemies and explodes on colliding with terrain."
   },
@@ -1669,6 +1931,7 @@
       "Nova",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Unleash a wave of volatile ice that feeds on flames. While the wave doesn't deal damage, the ice latches onto Ignited enemies, refreshing the duration of their active Ignite and rapidly Freezing them but preventing them from being Ignited further until the Ignite expires."
   },
   {
@@ -1681,6 +1944,9 @@
       "Cold",
       "Duration"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Leap backward and crack the ground with your staff to call forth an Ice Crystal which can be damaged by you and enemies. If the Crystal is destroyed it causes an icy explosion. This skill can be used while using other skills."
   },
   {
@@ -1692,6 +1958,7 @@
       "Projectile",
       "Lightning"
     ],
+    "weapons": [],
     "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Lightning Attack damage in an area with high chance to Shock. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
   },
   {
@@ -1703,6 +1970,7 @@
       "Aura",
       "Lightning"
     ],
+    "weapons": [],
     "description": "While active, the first time any Skill Hits a Shocked enemy in your Presence, that Skill also Hits other Shocked enemies in your Presence, up to a maximum."
   },
   {
@@ -1715,6 +1983,9 @@
       "AoE",
       "Melee",
       "Slam"
+    ],
+    "weapons": [
+      "Primal"
     ],
     "description": "Shapeshift into a Bear and Slam the ground with great force, causing a pair of shockwaves. Can spend Rage to create larger shockwaves that leave behind Jagged Ground."
   },
@@ -1732,6 +2003,9 @@
       "Duration",
       "Channelling"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Bear and repeatedly pound the ground, creating Molten Fissures that travel randomly in a wide arc in front of you."
   },
   {
@@ -1742,6 +2016,7 @@
       "Persistent",
       "Duration"
     ],
+    "weapons": [],
     "description": "Hinekora observes your Future-Past granting you the opportunity to subvert a lesser fate. After a period of Hindsight, she will grant you her Foresight, which prevents you from avoiding Hits while Dodge Rolling. When you are Hit while Dodge Rolling, Hinekora restores you to full Life immediately before taking damage from the Hit, and grants you Sight Beyond Sight, which prevents you from dying."
   },
   {
@@ -1757,6 +2032,7 @@
       "Chaining",
       "Orb"
     ],
+    "weapons": [],
     "description": "Gain a Buff that boosts your Shock chance. Shocking an enemy consumes the Buff to attach an Orb of electricity to that enemy. The Orb fires bolts of electricity at nearby enemies until it expires."
   },
   {
@@ -1769,6 +2045,9 @@
       "Lightning",
       "Chaining",
       "Merging"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Load your Crossbow with charged bolts that fragment in flight, releasing Chaining Lightning beams when they Hit enemies. These fragments can Merge."
   },
@@ -1784,6 +2063,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Fire a noxious arrow at the ground, creating a cloud of flammable poisonous gas at the end of its flight. The cloud will detonate if hit by a Detonator skill or if an Ignited enemy touches it, creating a fiery explosion."
   },
   {
@@ -1797,6 +2079,9 @@
       "Fire",
       "Chaos",
       "Duration"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Fire a bouncing Grenade that causes a burst of Poison gas when its fuse expires, damaging enemies and leaving behind a growing Poison cloud. Burning effects or Detonator skills will cause the cloud to explode in a fiery blast."
   },
@@ -1812,6 +2097,9 @@
       "Channelling",
       "Travel"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Flip backward and Channel to charge your Quarterstaff with Lightning. Releasing dashes towards the target location, damaging enemies along the way. Releasing with Perfect Timing performs a Lightning-assisted dash that releases shockwaves from enemies you dash through. Perfectly Timed dash also explodes Tempest Bells on hit creating a shockwave that deals more damage and has a larger area, leaving Shocked Ground in its wake. This skill cannot be Ancestrally Boosted."
   },
   {
@@ -1824,6 +2112,7 @@
       "Cold",
       "Fire"
     ],
+    "weapons": [],
     "description": "Grants your weapon Surges. Non-Melee Projectile Attacks with that weapon Consume Surges to cause the Projectiles fired to explode at the end of their flight."
   },
   {
@@ -1833,6 +2122,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, causes you to periodically gain Ghost Shrouds. If you are Hit while you have a Ghost Shroud, it is immediately consumed to recover Energy Shield based on your Evasion."
   },
   {
@@ -1846,6 +2136,9 @@
       "Cold",
       "Duration"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Load your Crossbow with icy bolts that create two walls of Ice Crystals at the end of their flight."
   },
   {
@@ -1857,6 +2150,9 @@
       "Melee",
       "Cold",
       "Payoff"
+    ],
+    "weapons": [
+      "Quarterstaff"
     ],
     "description": "Sweep your Quarterstaff upwards, releasing an icy fissure which deals damage in a series of bursts culminating in a large spike. Frozen enemies hit by the final spike are dealt heavy damage but the Freeze is Consumed. Ice Crystals hit by the final spike explode."
   },
@@ -1871,6 +2167,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Throw a single Piercing lance that leaves icy fragments in its wake. The fragments Chill nearby enemies. Consumes a Frenzy Charge if possible to cause the glacial fragments created by the first Projectile to explode outwards after a short duration, peppering enemies with shrapnel."
   },
   {
@@ -1883,6 +2182,7 @@
       "Persistent",
       "Remnant"
     ],
+    "weapons": [],
     "description": "While active, your Reviving Minions store a percentage of their maximum Life in a collectible Grim Remnant on death. Using Grim Resurrection Consumes the Life you've collected to Revive up to that much total Life of dead Minions."
   },
   {
@@ -1895,6 +2195,7 @@
       "Duration",
       "Nova"
     ],
+    "weapons": [],
     "description": "Spend Runic Ward to cause damaging Ice-Crystal spears to erupt from the ground around you. These spears can be destroyed for an explosion of Cold damage."
   },
   {
@@ -1907,6 +2208,9 @@
       "Projectile",
       "Sustained",
       "Cold"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Passively generate bolts of ice at a frequency equal to reload time, up to a cap. Activate to Load the accumulated bolts into your Crossbow. All loaded bolts are fired at once, causing them to rain down over the target area."
   },
@@ -1921,6 +2225,9 @@
       "Duration",
       "Conditional"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Build Glory by Heavy Stunning enemies. When you have maximum Glory you may entreat the Ancestors to crush your enemies, manifesting a massive hammer that falls from the sky onto your target, Slamming into the ground after a short duration and dealing immense damage based on your weapon."
   },
   {
@@ -1934,6 +2241,9 @@
       "Chaos",
       "Meta"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Dash to an enemy and Strike them, triggering socketed Marks with increased effect and applying socketed Curses with increased duration."
   },
   {
@@ -1945,6 +2255,7 @@
       "AoE",
       "Physical"
     ],
+    "weapons": [],
     "description": "Draws out the latent fears of enemies you kill and Rare or Unique enemies you Hit, turning them into unstable apparitions which charge towards enemies and then explode."
   },
   {
@@ -1957,6 +2268,7 @@
       "Aura",
       "Cold"
     ],
+    "weapons": [],
     "description": "Chills all enemies in your Presence."
   },
   {
@@ -1970,6 +2282,7 @@
       "Duration",
       "Herald"
     ],
+    "weapons": [],
     "description": "While active, enemies you sufficiently Overkill with non-Herald Attacks will cause an explosion that Ignites nearby enemies based on the Overkill damage dealt."
   },
   {
@@ -1984,6 +2297,7 @@
       "Herald",
       "Payoff"
     ],
+    "weapons": [],
     "description": "While active, killing an enemy with Blood Loss will cause a bloody explosion that deals Physical Attack damage to surrounding enemies. This damage is not based on your Weapon, but is partially based on their accumulated Blood Loss. The explosion destroys their Corpse if the enemy was Normal or Magic, and has a chance to Aggravate Bleeding."
   },
   {
@@ -1998,6 +2312,7 @@
       "Herald",
       "Payoff"
     ],
+    "weapons": [],
     "description": "While active, Shattering an enemy with a non-Herald Attack Hit will cause an icy explosion that deals Attack damage to surrounding enemies."
   },
   {
@@ -2009,6 +2324,7 @@
       "Chaos",
       "Herald"
     ],
+    "weapons": [],
     "description": "While active, killing a Poisoned enemy spreads its Poison to other nearby enemies, and has a chance to also Hinder them."
   },
   {
@@ -2023,6 +2339,7 @@
       "Herald",
       "Payoff"
     ],
+    "weapons": [],
     "description": "While active, killing Shocked enemies with a non-Herald Attack Hit will cause subsequent Attack Hits to release lightning bolts which deals Attack damage to all surrounding enemies."
   },
   {
@@ -2037,6 +2354,7 @@
       "Herald",
       "Payoff"
     ],
+    "weapons": [],
     "description": "Killing an enemy with Blood Loss will cause a bloody explosion that deals Physical Attack damage to surrounding enemies. This damage is not based on your Weapon Damage, but is based on their accumulated Blood Loss. The explosion destroys their Corpse if the enemy was Normal or Magic."
   },
   {
@@ -2048,6 +2366,9 @@
       "Chaos",
       "Payoff",
       "Repeatable"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Detonate a Curse on every enemy in an area, causing explosions of Chaos damage but removing the Curse. Can only detonate Curses for which at least half of the duration has expired."
   },
@@ -2062,6 +2383,9 @@
       "Duration",
       "Payoff"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Load your Crossbow with Piercing bolts that apply Riven Armour to enemies with Fully Broken Armour, causing any Hits against those enemies to deal extra damage."
   },
   {
@@ -2074,6 +2398,7 @@
       "AoE",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, ethereal bells periodically appear near you. Your Hits immediately destroy the bells, creating a shockwave that damages nearby enemies and causes a Heavy Stun on enemies that are Primed for Stun. The bells are themselves always Primed for Stun, they can be Culled, and Hits against them are always Critical Hits."
   },
   {
@@ -2086,6 +2411,7 @@
       "Channelling",
       "Meta"
     ],
+    "weapons": [],
     "description": "Channel to create fleeting images of your astral self near the target location. The images perform a Socketed Melee Attack once then vanish, targeting the closest enemy if possible. The images cannot perform Channelled Skills or Conditional Skills. Consuming a Power Charge creates additional images."
   },
   {
@@ -2096,6 +2422,7 @@
       "AoE",
       "Trigger"
     ],
+    "weapons": [],
     "description": "Attaches an ethereal bell to your back. Critical Hits with other Skills will cause the bell to ring out, damaging nearby enemies."
   },
   {
@@ -2107,6 +2434,7 @@
       "AoE",
       "Nova"
     ],
+    "weapons": [],
     "description": "Sacrifice your Runic Ward to send out an energy pulse that grants nearby Allies Guard."
   },
   {
@@ -2120,6 +2448,7 @@
       "Curse",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Curse all targets in an area after a short delay, lowering their Cold Resistance."
   },
   {
@@ -2132,6 +2461,9 @@
       "Duration",
       "Nova",
       "Repeatable"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Conjure a wave of ice in all directions, Knocking Back enemies based on how close they are to you. Casting Ice Nova targeting near a Frostbolt Projectile will cause it to originate from the Frostbolt instead of you. Consumes a Cold Infusion if possible to leave a patch of Chilled Ground."
   },
@@ -2147,6 +2479,9 @@
       "Cold",
       "Hazard"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Load your Crossbow with a clip of icy bolts that rapidly fire at the ground, leaving a shard of ice at the impact location that arms after a duration. After arming, the ice shards explode when enemies step on them, dealing more damage the longer they have been armed, up to a maximum. Using this Skill again reloads the clip."
   },
   {
@@ -2157,6 +2492,9 @@
       "Projectile",
       "Cold",
       "Repeatable"
+    ],
+    "weapons": [
+      "Bow"
     ],
     "description": "Fire an icy arrow that sprays a cone of ice shards when it hits a target."
   },
@@ -2169,6 +2507,9 @@
       "Melee",
       "Strike",
       "Cold"
+    ],
+    "weapons": [
+      "Quarterstaff"
     ],
     "description": "Perform a fast icy Strike. Using this Attack three times in quick succession causes a final strike that is slower and more powerful."
   },
@@ -2185,6 +2526,9 @@
       "Cold",
       "Duration"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Ready your active Bow or Spear, Empowering your next Repeatable Bow or Projectile Spear Attacks to Convert Physical Damage to Cold Damage and Trigger Ice Fragments on Hit. This Skill's cooldown can be bypassed by expending a Frenzy Charge. Cannot Empower Sustained Skills."
   },
   {
@@ -2200,6 +2544,7 @@
       "Repeatable",
       "Storm"
     ],
+    "weapons": [],
     "description": "Conjure a hail of icy bolts over the targeted area. Chill and Freeze on enemies in front of you are Consumed to fuel the Icestorm by creating improved bolts."
   },
   {
@@ -2211,6 +2556,7 @@
       "Aura",
       "Chaos"
     ],
+    "weapons": [],
     "description": "Emit an Aura that boosts the Chaos Resistance of you and Allies in your Presence."
   },
   {
@@ -2223,6 +2569,9 @@
       "Projectile",
       "Fire",
       "Merging"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Load your Crossbow with flaming bolts that fragment in flight, damaging and Igniting enemies on hit and in a small cone behind their final target. These fragments can Merge."
   },
@@ -2237,6 +2586,9 @@
       "Duration",
       "Channelling"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Gain fuel by spending Mana on any Skill, then use the accumulated fuel to conjure a torrent of Fire from your hand, Igniting enemies in front of you. The flames grow stronger the longer you Channel. Consumes a Fire Infusion if possible to also create Ignited Ground. Cannot gain fuel while using this skill."
   },
   {
@@ -2248,6 +2600,7 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Debuff all targets in an area, causing a portion of Damage they take from Hits to be tracked by the Debuff. When the debuff's duration expires or can kill the target, the target loses life equal to that tracked damage all at once."
   },
   {
@@ -2261,6 +2614,9 @@
       "Duration",
       "Nova"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Perform a Warcry, Empowering subsequent Melee Attacks if there are enemies nearby. Enemies in the warcry's area are destabilised and will Combust on death. This Skill's cooldown can be bypassed by expending an Endurance Charge."
   },
   {
@@ -2271,6 +2627,7 @@
       "Persistent",
       "Remnant"
     ],
+    "weapons": [],
     "description": "Create a Breach around you, allowing you to see nearby Flames of Chayula. You are considered to be in a Breach while this skill is active."
   },
   {
@@ -2283,6 +2640,7 @@
       "Physical",
       "Nova"
     ],
+    "weapons": [],
     "description": "While active, stores a percentage of the Physical damage that is prevented by your Armour or other sources of damage reduction. Using this Skill releases the stored damage as a nova of spikes."
   },
   {
@@ -2294,6 +2652,7 @@
       "Command",
       "Duration"
     ],
+    "weapons": [],
     "description": "Harness Kelari's power to passively Consume Corpses in your Presence, causing Corpse Beetle Minions to burst forth. The Beetles passively follow you until Commanded. On your Command, they rush the target and explode."
   },
   {
@@ -2305,6 +2664,7 @@
       "Command",
       "Physical"
     ],
+    "weapons": [],
     "description": "Summon Kelari, an invulnerable Sand Djinn Minion, to do your bidding. Kelari will only act when you Command him to do so. Kelari delivers swift Hits with massive Critical Hit potential."
   },
   {
@@ -2316,6 +2676,9 @@
       "Melee",
       "Strike",
       "Physical"
+    ],
+    "weapons": [
+      "Quarterstaff"
     ],
     "description": "Dash to an enemy and Strike them, Culling enemies if their life is low enough and performing additional dashing Strikes to other Cullable targets in range if your target was Culled. Each enemy killed by this strike grants a Power Charge, with higher Rarity monsters granting additional Charges. Enemies around you that can be Culled will be highlighted."
   },
@@ -2330,6 +2693,9 @@
       "Travel",
       "Payoff"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Jump into the air, damaging and Knocking Back enemies with your mace where you land. Enemies you would land on are pushed out of the way."
   },
   {
@@ -2341,6 +2707,7 @@
       "AoE",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, areas of intense runic energy are revealed to you. Standing over them grants you a powerful Spell damage boost but constantly drains your Runic Ward. Running out of Runic Ward causes the energy to temporarily dissipate."
   },
   {
@@ -2351,6 +2718,7 @@
       "Persistent",
       "Remnant"
     ],
+    "weapons": [],
     "description": "Drink the blood of your enemies to restore your Life. While active, enemies you kill have a chance to spawn a Life Remnant, and Hitting a target spawns a Life Remnant every few seconds. Picking up a Life Remnant grants you Life which can Overflow maximum Life."
   },
   {
@@ -2364,6 +2732,9 @@
       "Chaining",
       "Repeatable"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Fire a charged arrow at the target. On hitting an enemy or wall, the arrow will fire Chaining Lightning beams at nearby enemies."
   },
   {
@@ -2376,6 +2747,7 @@
       "Lightning",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Call down a Shocking bolt of Lightning to strike enemies in a small area."
   },
   {
@@ -2385,6 +2757,9 @@
       "Spell",
       "AoE",
       "Lightning"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Call down Lightning to hit all enemies in a cone in front of you, dealing significantly more damage to Shocked enemies. If there is a Shocked enemy in the target area, additional lightning bolts are distributed among the targets hit. Targeting close to you will cause you to jump back as you cast."
   },
@@ -2400,6 +2775,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Fire an arrow that drops from above, creating a Lightning burst. The arrow remains in the ground, and any Chaining Lightning beams can Chain to it. When Chained to, the arrows charge up for a brief period before releasing another Lightning burst. The Lightning Arrow Skill reduces this delay, causing bursts to happen more quickly."
   },
   {
@@ -2411,6 +2789,9 @@
       "Projectile",
       "Lightning",
       "Repeatable"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Throw a single copy of your spear. When it hits an enemy it bursts, firing secondary lightning bolt Projectiles at multiple other enemies within a large area around it. Consumes a Frenzy Charge if possible to cause the main spear to split into multiple copies on impact, each of which then bursts."
   },
@@ -2425,6 +2806,9 @@
       "Remnant",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Target an enemy to either teleport inside the target's body if they are under the Cull threshold, causing it to violently explode, or to apply a Debuff to them, which will cause the same effect if that enemy falls under the Cull threshold during its duration. Can also be used on Ball Lightning Projectiles. On teleport, the target is destroyed, and the explosion deals Lightning damage to surrounding enemies. If targeting an enemy, the explosion also creates Shocked Ground. Creates a Lightning Infusion on successful use. Highlights enemies that can be Culled."
   },
   {
@@ -2436,6 +2820,7 @@
       "Duration",
       "Remnant"
     ],
+    "weapons": [],
     "description": "While active, creates a short-lived illusory copy of yourself whenever you dodge roll. The copy can be damaged by enemies, and copies that are destroyed by an enemy will drop a Remnant that grants you a Power Charge on pickup."
   },
   {
@@ -2447,6 +2832,9 @@
       "Fire",
       "Duration",
       "Remnant"
+    ],
+    "weapons": [
+      "Elemental"
     ],
     "description": "Plant a seed of Fire inside an enemy. Dealing enough damage to the enemy, or killing it outright, causes the seed to explode, dealing damage in an area and leaving behind a Fire Infusion Remnant."
   },
@@ -2461,6 +2849,9 @@
       "Melee",
       "Strike",
       "Cold"
+    ],
+    "weapons": [
+      "Primal"
     ],
     "description": "Shapeshift into a Werewolf and swipe with your claws, projecting an arc of moonlight and ice forward in a crescent."
   },
@@ -2478,6 +2869,9 @@
       "Cold",
       "Duration"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Werewolf and offer your Rage to the moon to receive a blessing, gaining bonus Cold damage for yourself and any Wolf Minions you have from Wolf Pack or Predator's Mark. Spends all Rage to extend the Buff's duration. While the Buff is active, your Werewolf Melee Attacks call down Moonbeams on Hit."
   },
   {
@@ -2492,6 +2886,7 @@
       "Trigger",
       "Fire"
     ],
+    "weapons": [],
     "description": "While active, increases your Block Chance passively and imbues your Shield with lava over time. When fully imbued, your next Block with your Shield raised will expend the lava to Trigger the Magma Spray skill and grant you an Endurance Charge."
   },
   {
@@ -2502,6 +2897,9 @@
       "AoE",
       "Projectile",
       "Lightning"
+    ],
+    "weapons": [
+      "Bow"
     ],
     "description": "Aim skyward and fire energy missiles at lingering bolts or arrows created by other Lightning Attacks in front of you. The missiles explode if they land close to a lingering bolt or arrow, dealing more damage in a larger area but destroying that bolt or arrow in the process."
   },
@@ -2514,6 +2912,7 @@
       "Aura",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, emits an Aura that continuously inflicts Critical Weakness on enemies in your Presence."
   },
   {
@@ -2522,6 +2921,7 @@
     "tags": [
       "Spell"
     ],
+    "weapons": [],
     "description": "Leech Mana from an enemy over a prolonged period, as well as briefly Hindering them."
   },
   {
@@ -2532,6 +2932,7 @@
       "Persistent",
       "Remnant"
     ],
+    "weapons": [],
     "description": "Conjure surging arcane energy to restore your Mana. While active, enemies you kill affected by Elemental Ailments have a chance to spawn a Mana Remnant, and Critically Hitting a target with Elemental Ailments spawns a Mana Remnant every few seconds. Picking up a Mana Remnant grants you Mana which can Overflow maximum Mana."
   },
   {
@@ -2543,6 +2944,9 @@
       "Lightning",
       "Storm"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Create a storm of arcane energies that Empowers your Mana-costing Spells while you remain inside it. Maintaining the storm constantly drains your Mana, and spending more causes it to drain faster. The storm will dissipate when you exit it or run out of Mana."
   },
   {
@@ -2553,6 +2957,7 @@
       "Companion",
       "Persistent"
     ],
+    "weapons": [],
     "description": "Manifest a copy of your main hand Melee Martial Weapon as an immortal Companion to fight by your side. In addition to its standard Strikes, the Manifested Weapon gains an additional Attack depending on its weapon type."
   },
   {
@@ -2563,6 +2968,9 @@
       "Chaos",
       "Duration",
       "Conditional"
+    ],
+    "weapons": [
+      "Quarterstaff"
     ],
     "description": "Build Combo by successfully Striking Enemies with other skills. After reaching maximum Combo, use this skill to Empower your next Quarterstaff Attack, causing it to deal additional Chaos damage. Each kill with the Empowered Attack grants Purple Flames of Chayula for a duration."
   },
@@ -2577,6 +2985,7 @@
       "Melee",
       "Strike"
     ],
+    "weapons": [],
     "description": "Shapeshift into a Bear and rake enemies with your claws, generating Rage on Hit."
   },
   {
@@ -2586,6 +2995,7 @@
       "Spell",
       "Channelling"
     ],
+    "weapons": [],
     "description": "Channel to Recharge Energy Shield and allow that Recharge to Overflow. Channelling ends when you take damage or your Energy Shield is fully Overflowed."
   },
   {
@@ -2598,6 +3008,7 @@
       "Cold",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, Critical Hits with other skills that kill targets, or hit powerful targets cause you to gain Arctic Petals. Once you have enough Arctic Petals they will be Consumed to create Ice Crystals near the most recent target."
   },
   {
@@ -2610,6 +3021,7 @@
       "Duration",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, dodge rolling will create a Mirage that uses socketed ranged Attacks for a short duration, then vanish."
   },
   {
@@ -2622,6 +3034,7 @@
       "Duration",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, firing a ranged Projectile Attack will create a Mirage that uses socketed ranged Attacks for a short duration, then vanish."
   },
   {
@@ -2632,6 +3045,7 @@
       "Persistent",
       "Duration"
     ],
+    "weapons": [],
     "description": "Mirrors of Refraction appear in your Presence periodically. Hitting a mirror with a Spell Projectile causes it to shatter, copying the projectiles in a nova around the destroyed mirror. Copied Projectiles may be copied again when colliding with other mirrors."
   },
   {
@@ -2644,6 +3058,7 @@
       "Physical",
       "Chaos"
     ],
+    "weapons": [],
     "description": "Summons a mysterious undamageable Mist Raven that can be Commanded to dive at target location, crashing through an otherworldly mirror and damaging enemies in an area. The raven grants you a Frenzy Charge for each enemy it Culls."
   },
   {
@@ -2654,6 +3069,9 @@
       "AoE",
       "Projectile",
       "Fire"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Gouge molten rock from the ground and fling it at the target. The Projectile explodes on collision, damaging enemies and scattering shrapnel in a cone behind it."
   },
@@ -2669,6 +3087,7 @@
       "Slam",
       "Travel"
     ],
+    "weapons": [],
     "description": "Shapeshift into a burning monstrosity and leap through the air to crash down upon the earth, Slamming twice and creating Molten Fissures. Consumes Rage to create additional Molten Fissures."
   },
   {
@@ -2681,6 +3100,7 @@
       "Trigger",
       "Fire"
     ],
+    "weapons": [],
     "description": "Fires molten Projectiles from the enemy hit, which will explode when they land nearby, dealing Attack damage in an area."
   },
   {
@@ -2691,6 +3111,7 @@
       "AoE",
       "Nova"
     ],
+    "weapons": [],
     "description": "Send out a temporal Nova to take advantage of enemies' moment of vulnerability. Hitting enemies that are Primed for Stun, Electrocution, or Freeze causes a visage of them to appear, lasting as long as the original target would have been affected by the form of Immobilisation used to create the visage. A portion of the damage dealt to visages is also dealt to the original."
   },
   {
@@ -2701,6 +3122,9 @@
       "Grenade",
       "Duration",
       "Meta"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Raise a cannon Ballista Totem which uses socketed Grenade Skills, with significantly improved Cooldown Recovery Rate."
   },
@@ -2713,6 +3137,7 @@
       "Command",
       "Cold"
     ],
+    "weapons": [],
     "description": "Summon Navira, an invulnerable Water Djinn Minion to do your bidding. Navira will only act when you Command her to do so, bestowing restorative blessings upon you and your Allies with her Spells."
   },
   {
@@ -2727,6 +3152,9 @@
       "Sustained",
       "Channelling"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Wyvern and spit Oil at enemies, creating Oil Ground where the Projectiles land. Consumes Power Charges if possible to instead Channel a sustained barrage of electrified Oil that does not create Oil Ground. Projectiles are fired in sequence, allowing multiple Projectiles to Hit the same target."
   },
   {
@@ -2739,6 +3167,9 @@
       "Grenade",
       "Fire",
       "Duration"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Fire a bouncing Grenade that bursts in a spray of Oil when the fuse expires or when it impacts an Enemy, dealing minimal damage but covering the ground and nearby enemies in Oil. Oil created this way can be Ignited by Detonator Skills or Ignited Ground."
   },
@@ -2756,6 +3187,9 @@
       "Remnant",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Create an Orb of electricity that fires Chaining Lightning bolts at nearby enemies. The Orb leaves behind a Lightning Infusion Remnant when it expires."
   },
   {
@@ -2766,6 +3200,7 @@
       "Persistent",
       "Aura"
     ],
+    "weapons": [],
     "description": "While active, emits an Aura that makes enemies in your Presence easier to Stun and inflict Elemental Ailments upon."
   },
   {
@@ -2776,6 +3211,9 @@
       "Buff",
       "AoE",
       "Duration"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Skewer a Skeleton on a bone spike to send nearby Minions into a frenzy as long as the spike remains, making their skills faster and harder hitting. The bone spike is itself a Minion. If it dies, the effect ends immediately."
   },
@@ -2789,6 +3227,7 @@
       "Duration",
       "Channelling"
     ],
+    "weapons": [],
     "description": "Ready your Buckler to parry the next Hit you would take, Blocking the Hit and retaliating with a quick sweep that leaves enemies off balance, causing them to take massively increased Attack damage for a short duration. Parrying causes you to accumulate Heavy Stun buildup. You cannot Evade a Hit you could parry, but Evasion instead grants an equal chance to avoid this Heavy Stun buildup."
   },
   {
@@ -2801,6 +3240,9 @@
       "Strike",
       "Fire",
       "Channelling"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Channel to charge up your weapon with Fire. Releasing with Perfect Timing will create a damaging wave of intense Fire."
   },
@@ -2815,6 +3257,9 @@
       "Cold",
       "Merging"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Load your Crossbow with icy bolts that fragment in flight, damaging enemies on hit and in a small cone behind their final target. The icy coating on the bolts makes them extremely potent at Freezing enemies. These fragments can Merge."
   },
   {
@@ -2828,6 +3273,7 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Fires an arrow that embeds where it lands for a short duration. At the end of the duration, the arrow explodes in spectral flame, turning it to ashes and damaging enemies, with a high chance to Ignite. Igniting any enemy with the Explosion also applies Ignite to enemies within range."
   },
   {
@@ -2842,6 +3288,7 @@
       "Duration",
       "Conditional"
     ],
+    "weapons": [],
     "description": "Consume all Power Charges to master the elements, gaining Elemental Damage and the ability to apply Elemental Ailments with other damage types. Can only be used while you have maximum Power Charges."
   },
   {
@@ -2855,6 +3302,7 @@
       "Chaos",
       "Nova"
     ],
+    "weapons": [],
     "description": "While active, stores a portion of the Poison Damage you deal. Using this Skill unleashes the stored Poison to damage and Poison enemies around you."
   },
   {
@@ -2868,6 +3316,9 @@
       "Lightning",
       "Channelling"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Load your Crossbow with unstable bolts that require a lengthy charging period to fire but deal devastating damage, Pierce through enemies, and explode upon hitting terrain. Additional Projectiles are fired in a spread, unlike other Crossbow Skills."
   },
   {
@@ -2880,6 +3331,9 @@
       "Chaos",
       "Duration",
       "Repeatable"
+    ],
+    "weapons": [
+      "Bow"
     ],
     "description": "Fire a virulent arrow that creates a burst of Poison on hit, affecting all enemies in an area."
   },
@@ -2900,6 +3354,9 @@
       "Travel",
       "Meta"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Werewolf and leap to a target location, damaging enemies in an area around where you land. Predator's Mark will be Triggered targeting the highest Rarity enemy Hit, or if a Mark gem is socketed into this Skill, that Mark will be Triggered instead. Using this Skill allows any Wolf Minions you have to leap immediately."
   },
   {
@@ -2909,6 +3366,7 @@
       "Spell",
       "Physical"
     ],
+    "weapons": [],
     "description": "Attempt to rip the lifeforce from an enemy. Enemies within Culling range will be highlighted and instantly killed on Hit, granting a Power Charge. Can only target Enemies in Culling range."
   },
   {
@@ -2918,6 +3376,7 @@
       "Spell",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Spends Ward to generate Verisium Infusions, which can be used in place of any Elemental Infusions."
   },
   {
@@ -2927,6 +3386,7 @@
       "Buff",
       "Trigger"
     ],
+    "weapons": [],
     "description": "Empowers the next Projectile Skill you use, causing it to create additional Projectiles and fly faster."
   },
   {
@@ -2940,6 +3400,9 @@
       "Lightning",
       "Payoff"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Perform a Lightning-charged stab that can be chained into a combination of up to three attacks. The first two attacks conjure a charging Wildwood spirit if they Hit a Shocked enemy and refresh Shock duration. The third attack is a large swipe that inflicts Elemental Exposure, and can Consume Shock to conjure a stampede of spirits."
   },
   {
@@ -2952,6 +3415,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Mark a Corpse with a profane rune, dealing Chaos damage over time to nearby enemies. When the ritual is complete the Corpse is consumed and you gain a Power Charge."
   },
   {
@@ -2963,6 +3429,7 @@
       "Aura",
       "Fire"
     ],
+    "weapons": [],
     "description": "Emit an Aura that boosts the Fire Resistance of you and Allies in your Presence."
   },
   {
@@ -2974,6 +3441,7 @@
       "Aura",
       "Cold"
     ],
+    "weapons": [],
     "description": "Emit an Aura that boosts the Cold Resistance of you and Allies in your Presence."
   },
   {
@@ -2985,6 +3453,7 @@
       "Aura",
       "Lightning"
     ],
+    "weapons": [],
     "description": "Emit an Aura that boosts the Lightning Resistance of you and Allies in your Presence."
   },
   {
@@ -2997,6 +3466,7 @@
       "AoE",
       "Physical"
     ],
+    "weapons": [],
     "description": "While active, Sprinting turns you into a locust swarm which deals Physical Attack damage, which is not based on your Weapon's damage, in an area around you. You take damage and gain Heavy Stun buildup if this Hits any targets, but damage you take from other sources while sprinting will not apply Heavy Stun or interrupt your sprinting."
   },
   {
@@ -3009,6 +3479,7 @@
       "Fire",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, Fire Spells you use yourself will also summon Raging Spirits, which are short-lived flaming skulls that rush at nearby enemies and rapidly Attack them, ignoring commands. Enemies will not directly engage these Minions, and can pass through them."
   },
   {
@@ -3019,6 +3490,9 @@
       "AoE",
       "Projectile",
       "Sustained"
+    ],
+    "weapons": [
+      "Bow"
     ],
     "description": "Fire a hail of arrows into the air, causing them to rain from above. Consumes a Frenzy Charge to fire more arrows."
   },
@@ -3032,6 +3506,7 @@
       "Trigger",
       "Duration"
     ],
+    "weapons": [],
     "description": "Pour your Runic Ward into conjuring blades. For the duration of the Buff, these blades fall on enemies Hit by your Projectile Attacks."
   },
   {
@@ -3044,6 +3519,7 @@
       "Physical",
       "Channelling"
     ],
+    "weapons": [],
     "description": "Raise your Shield to Block all incoming Blockable hits. Release immediately after Blocking when an enemy is close to perform a Shield Bash, damaging and Stunning enemies. While your Shield is raised you cannot be Light Stunned by hits you Block, but Blocking too much damage may Heavy Stun you. You cannot Evade while your Shield is raised, but Evasion instead grants an equal chance to avoid this Heavy Stun buildup."
   },
   {
@@ -3053,6 +3529,9 @@
       "Minion",
       "Physical",
       "Duration"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Consume a Corpse or Power Charge to create a short-lived Zombie. Zombies created from Power Charges are Empowered and also create two additional non-empowered Zombies."
   },
@@ -3065,6 +3544,9 @@
       "Melee",
       "Strike",
       "Physical"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Dash towards an enemy and perform a lacerating slash, inflicting Bleeding on all enemies struck."
   },
@@ -3082,6 +3564,9 @@
       "Channelling",
       "Travel"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Bear and charge forward, Slamming the ground as you run. Channelling ends after a short amount of time but can be prolonged by spending Rage."
   },
   {
@@ -3095,6 +3580,9 @@
       "Physical",
       "Duration"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Perform a series of six rapid stabs. The final stab inflicts Bleeding and leaves a spearhead stuck in the target, Maiming them for a duration. Detonator Skills will cause the stuck spearheads to explode, dealing further damage to the target and other nearby enemies."
   },
   {
@@ -3105,6 +3593,9 @@
       "Ammunition",
       "Projectile",
       "Fire"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Load your Crossbow with a large clip of heated bolts. Heat builds up on your Crossbow as you fire them, and reaching maximum Heat will prevent you from firing or reloading these bolts for a short time. However, other Skills can Consume Heat for extra benefits. Using this Skill again reloads the clip."
   },
@@ -3119,6 +3610,7 @@
       "Chaos",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active and enemies are present, swarms of insects emerge from your body to pursue nearby enemies. The swarms are untargetable Minions that Attack and Poison enemies."
   },
   {
@@ -3130,6 +3622,7 @@
       "Physical",
       "Duration"
     ],
+    "weapons": [],
     "description": "Conjure a bloody scythe that sweeps across the targeted area, dealing Physical damage to enemies and applying Critical Weakness. Cannot be Triggered."
   },
   {
@@ -3142,6 +3635,7 @@
       "Invocation",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you kill an enemy with a Melee Attack. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy."
   },
   {
@@ -3153,6 +3647,7 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Spends all your Ward to gain a short-duration Buff that causes you to Block all Blockable Hits and apply Parried to enemies from which you've Blocked a Hit. This Buff is removed if you are Heavy Stunned. While this Buff is active, you cannot be Light Stunned, but Blocking too much damage may Heavy Stun you."
   },
   {
@@ -3163,6 +3658,7 @@
       "Persistent",
       "Remnant"
     ],
+    "weapons": [],
     "description": "While active, enemies you Stun or kill have a chance to generate a Runic Ward Remnant. These Remnants can Overflow your Runic Ward."
   },
   {
@@ -3177,6 +3673,7 @@
       "Strike",
       "Duration"
     ],
+    "weapons": [],
     "description": "Shapeshift into a Wyvern and perform a wide slash with your wingtip claws. Consumes a Power Charge if possible to grant you a Buff that gives you extra Lightning damage. While you have the Buff, Rend covers a much larger area but is slower."
   },
   {
@@ -3192,6 +3689,7 @@
       "Curse",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Target an area and Curse enemies within with a Verisium Rune, inflicting them with Fragility. Hitting these enemies causes the Curse to Trigger an explosion to deal damage in an area and apply significant Knockback to other enemies near the Cursed target, with more Stun buildup based on the Fragility on the target Hit."
   },
   {
@@ -3205,6 +3703,7 @@
       "Cold",
       "Conditional"
     ],
+    "weapons": [],
     "description": "Your weapon passively accumulates anguish from the tormented souls within. When fully charged, use this skill to compose the Requiem, transforming your Crossbow shot into a torrent of anguish for a short, fixed amount of time. Does not use Ammunition."
   },
   {
@@ -3218,6 +3717,9 @@
       "Physical",
       "Channelling"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Repeatedly hammer your Shield with your weapon causing damaging shockwaves in an area around you. Enemies hit by the shockwave lose Armour for a duration. While Channelling Resonating Shield, your Shield is raised and you will Block all incoming Blockable hits."
   },
   {
@@ -3229,6 +3731,7 @@
       "Companion",
       "Persistent"
     ],
+    "weapons": [],
     "description": "Harnesses a Companion Rhoa you can mount while you're wielding a Bow or Spear. While mounted you can use Bow, thrown Spear, and Mark Skills, and are much less slowed while using Skills, but being Hit will cause Heavy Stun buildup. While you aren't mounted, the Rhoa will attack your enemies alongside you with its beak, but can be damaged."
   },
   {
@@ -3243,6 +3746,7 @@
       "Lightning",
       "Travel"
     ],
+    "weapons": [],
     "description": "Leap into the air carried by divine wings, damaging enemies with your spear where you land. If there is a Fragment of Divinity near you or the targeted location, this attack will Consume it when you leap to become Empowered, dealing more damage and granting life and mana recovery. This skill does not use up its Cooldown when empowered."
   },
   {
@@ -3254,6 +3758,7 @@
       "Duration",
       "Staged"
     ],
+    "weapons": [],
     "description": "Place a Sigil on the ground, providing a powerful Buff to you and Allies standing in it which grants Life Regeneration and amplifies Armour, Evasion and Energy Shield. The Buff becomes more powerful the more mana you spend while standing in the Sigil."
   },
   {
@@ -3263,6 +3768,7 @@
       "Buff",
       "Duration"
     ],
+    "weapons": [],
     "description": "Sacrifice the Corpse of a Rare Monster to grant you its Modifiers for a duration, or gain a single random Modifier at the cost of your own life force."
   },
   {
@@ -3277,6 +3783,9 @@
       "Fire",
       "Detonator"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Wyvern and lob a ball of magma that deals area damage as it hits the ground. The skill Chains, bouncing forward to deal damage multiple times. Impacts on Molten Fissures or Volcanos will activate them as though they were Slammed."
   },
   {
@@ -3288,6 +3797,9 @@
       "Melee",
       "Slam"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Slam the ground to Stun enemies and knock them away, then continue forward and perform a devastating second Slam."
   },
   {
@@ -3297,6 +3809,7 @@
       "Spell",
       "Channelling"
     ],
+    "weapons": [],
     "description": "Channel to create a protective bubble all around you, Blocking Hits against you. While Channelling this Skill, you cannot be Light Stunned by Hits you Block, and damage you take from Hits is also removed from Runic Ward. Blocking Hits this way causes you to accumulate Heavy Stun buildup. You cannot recover Runic Ward while this Skill is active."
   },
   {
@@ -3305,6 +3818,7 @@
     "tags": [
       "Channelling"
     ],
+    "weapons": [],
     "description": "Channel to imbue your armour with Runic Plates. When you are Hit while you have these plates, some of the damage you would take will be prevented, and this skill will cause backlash, dealing your Thorns damage in an area around your attacker."
   },
   {
@@ -3316,6 +3830,7 @@
       "Command",
       "Fire"
     ],
+    "weapons": [],
     "description": "Summon Ruzhan, an invulnerable Flame Djinn Minion, to do your bidding. Ruzhan emerges to Strike enemies with his greatsword whenever you use a damaging Skill, and casts devastating Fire Spells when Commanded to do so."
   },
   {
@@ -3326,6 +3841,7 @@
       "Minion",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, your undead Reviving Minions can be used in place of Corpses by your skills, but your Minions Revive more slowly."
   },
   {
@@ -3336,6 +3852,7 @@
       "Persistent",
       "Remnant"
     ],
+    "weapons": [],
     "description": "Conjure hateful energy to fuel your Rage and Life. While active, Bleeding enemies you kill have a chance to spawn a Hateful Remnant, and Hitting a Bleeding target spawns a Hateful Remnant every few seconds. Picking up a Hateful Remnant grants you Rage and recovers Life based on your current Rage."
   },
   {
@@ -3346,6 +3863,7 @@
       "Persistent",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, your Fury builds from Attacking enemies. Using this Skill releases your Fury to send you into a bestial frenzy, gaining damage and Onslaught but constantly losing life and forcing you into animal form. The frenzy ends immediately if you return to human form. You cannot gain Fury while in a frenzy."
   },
   {
@@ -3357,6 +3875,7 @@
       "Physical",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, uses fragments of armour scavenged from enemies to bolster your own. Fully Breaking an enemy's Armour grants you stacks of Scavenged Plating for a duration based on the enemy's Rarity, and you gain Armour and Thorns per stack. Normal enemies grant 1 stack, Magic enemies grant 2 stacks, Rare enemies grant 5 stacks and Unique enemies grant 10 stacks."
   },
   {
@@ -3367,6 +3886,9 @@
       "AoE",
       "Physical",
       "Nova"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Perform a damaging Warcry, Knocking Back nearby enemies and Heavy Stunning enemies that are Primed for Stun. If an enemy is Heavy Stunned or a currently Heavy Stunned enemy is Hit, this Skill Empowers subsequent Slams to perform an additional Aftershock. This Skill's cooldown can be bypassed by expending an Endurance Charge."
   },
@@ -3382,6 +3904,7 @@
       "Fire",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, Consuming Freeze, Shock, Ignite, or Fully Broken Armour on an enemy reloads your Crossbow, restores one cooldown use for your Grenades and grants a Buff causing Crossbow Attacks to not consume bolts for a duration. This can only occur once every few seconds."
   },
   {
@@ -3393,6 +3916,7 @@
       "Projectile",
       "Cold"
     ],
+    "weapons": [],
     "description": "Consume charges from your Mana Flask to throw a flask that explodes, dealing Cold Attack damage in an area and inflicting Exposure. This damage is not based on your unarmed damage, so this is not considered an Unarmed Attack"
   },
   {
@@ -3406,6 +3930,9 @@
       "Trigger",
       "Cold"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Dash to an enemy and Strike them with an Attack that manifests a wave of cold, coating nearby enemies in shards of ice. Dealing enough damage to these enemies will shatter the shards, causing an icy explosion that deals Attack damage."
   },
   {
@@ -3418,6 +3945,7 @@
       "Lightning",
       "Fire"
     ],
+    "weapons": [],
     "description": "Stamp your spear, destroying all Bloodstone Lances on each enemy in your Presence to cause a damaging explosion around that enemy. Each explosion gains new benefits when reaching higher thresholds of Bloodstone Lances removed from an enemy, causing them to deal more damage, have increased area of effect, and Leech Life from enemies caught in the blast."
   },
   {
@@ -3431,6 +3959,9 @@
       "Channelling",
       "Travel"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Channel to charge in the target direction. You will crash into enemies on your path, stopping your charge and dealing damage to enemies in an area, and extra damage to the enemies you collided with. While charging, your Shield is raised and you will Block all incoming Blockable hits."
   },
   {
@@ -3442,6 +3973,9 @@
       "Melee",
       "Physical",
       "Duration"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Ram your Shield into the ground, throwing up a wall of earth. Enemies can attack your wall segments, and your Slams, Warcries, and Shield Charge will instantly shatter them all. The segments explode when shattered, damaging enemies in front of and around them."
   },
@@ -3455,6 +3989,9 @@
       "Projectile",
       "Lightning",
       "Payoff"
+    ],
+    "weapons": [
+      "Crossbow"
     ],
     "description": "Load your Crossbow with a clip of charged bolts which release damaging pulses upon Hitting an enemy affected by a Lightning Ailment. Using this Skill again reloads the clip."
   },
@@ -3470,6 +4007,9 @@
       "Payoff",
       "Repeatable"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Fire a Lightning-charged arrow that homes in on enemies afflicted by Lightning Ailments. Hitting such an enemy will cause your arrow to release a damaging shockwave and Chain towards nearby targets, with those Chaining Hits also releasing a shockwave. After the final Chain, the arrow lodges into the ground as a Lightning Rod. Consumes Shock from enemies it Hits, but not Electrocution."
   },
   {
@@ -3483,6 +4023,10 @@
       "Slam",
       "Duration",
       "Nova"
+    ],
+    "weapons": [
+      "Mace",
+      "Primal"
     ],
     "description": "Raise a Totem that Slams the ground around it, repeatedly damaging nearby enemies. Jagged Ground erupts when hit by this Slam, damaging enemies standing on it. The Totem cannot create Jagged Ground. This Skill can be used while Shapeshifted."
   },
@@ -3501,6 +4045,7 @@
       "Cold",
       "Payoff"
     ],
+    "weapons": [],
     "description": "Shapeshift into a Werewolf and lash out with a flurry of claw swipes. The first Attack can dash to faraway enemies and the final Attack Strikes twice. Attacking a Frozen enemy will create Ice Fragments, which are Projectiles that land and explode after a short delay."
   },
   {
@@ -3516,6 +4061,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Deploy a Ballista Totem that fires bolts skyward, to explode a short time after landing."
   },
   {
@@ -3528,6 +4076,9 @@
       "Projectile",
       "Sustained"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Load your Crossbow with enemy-seeking payloads which are fired into the air, dropping a bolt near every enemy in the target area. These bolts lodge in the ground and explode after a short delay."
   },
   {
@@ -3539,6 +4090,7 @@
       "Duration",
       "Staged"
     ],
+    "weapons": [],
     "description": "Place a Sigil on the ground, providing a powerful Spell Damage Buff to you and Allies while standing in it. The Buff becomes more powerful the more mana you spend while standing in the Sigil."
   },
   {
@@ -3552,6 +4104,7 @@
       "Fire",
       "Remnant"
     ],
+    "weapons": [],
     "description": "While active, has a chance to create an Infusion Remnant when you Freeze, Shock or Ignite a target."
   },
   {
@@ -3565,6 +4118,9 @@
       "Lightning",
       "Payoff"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Dash to a target and Strike them with your Quarterstaff. If the target is Shocked, Consume their Shock to release a Lightning shockwave around the target and grant you a Power Charge. This skill cannot be Ancestrally Boosted."
   },
   {
@@ -3575,6 +4131,9 @@
       "Persistent",
       "Fire",
       "Detonator"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Activate to summon bomb-throwing, Reviving Skeletal Arsonists that can detonate other Minions on Command."
   },
@@ -3588,6 +4147,9 @@
       "Physical",
       "Payoff"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Activate to summon hard-hitting, Reviving Skeletal Brutes that can Stun Primed enemies and Warcry on Command. This Warcry Intimidates nearby enemies and Consumes Freeze on enemies and allies to deal damage in an Area around them."
   },
   {
@@ -3596,6 +4158,9 @@
     "tags": [
       "Minion",
       "Persistent"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Activate to summon Reviving Skeletal Clerics that heal other minions and revive fallen Skeletons."
   },
@@ -3607,6 +4172,9 @@
       "Persistent",
       "Cold"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Activate to summon Reviving Skeletal Frost Mages that can envelop your Minions in an icy shield on Command."
   },
   {
@@ -3616,6 +4184,9 @@
       "Minion",
       "Persistent",
       "Physical"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Activate to summon aggressive, Reviving Skeletal Reavers that can enrage on Command. Skeletal Reavers do more Attack Damage and gain increased Attack speed based on their Rage"
   },
@@ -3629,6 +4200,9 @@
       "Fire",
       "Chaos"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Activate to summon long-ranged, Reviving Skeletal Snipers that can fire a gas arrow on Command."
   },
   {
@@ -3638,6 +4212,9 @@
       "Minion",
       "Persistent",
       "Lightning"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Activate to summon Reviving Skeletal Storm Mages that can call down a lightning strike on dead Skeletons on Command."
   },
@@ -3649,6 +4226,7 @@
       "Persistent",
       "Physical"
     ],
+    "weapons": [],
     "description": "Activate to summon Reviving Skeletal Warriors."
   },
   {
@@ -3663,6 +4241,7 @@
       "Conditional",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Build Glory by spending Runic Ward. When you have maximum Glory, you may call down a mass of Verisium from the sky, dealing high damage at the targeted location and summoning a Temporary Minion. Targeting close to you will cause you to jump back as you cast. Consumes a Verisium Infusion, if possible, to increase the number of Minions summoned ."
   },
   {
@@ -3678,6 +4257,9 @@
       "Remnant",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Consume the elemental energy from a Frozen, Shocked or Ignited enemy, creating an elemental blast that leaves behind an Infusion Remnant. The blast will spread to other enemies affected by the same Ailment, but those blasts cannot spread further. Can also be cast on a Frostbolt to create a larger cold blast."
   },
   {
@@ -3692,6 +4274,9 @@
       "Payoff",
       "Repeatable"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Channel to charge up your bow before releasing a powerful shot. Releasing with Perfect Timing causes the arrow to explode on impact and Consume Freeze on directly Hitting. Consuming Freeze enhances the explosion."
   },
   {
@@ -3700,6 +4285,9 @@
     "tags": [
       "Mark",
       "Duration"
+    ],
+    "weapons": [
+      "Bow"
     ],
     "description": "Mark a target. The next Critical Hit the target receives Activates the Mark, Consuming it to deal extra damage and grant you a Frenzy Charge."
   },
@@ -3716,6 +4304,7 @@
       "Cold",
       "Travel"
     ],
+    "weapons": [],
     "description": "Hurl your Shield as a Projectile which Returns to you at the end of its flight. While the Shield is in flight, this skill is replaced with Embrace the Fall. This skill's cooldown is skipped if you catch the Shield as it Returns, or destroy an Ice Crystal with the Embrace the Fall."
   },
   {
@@ -3730,6 +4319,7 @@
       "Orb",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Create a fiery Orb that periodically releases fiery pulses. Enemies that are very close to the Orb are Ignited. Flameblast can target a Solar Orb to be centred on the Orb instead of your location."
   },
   {
@@ -3743,6 +4333,7 @@
       "Cold",
       "Fire"
     ],
+    "weapons": [],
     "description": "Passively manifests a protective barrier which takes Elemental Damage from Hits for you until depleted. The barrier instantly recharges to its full value a short time after it stops taking damage or is fully depleted."
   },
   {
@@ -3752,6 +4343,9 @@
       "Minion",
       "Buff",
       "Duration"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Skewer a Skeleton on a bone spike, granting you a powerful Spell damage Buff as long as the spike remains. Does not affect your Minions. The bone spike is itself a Minion. If it dies, the effect ends immediately."
   },
@@ -3765,6 +4359,7 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Fire a Piercing Projectile that seeks out enemies. Enemies hit are inflicted with a Debuff that Hinders them and deals Chaos damage over time for a short duration."
   },
   {
@@ -3779,6 +4374,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Launch a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire. Consumes a Cold Infusion if possible to fire many sparks in a circle."
   },
   {
@@ -3790,6 +4388,7 @@
       "Projectile",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Hurl your Spear with force. Consumes a Frenzy Charge if you have one to cause the Spear to explode at the end of its flight."
   },
   {
@@ -3802,6 +4401,9 @@
       "Sustained",
       "Fire",
       "Conditional"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Build Glory by inflicting Freeze, Shock or Ignite on enemies. When you have maximum Glory you may call forth the Azmeri goddess Solaris, jumping backwards and throwing your Spear in the air. On landing the spear deals heavy damage in an area, then calls a divine skybeam that pulses periodically and creates expanding Ignited Ground. Modifiers to number of Projectiles fired do not apply to this skill."
   },
@@ -3816,6 +4418,9 @@
       "Duration",
       "Hazard"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Stab the ground causing multiple spears to burst out of the ground in front of you in a large area. The spears remain for a duration, or explode when enemies touch them, damaging and Maiming them."
   },
   {
@@ -3827,6 +4432,9 @@
       "Duration",
       "Conditional",
       "Meta"
+    ],
+    "weapons": [
+      "Primal"
     ],
     "description": "Consume any combination of 3 Power and/or Endurance Charges to raise a Totem that uses socketed Spells. Cannot use Skills with Cooldowns."
   },
@@ -3840,6 +4448,7 @@
       "Invocation",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you cast Spells. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy."
   },
   {
@@ -3849,6 +4458,9 @@
       "Attack",
       "Projectile",
       "Sustained"
+    ],
+    "weapons": [
+      "Bow"
     ],
     "description": "Load your Bow with a volley of enchanted arrows and fire them in a circle as you spin forward, firing directly at targets if possible. Consumes Frenzy Charges to cause the arrows to deal more damage and Chain to other targets. Each target can only be Hit once."
   },
@@ -3863,6 +4475,7 @@
       "Chaos",
       "Duration"
     ],
+    "weapons": [],
     "description": "A flock of mist ravens circle you, dealing damage over time in an area. Their numbers are bolstered by slain foes, or in the Presence of dangerous enemies, but the flock as a whole is considered a single minion. You can Command some of them to take flight, leaving the flock to assail your enemies."
   },
   {
@@ -3874,6 +4487,7 @@
       "Persistent",
       "Meta"
     ],
+    "weapons": [],
     "description": "Summons a Shapeshifting Spirit Vessel Companion that uses copies of socketed Bear, Werewolf, and Wyvern Skills."
   },
   {
@@ -3890,6 +4504,9 @@
       "Duration",
       "Wind"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Dash to an enemy and Strike them, instantly Heavily Stunning enemies which are Primed for Stun and performing additional dashing Strikes to other Primed targets in range if your first target was Stunned. Heavy Stunning an enemy with this Skill grants you a Buff that causes your Quarterstaff Attacks to also fire Projectiles for a short duration. Heavy Stunning additional enemies adds to the Buff's duration."
   },
   {
@@ -3902,6 +4519,9 @@
       "Slam",
       "Duration",
       "Travel"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Charges forward, cracking the earth and leaving a patch of Jagged Ground with every footstep. At the end of your charge, a massive leaping Slam damages enemies and causes all nearby patches of Jagged Ground to explode, damaging enemies standing on them. Once you begin your charge, the use speed of this Skill is affected by movement speed instead of Attack speed."
   },
@@ -3917,6 +4537,7 @@
       "Cold",
       "Duration"
     ],
+    "weapons": [],
     "description": "Build up Glory by Freezing or Chilling enemies. When you have maximum Glory you may jump backwards loosing your Mace with the force of a falling comet onto your target. The impact releases Fissures and causes stars to fall in the area for a brief period."
   },
   {
@@ -3931,6 +4552,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Throw an electrified Spear that lodges in the ground and periodically zaps nearby enemies with Lightning bolts. If the Spear is Detonated by another Skill, it immediately unleashes a volley of bolts and expires. Consumes a Frenzy Charge if possible to fire bolts more frequently for a shorter duration, automatically Detonate at the end of its duration, and create Shocked Ground on Detonation."
   },
   {
@@ -3941,6 +4565,9 @@
       "AoE",
       "Melee",
       "Lightning"
+    ],
+    "weapons": [
+      "Quarterstaff"
     ],
     "description": "Sweep your Quarterstaff, projecting a bolt of Lightning through the ground in a long fissure ahead of you."
   },
@@ -3955,6 +4582,9 @@
       "Lightning",
       "Duration"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Load your Crossbow with charged bolts that land around the target location and explode if hit by a Detonator Skill. Using this Skill again reloads the clip."
   },
   {
@@ -3968,6 +4598,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Fire an arrow that embeds where it lands for a short duration. At the end of the duration, a Lightning Bolt strikes the arrow, disintegrating it and damaging enemies, with a high chance to Shock. Shocking any enemy with the Bolt also applies Shock to all enemies near the impact."
   },
   {
@@ -3979,6 +4612,7 @@
       "Persistent",
       "Fire"
     ],
+    "weapons": [],
     "description": "Activate to summon a Reviving Infernal Hound which Ignites enemies near it."
   },
   {
@@ -3991,6 +4625,9 @@
       "Slam",
       "Duration",
       "Payoff"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Slam the ground, creating a roiling fissure that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies. Hitting an enemy with Fully Broken Armour applies Sundered Armour, making it take additional increased Physical damage."
   },
@@ -4005,6 +4642,9 @@
       "Channelling",
       "Staged"
     ],
+    "weapons": [
+      "Mace"
+    ],
     "description": "Channel to charge up a heavy swing, drawing earth from the ground to enlarge your mace. Release to Slam the ground, dealing damage in an area around the impact, followed by Aftershocks dealing damage in a larger area. This Skill has its own Attack time, which is not affected by your weapon's attack speed and cannot be modified."
   },
   {
@@ -4014,6 +4654,7 @@
       "Minion",
       "Persistent"
     ],
+    "weapons": [],
     "description": "Recruit artillery Minions that take up positions behind you. They will lie in wait for your Command, then fire volleys of arrows at the target location."
   },
   {
@@ -4024,6 +4665,9 @@
       "Companion",
       "Persistent",
       "Duration"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Conjure Azmeri wisps to engulf a Rare Beast for a duration, Hindering them. If you defeat the Beast while it is engulfed in wisps, it will be captured by this gem, transforming the gem to instead allow you to summon the Beast as a Reviving Companion."
   },
@@ -4039,6 +4683,7 @@
       "Fire",
       "Channelling"
     ],
+    "weapons": [],
     "description": "Channel to temper your main hand Melee Martial Weapon. Each hit of the hammer against the anvil Empowers subsequent Attacks to Combust when Hitting enemies."
   },
   {
@@ -4052,6 +4697,9 @@
       "Duration",
       "Conditional"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Build Combo by successfully Striking Enemies with other skills. After reaching maximum Combo, use this skill to cause the Bell on your staff to grow to massive size as you drop it on the ground. The Bell damages enemies on impact and can be Hit by your skills, creating a damaging shockwave. Elemental Ailments applied to the Bell cause its shockwaves to deal extra damage of the corresponding type, and Hits which would have caused Knockback increase the area of effect of the shockwaves."
   },
   {
@@ -4063,6 +4711,9 @@
       "Melee",
       "Strike",
       "Lightning"
+    ],
+    "weapons": [
+      "Quarterstaff"
     ],
     "description": "Perform a series of aggressive Strikes. When used in quick succession, the third use Strikes three times, and the fourth use performs a Final Strike that calls down a powerful Shocking bolt."
   },
@@ -4076,6 +4727,9 @@
       "Curse",
       "Repeatable"
     ],
+    "weapons": [
+      "Elemental"
+    ],
     "description": "Curse all enemies in an area, Slowing them and making other effects on them expire more slowly."
   },
   {
@@ -4086,6 +4740,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, passively leaves afterimages of your recent past. Cast the Spell to return to the oldest afterimage, teleporting to that location and resetting your Life, Mana and Energy Shield to the values they had at the time. Removes any upcoming damage delayed by Phased Form on use."
   },
   {
@@ -4100,6 +4755,7 @@
       "Cold",
       "Duration"
     ],
+    "weapons": [],
     "description": "Leash the stars themselves by leveraging your vast magical power, repeatedly Triggering Starfall targeting an enemy in an area around you, or a random location in that area if no enemies can be targeted."
   },
   {
@@ -4113,6 +4769,9 @@
       "Duration",
       "Plant"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Spur the growth of huge vines, which emerge randomly within the target area. The vines crash to the ground then retreat, targeting nearby enemies if possible."
   },
   {
@@ -4125,6 +4784,7 @@
       "Lightning",
       "Meta"
     ],
+    "weapons": [],
     "description": "While active, gains Energy when you Hit enemies with Melee Attacks and triggers socketed Lightning spells on reaching maximum Energy."
   },
   {
@@ -4139,6 +4799,9 @@
       "Detonator",
       "Travel"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Leap into the air and plunge your Spear into the ground at the target location, emitting a Lightning-charged shockwave."
   },
   {
@@ -4152,6 +4815,9 @@
       "Duration",
       "Storm"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Conjure a thunderstorm which causes lightning strikes and torrential rain in an area. Enemies in the area are Drenched, causing them to become Shocked or Frozen more easily. Plants in the area become Overgrown."
   },
   {
@@ -4162,6 +4828,7 @@
       "AoE",
       "Duration"
     ],
+    "weapons": [],
     "description": "Release a large wave that stops time for all affected enemies for a duration. Duration is lower the more times the enemy has had time stopped for them."
   },
   {
@@ -4170,6 +4837,7 @@
     "tags": [
       "Spell"
     ],
+    "weapons": [],
     "description": "Manipulate time, resetting the cooldowns of your other Skills."
   },
   {
@@ -4179,6 +4847,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, periodically invokes divine blessings to heal you and remove Curses and Elemental Ailments from you."
   },
   {
@@ -4191,6 +4860,9 @@
       "Duration",
       "Wind",
       "Storm"
+    ],
+    "weapons": [
+      "Primal"
     ],
     "description": "Create a storm that sucks in enemies and deals Physical damage over time. A Tornado that overlaps an Elemental Ground Surface absorbs that surface's Debuff, applying it to enemies inside the Tornado and causing the Tornado to deal extra damage of that element."
   },
@@ -4206,6 +4878,9 @@
       "Repeatable",
       "Wind"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Fire a skyward shot that whips up a Tornado where it lands, dealing Physical damage over time and Hindering enemies standing in it. Arrows, thrown Spears and Crossbow bolts fired at the Tornado are sucked into it, causing the Tornado to spit out a ring of copied Projectiles. Copied Projectiles cannot be copied again, even by further Tornados."
   },
   {
@@ -4220,6 +4895,9 @@
       "Duration",
       "Plant"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Create an area of Toxic Bloom on the ground around you. While in the Bloom, you have increased Skill costs, Regenerate Life, and your Projectile Attacks attach a Toxic Pustule, which can be Poisoned. Pustules will Detonate after a duration or when enough Poison has been applied, dealing more damage based on the stored Poison damage and applying Poison in an area around it."
   },
   {
@@ -4232,6 +4910,9 @@
       "Chaos",
       "Repeatable",
       "Plant"
+    ],
+    "weapons": [
+      "Bow"
     ],
     "description": "Fire a rain of Toxic Pustules into the air. The Pustules deal damage on impact, then Detonate after a delay. They can also be Poisoned, causing them to Detonate faster and more violently."
   },
@@ -4249,6 +4930,7 @@
       "Duration",
       "Hazard"
     ],
+    "weapons": [],
     "description": "While active, scatters caltrops in your wake when you dodge."
   },
   {
@@ -4261,6 +4943,7 @@
       "Cold",
       "Fire"
     ],
+    "weapons": [],
     "description": "Become attuned to all Elements building up Fire, Cold and Lightning Affinity based off the highest Elemental Damage type dealt by your Hits. Your Elemental Damage is enhanced the more Affinity of any type you have."
   },
   {
@@ -4271,6 +4954,7 @@
       "Buff",
       "Duration"
     ],
+    "weapons": [],
     "description": "Tap into the power of the Triskelion Flame to Empower the next Cascadable Spell you cast. The Empowered Spell becomes centred on your location, and Cascades to six areas around you in a Triskelion pattern."
   },
   {
@@ -4283,6 +4967,9 @@
       "Duration",
       "Repeatable",
       "Wind"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Whip up a twister with a flick of your Spear. The twister moves forward erratically, Blinding and repeatedly Hitting enemies within. If a twister touches a Whirlwind from your other skills, it Consumes the Whirlwind to create additional twisters that deal more damage. Passing over Elemental Ground Surfaces or Consuming an elemental Whirlwind will grant twisters extra damage of that element."
   },
@@ -4297,6 +4984,7 @@
       "Duration",
       "Conditional"
     ],
+    "weapons": [],
     "description": "Gain Unbound Fury by inflicting Elemental Ailments with Hits on enemies. Once you reach maximum Unbound Fury, consume it to become Unbound for a duration, vastly augmenting your Elemental prowess."
   },
   {
@@ -4310,6 +4998,9 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [
+      "Occult"
+    ],
     "description": "Raise spikes of bone from the earth in front of you, damaging enemies. The bones of Corpses and dead Reviving Minions in the area are ripped out and reassembled into short-lived Bone Construct Minions that fight for you. Larger Corpses create more than one Bone Construct."
   },
   {
@@ -4320,6 +5011,7 @@
       "Buff",
       "Duration"
     ],
+    "weapons": [],
     "description": "Augment yourself with temporal magic for a short duration, Empowering the next Repeatable Spell you cast to Repeat multiple times. Cannot Empower Skills with a Cooldown."
   },
   {
@@ -4331,6 +5023,7 @@
       "Physical",
       "Duration"
     ],
+    "weapons": [],
     "description": "Plant a seed of Abyssal Energy on the enemy's heart. Dealing enough damage to the enemy, or killing it outright, causes their heart to explode, dealing Physical damage in an area."
   },
   {
@@ -4343,6 +5036,7 @@
       "Lightning",
       "Chaining"
     ],
+    "weapons": [],
     "description": "While active, taking Lightning damage builds up charge on you. Reaching full charge expends all charge to Trigger this skill, creating a Chaining lightning bolt that arcs to nearby enemies."
   },
   {
@@ -4358,6 +5052,9 @@
       "Travel",
       "Payoff"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Leap forward and Slam the ground, sending out a shockwave. The shockwave applies Broken Stance to Dazed enemies, causing any Hits against those enemies to deal extra damage."
   },
   {
@@ -4369,6 +5066,7 @@
       "Persistent",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, Hitting with an Attack will spend Runic Ward to summon a Verisium Manifestation, a short-lived Temporary Minion that rapidly Attacks nearby enemies, ignoring commands. Enemies will not directly engage these Minions, and can pass through them."
   },
   {
@@ -4383,6 +5081,9 @@
       "Repeatable",
       "Plant"
     ],
+    "weapons": [
+      "Bow"
+    ],
     "description": "Fire an arrow into the air that lands after a short delay, damaging enemies and causing a plant to spring up at the impact location. The plant sprouts vines that latch onto nearby enemies, Slowing their movement speed and dealing Chaos damage over time. The plant can be Poisoned, causing it to deal more damage."
   },
   {
@@ -4392,6 +5093,7 @@
       "Buff",
       "Persistent"
     ],
+    "weapons": [],
     "description": "While active, conjures a glittering barrier that accumulates protective gemstone Motes of each Attribute type over time, but loses a random Mote when you are Hit."
   },
   {
@@ -4404,6 +5106,7 @@
       "Lightning",
       "Duration"
     ],
+    "weapons": [],
     "description": "Call upon Spirits of the Stag, sending them leaping forward. Each Stag releases a damaging shockwave each time it lands, and any Stags that travel the maximum possible distance also leave behind Shocked Ground."
   },
   {
@@ -4417,6 +5120,7 @@
       "Trigger",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, creates a short-lived illusory copy of yourself whenever you dodge roll. The copy can be damaged by enemies, and copies that are destroyed by an enemy will cause damaging explosions. Copies created this way have 1 Life."
   },
   {
@@ -4428,6 +5132,7 @@
       "Fire",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Consume a Corpse to create a volatile core that seeks out enemies and Ignites enemies near it. The core explodes at the end of its duration."
   },
   {
@@ -4441,6 +5146,9 @@
       "Sustained",
       "Fire",
       "Duration"
+    ],
+    "weapons": [
+      "Mace"
     ],
     "description": "Slam the ground, creating a branching Molten Fissure that deals damage as it travels and remains for a duration. Using a different Slam on a Molten Fissure creates a spreading Aftershock."
   },
@@ -4456,6 +5164,9 @@
       "Duration",
       "Channelling"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Uplift a volcano from the earth, damaging enemies standing on it and releasing a spray of molten Projectiles. While the volcano persists, Slamming it will cause another Projectile spray. Channelling this Skill for longer makes the initial eruption more violent, but does not affect subsequent Projectile sprays."
   },
   {
@@ -4468,6 +5179,7 @@
       "Lightning",
       "Chaining"
     ],
+    "weapons": [],
     "description": "Raise a pair of electrified pylons in front of you which project a wall of electricity between them, damaging and Electrocuting enemies caught between them. Projectiles you fire through the wall become energised, and discharge that energy on Hit as Chaining Lightning beams."
   },
   {
@@ -4481,6 +5193,9 @@
       "Lightning",
       "Duration"
     ],
+    "weapons": [
+      "Crossbow"
+    ],
     "description": "Fire a bouncing Grenade that discharges an Electrocuting Lightning blast when its fuse expires, causing all Lightning Hits against enemies to contribute to Electrocution buildup for a duration."
   },
   {
@@ -4491,6 +5206,9 @@
       "Buff",
       "Lightning",
       "Duration"
+    ],
+    "weapons": [
+      "Bow"
     ],
     "description": "Mark a target, making them more susceptible to being Electrocuted. When the Marked target is Electrocuted, the Mark Activates, granting a Buff which gives extra Lightning damage and Consuming the Mark. Marking another target while you have the Buff will remove the Buff."
   },
@@ -4504,6 +5222,9 @@
       "Duration",
       "Curse",
       "Repeatable"
+    ],
+    "weapons": [
+      "Occult"
     ],
     "description": "Curse all targets in an area after a short delay. making Hits against them ignore a portion of their Armour."
   },
@@ -4521,6 +5242,9 @@
       "Duration",
       "Conditional"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Build Glory by gaining Rage while already at maximum Rage. When you have maximum Glory, roar to the heavens to bring them down upon your enemies. For the duration of the Skill, meteors rain down around you and you Gain Fire damage and Rage regeneration. This Skill's effects are suppressed if you leave Bear form, but will resume if you return to Bear form before the duration expires."
   },
   {
@@ -4535,6 +5259,7 @@
       "Duration",
       "Conditional"
     ],
+    "weapons": [],
     "description": "While active, Attacking enemies builds Glory. When you have maximum Glory, you can place an inspiring Banner for a duration with an Aura that grants you and nearby Allies Attack damage, Attack speed and Accuracy."
   },
   {
@@ -4546,6 +5271,7 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "Spend all your Runic Ward to summon Temporary Wardbound Casters. These Minions target nearby enemies with damaging Cold Spells."
   },
   {
@@ -4557,6 +5283,9 @@
       "Melee",
       "Cold"
     ],
+    "weapons": [
+      "Quarterstaff"
+    ],
     "description": "Flip backwards and send forth a Freezing wave in front of you, immediately Freezing enemies which are Primed for Freeze."
   },
   {
@@ -4567,6 +5296,9 @@
       "AoE",
       "Melee",
       "Strike"
+    ],
+    "weapons": [
+      "Quarterstaff"
     ],
     "description": "Advance while hitting enemies around you with a series of spinning Strikes."
   },
@@ -4581,6 +5313,9 @@
       "Staged",
       "Wind"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Perform a circular slash that kicks up a Whirlwind around you, Slowing enemies and Blinding them in its area of effect. Leaving the area collapses the storm, dealing damage and causing Knockback."
   },
   {
@@ -4594,6 +5329,9 @@
       "Repeatable",
       "Wind"
     ],
+    "weapons": [
+      "Spear"
+    ],
     "description": "Throw a Spear with enough force to kick up a Whirlwind where it lands, Slowing enemies and Blinding them in its area of effect. Entering the Whirlwind collapses it, dealing damage and causing Knockback. Consumes a Frenzy Charge if possible to create the Whirlwind with one more than its normal maximum number of stages."
   },
   {
@@ -4605,6 +5343,7 @@
       "Persistent",
       "Physical"
     ],
+    "weapons": [],
     "description": "Call upon a Bear Spirit Companion to maul your foes. The Bear Spirit leaps at enemies to Maim them, Leeches Life with its slam, and periodically roars to Intimidate enemies. The Bear Spirit does not count toward your Companion limit."
   },
   {
@@ -4615,6 +5354,7 @@
       "Persistent",
       "Remnant"
     ],
+    "weapons": [],
     "description": "You are chosen by Azmerian spirits who provide guidance, allowing you to see nearby Ancient Blooms."
   },
   {
@@ -4625,6 +5365,9 @@
       "AoE",
       "Melee",
       "Wind"
+    ],
+    "weapons": [
+      "Quarterstaff"
     ],
     "description": "Batter enemies at range by generating a gust of wind as you swing. Enemies will be Dazed and Knocked Back based on how close they are to you."
   },
@@ -4640,6 +5383,7 @@
       "Trigger",
       "Staged"
     ],
+    "weapons": [],
     "description": "While active, periodically grants stages of a buff that gives you more Evasion per stage. Being Hit by an Enemy while you have this buff consumes all stages to damage and Knock Back enemies around you."
   },
   {
@@ -4652,6 +5396,9 @@
       "Sustained",
       "Conditional",
       "Wind"
+    ],
+    "weapons": [
+      "Spear"
     ],
     "description": "Consume all Frenzy Charges to perform a gigantic spear thrust that Knocks Back enemies. For each Frenzy Charge consumed, a Wind Serpent follows in the spear's wake. Each Serpent also damages and Knocks Back enemies."
   },
@@ -4666,6 +5413,9 @@
       "Melee",
       "Wind"
     ],
+    "weapons": [
+      "Primal"
+    ],
     "description": "Shapeshift into a Wyvern and launch yourself backwards with a powerful wingbeat that Knocks Back enemies. Enemies Primed for Heavy Stun will be stunned, release a shockwave, and have a chance to grant you a Power Charge. This skill can be used while using other skills to interrupt them."
   },
   {
@@ -4678,6 +5428,7 @@
       "Duration",
       "Channelling"
     ],
+    "weapons": [],
     "description": "Channel a debilitating hex that Withers enemies in the area."
   },
   {
@@ -4690,6 +5441,7 @@
       "Chaos",
       "Duration"
     ],
+    "weapons": [],
     "description": "While active, emits an Aura that periodically Withers enemies in your Presence."
   },
   {
@@ -4701,6 +5453,7 @@
       "Persistent",
       "Physical"
     ],
+    "weapons": [],
     "description": "Activate to summon a pack of Wolf Companions. The pack treated as a single Companion for effects that count or limit Companions, regardless of the number of Wolves in the pack."
   },
   {
@@ -4713,6 +5466,7 @@
       "Duration",
       "Repeatable"
     ],
+    "weapons": [],
     "description": "[DNT] Convene the surrounding earth into an immense boulder to crash down, dealing high damage at the targeted location after a short delay."
   }
 ]

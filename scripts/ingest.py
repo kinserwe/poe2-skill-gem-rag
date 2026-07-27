@@ -37,7 +37,8 @@ async def load_data(path: Path):
     await ensure_collection()
 
     descriptions = [
-        f"{gem['name']}. Tags: {' '.join(gem['tags'])}. {gem['description']}" for gem in data
+        f"{gem['name']}. Tags: {' '.join(gem['tags'])}. Weapons: {' '.join(gem['weapons'])}. {gem['description']}"
+        for gem in data
     ]
     vectors = await get_embeddings(descriptions)
     points = []

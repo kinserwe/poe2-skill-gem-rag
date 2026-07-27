@@ -5,6 +5,7 @@ class GemPayload(BaseModel):
     id: int
     name: str
     tags: list[str]
+    weapons: list[str] = []
     description: str
 
 
@@ -12,6 +13,7 @@ class SearchResult(BaseModel):
     id: int
     name: str
     tags: list[str]
+    weapons: list[str] = []
     description: str
 
 
