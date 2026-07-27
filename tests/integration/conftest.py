@@ -3,7 +3,7 @@ from qdrant_client import AsyncQdrantClient
 
 from app.config import settings
 
-TEST_QDRANT_COLLECTION = "poe2-skill-gems-test"
+from tests.conftest import TEST_QDRANT_COLLECTION
 
 
 @pytest.fixture

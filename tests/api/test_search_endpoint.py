@@ -2,7 +2,7 @@ from unittest.mock import patch
 
 from starlette import status
 
-from tests.api.conftest import TEST_QDRANT_COLLECTION
+from tests.conftest import TEST_QDRANT_COLLECTION
 
 
 class TestSearchEndpoint:
