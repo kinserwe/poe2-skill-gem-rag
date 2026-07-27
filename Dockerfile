@@ -23,6 +23,15 @@ RUN --mount=type=cache,target=/root/.cache/uv \
 
 ENV PATH="/app/.venv/bin:$PATH"
 
+ARG EMBEDDING_MODEL=all-MiniLM-L6-v2
+ENV EMBEDDING_MODEL=${EMBEDDING_MODEL}
+ENV HF_HOME=/app/.cache/huggingface
+
+RUN python -c "import os; from sentence_transformers import SentenceTransformer; SentenceTransformer(os.environ['EMBEDDING_MODEL'])" \
+ && chown -R nonroot:nonroot /app/.cache
+
+ENV HF_HUB_OFFLINE=1
+
 ENTRYPOINT []
 
 USER nonroot
