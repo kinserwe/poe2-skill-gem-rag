@@ -1,9 +1,9 @@
-from app.rag.embeddings import get_embeddings, embedding_model
+from app.rag.embeddings import get_embedding_model, get_embeddings
 
 
 class TestEmbeddings:
     async def test_returns_correct_shape_and_type(self):
-        expected_dim = embedding_model.get_embedding_dimension()
+        expected_dim = get_embedding_model().get_embedding_dimension()
         data_to_embed = [
             "test1",
             "test2",
