@@ -1,0 +1,177 @@
+<!--
+Trimmed stand-in for https://poe2db.tw/us/Skill_Gems.
+
+Mirrors the real markup closely enough to exercise every branch of the parser,
+while staying small enough to read. Each card documents the case it covers.
+-->
+<div class="tab-content">
+
+  <div id="SkillGemsSummary" class="tab-pane fade">
+
+    <!-- Normal gem. Description contains inline keyword links that must be
+         flattened into prose. "non-<a>Herald</a>" must not gain a space. -->
+    <div class="d-flex border-top rounded">
+      <div class="flex-shrink-0">
+        <a class="gem_green" href="/us/Lightning_Arrow"><img alt="LightningArrow" class="w1" /></a>
+      </div>
+      <div class="flex-grow-1 ms-2">
+        <div><a class="gem_green" href="/us/Lightning_Arrow">Lightning Arrow</a></div>
+        <div class="default">
+          <a class="GemTags KeywordPopups" href="Attack">Attack</a>,
+          <a class="GemTags KeywordPopups" href="AoE">AoE</a>,
+          <a class="GemTags KeywordPopups" href="Lightning">Lightning</a>
+        </div>
+        Fire a charged arrow that releases <a class="KeywordPopups" href="Chaining">Chaining</a>
+        <a class="KeywordPopups" href="Lightning">Lightning</a> beams at non-<a
+          class="KeywordPopups" href="Herald">Herald</a> enemies.
+      </div>
+    </div>
+
+    <!-- Different gem colour class: name lookup must not key on gem_green.
+         Trailing "<a>Armour</a>." must not become "Armour ." -->
+    <div class="d-flex border-top rounded">
+      <div class="flex-shrink-0">
+        <a class="gem_red" href="/us/Boneshatter"><img alt="Boneshatter" class="w1" /></a>
+      </div>
+      <div class="flex-grow-1 ms-2">
+        <div><a class="gem_red" href="/us/Boneshatter">Boneshatter</a></div>
+        <div class="default">
+          <a class="GemTags KeywordPopups" href="Attack">Attack</a>,
+          <a class="GemTags KeywordPopups" href="Melee">Melee</a>
+        </div>
+        Strike with a forceful blow, weakening their <a class="KeywordPopups"
+          href="Armour">Armour</a>.
+      </div>
+    </div>
+
+    <!-- Duplicate slug, poorer entry: fewer tags, so the richer card below wins. -->
+    <div class="d-flex border-top rounded">
+      <div class="flex-shrink-0">
+        <a class="gem_blue" href="/us/Spark"><img alt="Spark" class="w1" /></a>
+      </div>
+      <div class="flex-grow-1 ms-2">
+        <div><a class="gem_blue" href="/us/Spark">Spark</a></div>
+        <div class="default">
+          <a class="GemTags KeywordPopups" href="Spell">Spell</a>,
+          <a class="GemTags KeywordPopups" href="Lightning">Lightning</a>
+        </div>
+        Launch sparking projectiles at nearby enemies.
+      </div>
+    </div>
+
+    <!-- Duplicate slug, richer entry: more tags, so this one must be kept. -->
+    <div class="d-flex border-top rounded">
+      <div class="flex-shrink-0">
+        <a class="gem_blue" href="/us/Spark"><img alt="Spark" class="w1" /></a>
+      </div>
+      <div class="flex-grow-1 ms-2">
+        <div><a class="gem_blue" href="/us/Spark">Spark</a></div>
+        <div class="default">
+          <a class="GemTags KeywordPopups" href="Spell">Spell</a>,
+          <a class="GemTags KeywordPopups" href="Projectile">Projectile</a>,
+          <a class="GemTags KeywordPopups" href="Lightning">Lightning</a>,
+          <a class="GemTags KeywordPopups" href="Duration">Duration</a>
+        </div>
+        Launch a spray of sparking projectiles that travel erratically.
+      </div>
+    </div>
+
+    <!-- Multi-weapon gem: Gemcutting pane lists it under both Bow and Spear. -->
+    <div class="d-flex border-top rounded">
+      <div class="flex-shrink-0">
+        <a class="gem_green" href="/us/Barrage"><img alt="Barrage" class="w1" /></a>
+      </div>
+      <div class="flex-grow-1 ms-2">
+        <div><a class="gem_green" href="/us/Barrage">Barrage</a></div>
+        <div class="default">
+          <a class="GemTags KeywordPopups" href="Attack">Attack</a>,
+          <a class="GemTags KeywordPopups" href="Projectile">Projectile</a>
+        </div>
+        Fire a series of projectiles in quick succession.
+      </div>
+    </div>
+
+    <!-- Weapon default attack: must be dropped via the denylist. -->
+    <div class="d-flex border-top rounded">
+      <div class="flex-shrink-0">
+        <a class="gem_green" href="/us/Bow_Shot"><img alt="BowShot" class="w1" /></a>
+      </div>
+      <div class="flex-grow-1 ms-2">
+        <div><a class="gem_green" href="/us/Bow_Shot">Bow Shot</a></div>
+        <div class="default">
+          <a class="GemTags KeywordPopups" href="Attack">Attack</a>,
+          <a class="GemTags KeywordPopups" href="Projectile">Projectile</a>
+        </div>
+        Fire an arrow with your Bow.
+      </div>
+    </div>
+
+    <!-- Unrendered site template in the name: must be dropped. -->
+    <div class="d-flex border-top rounded">
+      <div class="flex-shrink-0">
+        <a class="gem_red" href="/us/Companion"><img alt="Companion" class="w1" /></a>
+      </div>
+      <div class="flex-grow-1 ms-2">
+        <div><a class="gem_red" href="/us/Companion">Companion: {0}</a></div>
+        <div class="default">
+          <a class="GemTags KeywordPopups" href="Companion">Companion</a>
+        </div>
+        Summon a Reviving Beast Companion to aid you in combat.
+      </div>
+    </div>
+
+    <!-- No description text after the tag list: must be dropped. -->
+    <div class="d-flex border-top rounded">
+      <div class="flex-shrink-0">
+        <a class="gem_red" href="/us/Kelaris_Deception"><img alt="KelarisDeception" class="w1" /></a>
+      </div>
+      <div class="flex-grow-1 ms-2">
+        <div><a class="gem_red" href="/us/Kelaris_Deception">Kelari's Deception</a></div>
+        <div class="default">
+          <a class="GemTags KeywordPopups" href="Command">Command</a>,
+          <a class="GemTags KeywordPopups" href="AoE">AoE</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="SkillGemsGemcutting" class="tab-pane fade">
+    <table class="table table-hover">
+      <thead>
+        <tr><th>Weapon</th><th>Tier</th><th>Gems</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bow</td>
+          <td>1</td>
+          <td>
+            <a href="/us/Lightning_Arrow">Lightning Arrow</a>
+            <a href="/us/Barrage">Barrage</a>
+            <!-- Empty anchor: must not become a phantom gem collecting every weapon. -->
+            <a href="/us/"></a>
+          </td>
+        </tr>
+        <tr>
+          <td>Spear</td>
+          <td>3</td>
+          <td>
+            <a href="/us/Barrage">Barrage</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Occult</td>
+          <td>1</td>
+          <td>
+            <a href="/us/Spark">Spark</a>
+          </td>
+        </tr>
+        <!-- Malformed row with too few cells: must be skipped, not crash. -->
+        <tr>
+          <td>Mace</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>

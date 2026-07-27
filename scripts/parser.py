@@ -151,8 +151,12 @@ def _write_gems_json(gems: list[GemPayload], path: Path = _GEMS_JSON_PATH) -> No
         json.dump(list(map(lambda g: g.model_dump(mode="json"), gems)), f, indent=2)
 
 
-if __name__ == "__main__":
+def main() -> None:
     configure_logging()
     html = _fetch_gems_html()
     gems = _parse_gems_html(html)
     _write_gems_json(gems)
+
+
+if __name__ == "__main__":
+    main()
