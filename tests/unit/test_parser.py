@@ -18,6 +18,12 @@ class TestParser:
             "Lightning Arrow",
             "Spark",
         ]
+        assert [gem.weapons for gem in written] == [
+            ["Bow", "Spear"],
+            [],
+            ["Bow"],
+            ["Occult"],
+        ]
 
     def test_gem_id_matches_known_value(self):
         # Pinned so swapping the hash or digest size cannot silently remap every
