@@ -9,7 +9,22 @@ from app.rag.embeddings import get_embeddings
 from app.api.schemas import GemPayload
 from qdrant_client.models import PointStruct
 
+from app.rate_limiter import get_limiter, RateLimiter
 from tests.conftest import TEST_QDRANT_COLLECTION
+
+
+@pytest.fixture(autouse=True)
+def fresh_rate_limiter():
+    app.dependency_overrides[get_limiter] = lambda: RateLimiter(capacity=1000)
+    yield
+    app.dependency_overrides.pop(get_limiter, None)
+
+
+@pytest.fixture
+def rate_limited():
+    app.dependency_overrides[get_limiter] = lambda: RateLimiter(capacity=0)
+    yield
+    app.dependency_overrides.pop(get_limiter, None)
 
 
 @pytest.fixture
