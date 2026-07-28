@@ -4,8 +4,8 @@ from pathlib import Path
 import pytest
 
 TEST_QDRANT_COLLECTION = "poe2-skill-gems-test"
-SAMPLE_DATA_PATH = Path(__file__).parent / "fixtures" / "sample_gems.json"
-SAMPLE_HTML_PATH = Path(__file__).parent / "fixtures" / "skill_gems_page.html"
+SAMPLE_DATA_PATH = Path(__file__).parent / "data" / "sample_gems.json"
+SAMPLE_HTML_PATH = Path(__file__).parent / "data" / "skill_gems_page.html"
 
 
 @pytest.fixture
