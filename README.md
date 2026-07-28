@@ -30,6 +30,8 @@ start without it. The remaining variables have working defaults.
 | `EMBEDDING_MODEL` | `all-MiniLM-L6-v2` | Also baked into the Docker image at build time |
 | `GEMINI_API_KEY` | — | Required |
 | `GEMINI_MODEL` | `gemini-3.1-flash-lite` | |
+| `ASK_CAPACITY` | `5` | Burst allowance for `/ask` — see Rate limiting |
+| `ASK_RATE_PER_MINUTE` | `10` | Sustained request rate for `/ask` |
 
 ## Running locally
 
@@ -116,6 +118,24 @@ sources it was given:
   ]
 }
 ```
+
+## Rate limiting
+
+`/ask` is rate limited because every call costs a Gemini request. `/search` is not —
+it only touches the local embedding model and Qdrant.
+
+The limiter is a token bucket keyed by client address: `ASK_CAPACITY` requests may be
+made back to back, after which the bucket refills at `ASK_RATE_PER_MINUTE`. Rejected
+requests get a `429` with a `Retry-After` header. State is per-process and in-memory,
+so running multiple replicas would multiply the effective limit.
+
+**Behind Docker it is effectively a global limit, not a per-client one.** Requests
+published through the bridge network arrive with the gateway address (e.g.
+`172.19.0.1`), so every caller shares one bucket. Whether real client addresses
+survive depends on the deployment — plain Docker on Linux often preserves them, while
+Docker Desktop and load balancers generally do not. True per-client limiting needs a
+proxy that forwards `X-Forwarded-For`, uvicorn's `--proxy-headers`, and a trusted
+proxy allowlist so the header cannot be spoofed.
 
 ## Dataset
 

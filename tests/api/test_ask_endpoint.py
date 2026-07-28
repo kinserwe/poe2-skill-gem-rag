@@ -28,3 +28,8 @@ class TestAskEndpoint:
     async def test_ask_rejects_invalid_limit(self, api_client):
         response = await api_client.post("/ask", json={"q": "stuns and explodes", "limit": 0})
         assert response.status_code == status.HTTP_422_UNPROCESSABLE_CONTENT
+
+    async def test_ask_rate_limit(self, api_client, rate_limited):
+        response = await api_client.post("/ask", json={"q": "stuns and explodes"})
+        assert response.status_code == status.HTTP_429_TOO_MANY_REQUESTS
+        assert int(response.headers["Retry-After"]) > 0
