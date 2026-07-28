@@ -42,6 +42,7 @@ target-version = "py313"
 quote-style = "double"
 
 [tool.pytest.ini_options]
+addopts = "--strict-markers"
 pythonpath = ["."]
 asyncio_mode = "auto"
 testpaths = ["tests"]
