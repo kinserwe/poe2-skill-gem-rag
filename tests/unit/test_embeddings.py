@@ -1,6 +1,9 @@
+import pytest
+
 from app.rag.embeddings import get_embedding_model, get_embeddings
 
 
+@pytest.mark.slow
 class TestEmbeddings:
     async def test_returns_correct_shape_and_type(self):
         expected_dim = get_embedding_model().get_embedding_dimension()
