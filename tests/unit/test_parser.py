@@ -4,7 +4,7 @@ from scripts import parser
 
 
 class TestParser:
-    def test_successful_gem_html_parse(self, sample_gems_html):
+    def test_parses_gems_from_page(self, sample_gems_html):
         with (
             patch.object(parser, "_fetch_gems_html", return_value=sample_gems_html),
             patch.object(parser, "_write_gems_json") as write,
