@@ -1,0 +1,127 @@
+[
+  {
+    "q": "bow skill that chains lightning between enemies",
+    "expect": ["Lightning Arrow"],
+    "note": "weapon + element + mechanic, all present in name and tags"
+  },
+  {
+    "q": "melee attack that stuns enemies and creates a shockwave",
+    "expect": ["Boneshatter"],
+    "note": "mechanic described in the gem's own wording"
+  },
+  {
+    "q": "stuns and explodes",
+    "expect": ["Boneshatter"],
+    "note": "same gem, player wording — 'explodes' never appears in the description"
+  },
+  {
+    "q": "summon a zombie from a corpse",
+    "expect": ["Raise Zombie"],
+    "note": "name overlaps the query"
+  },
+  {
+    "q": "turn my curses into auras",
+    "expect": ["Blasphemy"],
+    "note": "no lexical overlap with the name at all"
+  },
+  {
+    "q": "cold projectile that does not hit enemies directly",
+    "expect": ["Eye of Winter"],
+    "note": "unusual mechanic, distinctive description"
+  },
+  {
+    "q": "totem that slams the ground repeatedly",
+    "expect": ["Shockwave Totem"],
+    "note": "tag plus description overlap"
+  },
+  {
+    "q": "trigger a spell automatically when i block",
+    "expect": ["Cast on Block"],
+    "note": "meta gem, name overlaps"
+  },
+  {
+    "q": "eat corpses to recover life",
+    "expect": ["Feast of Flesh"],
+    "note": "colloquial phrasing vs formal description"
+  },
+  {
+    "q": "buff that makes overkilled enemies burn",
+    "expect": ["Herald of Ash"],
+    "note": "requires understanding 'Overkill'"
+  },
+  {
+    "q": "charge at enemies with my shield raised",
+    "expect": ["Shield Charge"],
+    "note": "travel skill"
+  },
+  {
+    "q": "summon archers that shoot from range",
+    "expect": ["Skeletal Sniper"],
+    "note": "'archer' never appears; description says long-ranged snipers"
+  },
+  {
+    "q": "crossbow ammo that reacts to shocked enemies",
+    "expect": ["Shockburst Rounds"],
+    "note": "weapon-specific, lightning ailment payoff"
+  },
+  {
+    "q": "channel my bow for a powerful single shot",
+    "expect": ["Snipe"],
+    "note": "channelling bow skill"
+  },
+  {
+    "q": "erratic lightning projectiles that bounce around",
+    "expect": ["Spark"],
+    "note": "'bounce' is player wording for erratic travel"
+  },
+  {
+    "q": "basic fire projectile spell for early levels",
+    "expect": ["Firebolt"],
+    "note": "vague, no distinctive terms"
+  },
+  {
+    "q": "lightning that jumps from enemy to enemy",
+    "expect": ["Arc"],
+    "note": "chaining described in player terms"
+  },
+  {
+    "q": "jump into the air and slam down with a mace",
+    "expect": ["Leap Slam"],
+    "note": "strong description overlap"
+  },
+  {
+    "q": "make a corpse explode to damage nearby enemies",
+    "expect": ["Detonate Dead"],
+    "note": "explicit mechanic"
+  },
+  {
+    "q": "chaos damage over time on a single target",
+    "expect": ["Contagion"],
+    "note": "element plus mechanic, no name overlap"
+  },
+  {
+    "q": "shield my minions with a bone spike",
+    "expect": ["Bone Offering"],
+    "note": "minion support"
+  },
+  {
+    "q": "what should i use as my main skill for a lightning bow build",
+    "expect": ["Lightning Arrow"],
+    "note": "conversational, lots of filler words"
+  },
+  {
+    "q": "i want something that summons undead to fight for me",
+    "expect": ["Raise Zombie", "Skeletal Sniper"],
+    "note": "several gems are acceptable answers"
+  },
+  {
+    "q": "fire spell that explodes on impact",
+    "expect": ["Firebolt"],
+    "note": "generic phrasing, many plausible matches"
+  },
+  {
+    "q": "cold skill for freezing groups of enemies",
+    "expect": ["Eye of Winter"],
+    "note": "deliberately vague — expected to be hard"
+  }
+]

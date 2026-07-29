@@ -6,7 +6,7 @@ using natural language, built with FastAPI + Qdrant + sentence-transformers.
 ## Stack
 - **FastAPI** — API layer
 - **Qdrant** — vector database for storing gem embeddings
-- **sentence-transformers** (`all-MiniLM-L6-v2`) — local embedding model, runs in-process
+- **sentence-transformers** (`all-mpnet-base-v2`) — local embedding model, runs in-process
 - **Gemini** (`google-genai`) — answer generation for `/ask`
 - **BeautifulSoup** — scrapes the gem dataset from poe2db.tw
 - **uv** — dependency management
@@ -27,7 +27,7 @@ start without it. The remaining variables have working defaults.
 | `QDRANT_URL` | `http://localhost:6333` | Compose overrides this to `http://qdrant:6333` |
 | `QDRANT_HOST_PORT` | `6333` | Compose only — host port Qdrant is published on |
 | `QDRANT_COLLECTION` | `poe2-skill-gems` | |
-| `EMBEDDING_MODEL` | `all-MiniLM-L6-v2` | Also baked into the Docker image at build time |
+| `EMBEDDING_MODEL` | `all-mpnet-base-v2` | Also baked into the Docker image at build time |
 | `GEMINI_API_KEY` | — | Required |
 | `GEMINI_MODEL` | `gemini-3.1-flash-lite` | |
 | `ASK_CAPACITY` | `5` | Burst allowance for `/ask` — see Rate limiting |
