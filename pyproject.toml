@@ -15,6 +15,7 @@ dependencies = [
     "pytest-asyncio>=1.4.0",
     "qdrant-client==1.18.0",
     "sentence-transformers==5.6.0",
+    "torch>=2.13.0",
     "uvicorn>=0.50.0",
 ]
 
@@ -30,9 +31,7 @@ url = "https://download.pytorch.org/whl/cpu"
 explicit = true
 
 [tool.uv.sources]
-torch = [
-    { index = "pytorch-cpu" }
-]
+torch = { index = "pytorch-cpu" }
 
 [tool.ruff]
 line-length = 100
