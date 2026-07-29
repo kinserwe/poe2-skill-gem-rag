@@ -1,7 +1,7 @@
 from unittest.mock import patch
 
 from app.rag import vector_store
-from tests.integration.conftest import TEST_QDRANT_COLLECTION
+from tests.conftest import TEST_QDRANT_COLLECTION
 
 
 class TestEnsureCollection:

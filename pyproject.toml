@@ -1,11 +1,13 @@
 [project]
 name = "poe2-skill-gem-rag"
 version = "0.1.0"
-description = "Add your description here"
+description = "A small Retrieval-Augmented Generation (RAG) app for searching Path of Exile 2 skill gems using natural language"
 requires-python = ">=3.13"
 dependencies = [
     "beautifulsoup4==4.15.0",
     "fastapi>=0.139.0",
+    "google-genai>=2.12.1",
+    "httpx>=0.28.1",
     "numpy>=2.5.1",
     "pydantic>=2.13.4",
     "pydantic-settings>=2.14.2",
@@ -29,7 +31,7 @@ explicit = true
 
 [tool.uv.sources]
 torch = [
-  { index = "pytorch-cpu" }
+    { index = "pytorch-cpu" }
 ]
 
 [tool.ruff]
@@ -40,5 +42,10 @@ target-version = "py313"
 quote-style = "double"
 
 [tool.pytest.ini_options]
+addopts = "--strict-markers"
+pythonpath = ["."]
 asyncio_mode = "auto"
 testpaths = ["tests"]
+markers = [
+    "slow: requires the embedding model",
+]

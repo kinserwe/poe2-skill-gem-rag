@@ -9,40 +9,34 @@ from app.rag.embeddings import get_embeddings
 from app.api.schemas import GemPayload
 from qdrant_client.models import PointStruct
 
-TEST_QDRANT_COLLECTION = "poe2-skill-gems-test"
+from app.rate_limiter import get_limiter, RateLimiter
+from tests.conftest import TEST_QDRANT_COLLECTION
 
-SAMPLE_GEMS = [
-    {
-        "id": 1,
-        "name": "Boneshatter",
-        "tags": ["attack", "melee", "physical"],
-        "description": "Stuns nearby enemies and explodes, dealing physical damage.",
-    },
-    {
-        "id": 2,
-        "name": "Fireball",
-        "tags": ["spell", "fire", "projectile"],
-        "description": "Launches a fireball that explodes on impact, dealing fire damage.",
-    },
-    {
-        "id": 3,
-        "name": "Raise Zombie",
-        "tags": ["minion", "physical"],
-        "description": "Summons a zombie minion to fight alongside you.",
-    },
-]
+
+@pytest.fixture(autouse=True)
+def fresh_rate_limiter():
+    app.dependency_overrides[get_limiter] = lambda: RateLimiter(capacity=1000)
+    yield
+    app.dependency_overrides.pop(get_limiter, None)
 
 
 @pytest.fixture
-async def seeded_search_collection():
+def rate_limited():
+    app.dependency_overrides[get_limiter] = lambda: RateLimiter(capacity=0)
+    yield
+    app.dependency_overrides.pop(get_limiter, None)
+
+
+@pytest.fixture
+async def seeded_search_collection(sample_gems):
     with patch("app.config.settings.QDRANT_COLLECTION", TEST_QDRANT_COLLECTION):
         await ensure_collection()
 
-        descriptions = [g["description"] for g in SAMPLE_GEMS]
+        descriptions = [g["description"] for g in sample_gems]
         vectors = await get_embeddings(descriptions)
         points = [
             PointStruct(id=g["id"], vector=v, payload=GemPayload(**g).model_dump())
-            for g, v in zip(SAMPLE_GEMS, vectors)
+            for g, v in zip(sample_gems, vectors)
         ]
         await client.upsert(collection_name=TEST_QDRANT_COLLECTION, wait=True, points=points)
 

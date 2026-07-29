@@ -5,7 +5,7 @@ from qdrant_client.models import Distance, VectorParams
 
 from app.api.schemas import SearchResult
 from app.config import settings
-from app.rag.embeddings import embedding_model, get_embeddings
+from app.rag.embeddings import get_embedding_model, get_embeddings
 
 client = AsyncQdrantClient(settings.QDRANT_URL)
 
@@ -14,8 +14,13 @@ logger = logging.getLogger(__name__)
 
 async def ensure_collection() -> None:
     if not await client.collection_exists(settings.QDRANT_COLLECTION):
-        vector_size = embedding_model.get_embedding_dimension()
+        vector_size = get_embedding_model().get_embedding_dimension()
 
+        logger.info(
+            "Creating Qdrant collection %s (vector size %d)",
+            settings.QDRANT_COLLECTION,
+            vector_size,
+        )
         await client.create_collection(
             collection_name=settings.QDRANT_COLLECTION,
             vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE),
