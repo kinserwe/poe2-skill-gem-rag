@@ -23,7 +23,7 @@ RUN --mount=type=cache,target=/root/.cache/uv \
 
 ENV PATH="/app/.venv/bin:$PATH"
 
-ARG EMBEDDING_MODEL=all-MiniLM-L6-v2
+ARG EMBEDDING_MODEL=all-mpnet-base-v2
 ENV EMBEDDING_MODEL=${EMBEDDING_MODEL}
 ENV HF_HOME=/app/.cache/huggingface
 
