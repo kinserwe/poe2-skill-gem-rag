@@ -26,6 +26,9 @@ def get_embedding_model() -> "SentenceTransformer":
 async def get_embeddings(to_embed: list[str]) -> list[list[float]]:
     embedding_model = get_embedding_model()
     embeddings = await run_in_threadpool(
-        embedding_model.encode, to_embed, normalize_embeddings=True
+        embedding_model.encode,
+        to_embed,
+        normalize_embeddings=True,
+        show_progress_bar=False,
     )
     return embeddings.tolist()

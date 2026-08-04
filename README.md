@@ -6,7 +6,7 @@ using natural language, built with FastAPI + Qdrant + sentence-transformers.
 ## Stack
 - **FastAPI** — API layer
 - **Qdrant** — vector database for storing gem embeddings
-- **sentence-transformers** (`all-MiniLM-L6-v2`) — local embedding model, runs in-process
+- **sentence-transformers** (`all-mpnet-base-v2`) — local embedding model, runs in-process
 - **Gemini** (`google-genai`) — answer generation for `/ask`
 - **BeautifulSoup** — scrapes the gem dataset from poe2db.tw
 - **uv** — dependency management
@@ -27,7 +27,7 @@ start without it. The remaining variables have working defaults.
 | `QDRANT_URL` | `http://localhost:6333` | Compose overrides this to `http://qdrant:6333` |
 | `QDRANT_HOST_PORT` | `6333` | Compose only — host port Qdrant is published on |
 | `QDRANT_COLLECTION` | `poe2-skill-gems` | |
-| `EMBEDDING_MODEL` | `all-MiniLM-L6-v2` | Also baked into the Docker image at build time |
+| `EMBEDDING_MODEL` | `all-mpnet-base-v2` | Also baked into the Docker image at build time |
 | `GEMINI_API_KEY` | — | Required |
 | `GEMINI_MODEL` | `gemini-3.1-flash-lite` | |
 | `ASK_CAPACITY` | `5` | Burst allowance for `/ask` — see Rate limiting |
@@ -160,6 +160,28 @@ uv run pytest
 Integration and API tests need a running Qdrant. Unit tests, including the parser
 tests, run against committed fixtures with no network access.
 
+## Measuring retrieval
+
+`evals/queries.json` holds 25 questions with the gem each one should return.
+`scripts/evaluate.py` runs them through `/search` and reports where the expected
+gem ranked:
+
+```bash
+uv run python -m scripts.evaluate                  # compare against the saved baseline
+uv run python -m scripts.evaluate --save-baseline  # save the current run as the baseline
+```
+
+It reports recall@1, recall@3, recall@8 and MRR. recall@8 matters most for `/ask`,
+which sends 8 gems to Gemini — if the right gem is not in those 8, the answer cannot
+be correct. MRR is the average of 1/rank, so it also shows when an answer moves up
+the list rather than only in or out of the top k.
+
+`evals/baseline.json` stores the last run's ranks, so a new run shows which
+individual queries got better or worse instead of only the totals.
+
+Current: recall@1 60%, recall@3 76%, recall@8 88%, mrr 0.688. Needs a running Qdrant
+with the collection ingested.
+
 ## Why these choices
 - Local embeddings instead of an API-based model: no API key required for retrieval,
   fully reproducible, no per-query cost — reasonable trade-off for a domain this small.
@@ -194,6 +216,12 @@ tests, run against committed fixtures with no network access.
 
 ## Roadmap
 - [x] Ingest pipeline for the full gem dataset from [poe2db.tw](https://poe2db.tw/us/Skill_Gems)
-- [ ] Hybrid search: combine vector similarity with tag and weapon filtering
-- [ ] Basic retrieval evaluation (test queries + expected results)
+- [x] Basic retrieval evaluation (test queries + expected results)
 - [ ] Backfill the 8 missing descriptions from individual gem pages
+
+Tried and rejected, measured with `scripts/evaluate.py`:
+- **BM25 + RRF hybrid search** — made results worse. Queries and gem descriptions
+  use different words, so keyword matching has little to match on.
+- **Tag and weapon filtering** — no gain after switching models
+  (mrr 0.693 -> 0.694), and a hard filter can exclude the correct answer when the
+  query wording does not match the gem's tags.
